@@ -1,0 +1,368 @@
+\chapter{Theory}
+
+\minitoc
+
+In this chapter theory and literature relevant to the study is presented. It starts of with an introduction of both traditional and agile software development methodologies, with the main focus on Scrum. Afterwards a shift towards coordination is taken. Some well-known literature is looked at, for example Malone and Crowston's coordination theory. Further, to put the study into context, a definition of large-scale is given. To end the chapter a look at different aspects of effectiveness in team coordination is introduced.
+
+\newpage
+
+\section{Software Development Methodologies}
+
+The term software development methodologies has been around for quite some time now. These methodologies are frameworks for accomplishing a well-structured development process. In this section a brief introduction to the most prominent methodologies will be carried out. It will start with a quick look at the traditional software development, before ending with a presentation of the new and agile way of thinking. In the last section (on agile software development) the main focus will be on Scrum as this is the methodology found in most of the literature gathered from the literature review.
+
+\subsection{Traditional Software Development}
+
+Traditional software development methodologies have a distinct pattern. This pattern is sometimes called software development life cycle (SDLC) methodologies which is often found in system engineering. These ``life cycles'' are in contrast to the ``iteration''-approach found in agile methodologies, such as Scrum. The most well-known of these traditional software development methodologies is Waterfall discussed further below.
+
+\subsubsection{Waterfall}
+
+The Waterfall methodology is one of the classic development models. It was first described in a paper by W. W. Royce in 1970 \cite{waterfall}.  The model was not yet named in this paper, which it received later mostly due to its iconic structure (as shown in figure \ref{waterfall}).
+
+In the aforementioned paper, it is suggested that all software development models tend to go through two distinct phases: Analysis and Coding. The author argues that it is not possible to write a software project without having a somewhat deep understanding of the underlying problems that it needs to solve. Therefore an analysis phase will always be required in advance of writing the program itself. However, he also mentions that such a simple model is only suitable for programs that are completed in a matter of days. Larger software projects require an extended number of steps.
+
+For larger projects, the following steps are suggested:
+\begin{enumerate}
+	\item \textbf{System and Software Requirements:} The customer is involved with the specification of the scope and requirements of the system. The resulting documentation serves as a foundation to the next stages of development.
+	\item \textbf{Analysis and Program Design:} The requirements produced in the previous stage are used to create a system plan and various design documents.
+	\item \textbf{Coding and Testing:} The actual implementation of the project. This also involves continuously testing on various levels (for example unit and integration).
+	\item \textbf{Operation and Maintenance:} Once the project has been completed, it has to be maintained during its usage. In addition to improving the program in various ways, this may also involve the inclusion of extra features if the customer so desires. These features can in themselves use the Waterfall model.
+\end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=150mm]{images/chapters/development_models/waterfall.pdf}
+\caption{The Waterfall model.}
+\label{waterfall}
+\end{figure}
+
+The model initially suggested by W. W. Royce discusses a linear model in which each of the aforementioned stages are used as distinct steps in the development process. Each stage is required to be completed before the next is started. This may be a sound premise in theory, but as suggested in the paper it is likely to fail in practice. The argument used is that often during development, unforeseen problems in the design are encountered. The linear model does not allow for a return to a previous stage in development. Hence, it does not allow for changes in the design that could potentially resolve such problems.
+
+Therefore, an alternative model is suggested that allows for the process to return to earlier stages if necessary. This may not be an ideal solution either, but it does allow for encountered problems to be addressed during development.
+
+\subsection{Agile Software Development}
+
+As can be seen from the ending of the Waterfall-section there were doubts about its applicability already at an early stage. With the advancement of business needs and customer involvement something had to change. This opened the door for the introduction of a new software development methodology, namely agile software development. This new way of thinking tries to deal with collaboration in a way that promotes adaptive planning, early delivery and continuous improvement, making the development phase faster and more flexible regarding changes \cite{abrahamsson2002}.
+
+\subsubsection{Scrum}
+\label{scrum}
+
+In this section an introduction to one of the most popular agile software development methodologies will be carried out, namely Scrum. This is based mainly on Abrahamsson, Salo, Ronkainen and Warsta's publication on agile methods \cite{abrahamsson2002}. In VersionOne's ``7th Annual State of Agile Development Survey'' Scrum or Scrum variants had a quoted 72\% usage making it by far the most popular agile methodology in the survey \cite{Com2013}.
+
+Scrum is an iterative and incremental software development model (as shown in figure \ref{scrum}). It has come forth from the realisation that development methods that were common at the time of its introduction worked well in theory but did not in practice. These methods, Waterfall included, were designed to provide a structured and well-defined development process \cite{scrum}.
+
+The agile software development processes, like Scrum, are part of a recent approach to software development. The idea with Scrum in particular is to divide the development into short periods called ``sprints''. This is done to focus effort for a limited time on short-term goals. Iterating over these goals allows the process to adapt the development plan based on progress but also to address any design problems that arise.
+
+In short, the team concentrates on isolated parts, and through this prioritises on the most important tasks of the project first. The time span of a sprint is typically between one and four weeks long.
+
+In order to implement the requirements step by step and in an orderly fashion, a repository is kept containing the features that have yet to be implemented. This repository is called the ``product backlog''. During development, the requirements could change over time. Therefore the product backlog is not static; it changes to the needs of the project with new topics being added, and obsolete ones being removed. The items from the backlog that a team works on during a sprint is called the ``sprint backlog''.
+
+Meetings are also a key part of Scrum. There are several different types of meetings: sprint planning meeting, daily scrum meeting, backlog refinement, end of cycle and Scrum-of-Scrums. The sprint planning meeting is held at the beginning of each sprint cycle. Here the focus is on what work is to be done, and the sprint backlog for the coming sprint cycle is set. The daily scrum meeting, also called the daily stand-up, is a daily encounter (15 minutes) where each member of the project team answer these three questions:
+
+\begin{enumerate}
+  \item What have you done since yesterday?
+  \item What are you planning to do today?
+  \item Are there any impediments in your way?
+\end{enumerate}
+
+Further, there is the backlog refinement, also called ``grooming''. This is where tasks are created, large tasks are decomposed into smaller ones, tasks are prioritised, and the existing tasks are sized in the product backlog. Backlog refinement is often split into two meetings. In the first meeting the product owner and other stakeholders create and refine stories in the backlog. In the second meeting the project team sizes the tasks in the backlog to make them ready for the next sprint. Planning poker is an example of how this can be carried out.
+
+The last listed meeting occurs at the end of each cycle, and is therefore called end of cycle (meeting). This is actually two meetings: a sprint review meeting and a sprint retrospective. At the sprint review meeting the work that is completed and yet to be finished is reviewed. The completed work is also presented for the stakeholders, often called  ``the demo''. At the sprint retrospective all members reflect on the past sprint. Two main questions are answered:
+
+\begin{enumerate}
+  \item What went well during the sprint?
+  \item What could be improved in the next sprint?
+\end{enumerate}
+
+The Scrum team usually consists of five to nine members. It is important to note that Scrum teams do not use traditional roles such as programmer, tester, designer or architect. Instead the main goal for the Scrum team is to collectively complete the tasks within the sprint.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=150mm]{images/chapters/development_models/Scrum.png}
+\caption{The Scrum cycle.}
+\label{scrum}
+\end{figure}
+
+To end the section, as well as making a natural shift towards the next topic (Coordination), a look at Scrum-of-Scrums is carried out. It is a natural shift because Scrum-of-Scrums are used as the coordination mechanism across teams in the Scrum methodology. It works as the daily scrums (though usually implemented on a weekly basis because of time constraints and the complexity to find common times for all teams), but with one member assigned from each Scrum team to report completions, next steps and impediments for their respective teams. It is important that these impediments focus on the challenges that may impact coordination across teams and might limit other teams' work. The Scrum-of-Scrums will have their own backlog aiming to improve the cross-team coordination \cite{Sutherland2001}. Below the suggested questions for the SoS meetings are listed \cite{Cohn2007}:
+
+\begin{enumerate}
+  \item What did your team do since the previous meeting that is relevant to some other team?
+  \item What will your team do by the next meeting that is relevant to other teams?
+  \item What obstacles does your team have that affect other teams or require help from them?
+  \item Are you about to put something in another team's way?
+\end{enumerate}
+
+Takeuchi et al. identified three strategies for distributed Scrum teams. The first type is isolated Scrum teams where teams operate as silos and no collaboration across teams is performed violating the agile principles. The second type is Scrum-of-Scrums which means overlapping Scrum teams. Here teams coordination, communicate and collaborate across teams through SoS meetings with participants from each team involved. Lastly, totally integrated Scrum teams are suggested. In this type teams are fully distributed and each team has members located at several sites. This approach creates similar characteristics as co-location. Type B is what is most common when several Scrum teams work together. The different types are visualised in figure \ref{distributedscrum} \cite{takeuchi2004}.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=110mm]{images/distributed_scrum.png}
+\caption{Different strategies for distributed Scrum teams.}
+\label{distributedscrum}
+\end{figure}
+
+\section{Coordination}
+
+This section takes a look at different publications on coordination. It starts of with Malone and Crowston's well-known coordination theory. After this has been described a closer look at Strode's theoretical model of coordination is outlined. Ending the chapter is a brief look at the complexity factor introduced with a large-scale context in coordination.
+
+\subsection{Malone and Crowston's Coordination Theory}
+
+One of the most well-known papers on coordination theory was published by Malone and Crowston in 1990 and further redefined in 1994 (the focus will be on this paper) \cite{Malone1994}. Their study spans different fields and can therefore be seen as an interdisciplinary coordination study. They list an extensive amount of different definitions of coordination, and through these proposed definitions and their own work come up with a rather simple definition:
+
+\begin{fancyquotes}
+Coordination is managing dependencies between activities.
+\end{fancyquotes}
+
+These dependencies can occur when some task has to be postponed or extended because of its connection to another task, resource or unit. Their theory is based on a combination of coordination from several different disciplines such as computer science, organization theory, operations research, economics, linguistics, and psychology. They state that coordination consists of one or more coordination mechanisms, and that each of these address one or more dependencies.
+
+While Strode et al. acknowledges their coordination theory as very useful for identifying these so-called dependencies, categorising them, and identifying coordination mechanisms in a situation, they conclude that it is only a theory for analysis and not intended to be used for prediction. Despite this being true, and the coordination theory not being suitable for predicting outcomes such as coordination effectiveness, their theory adds important information for better understanding of how activities or artefacts support coordination in organisational settings \cite{Strode2012}.
+
+\subsection{Strode's Theoretical Model of Coordination}
+\label{strodechap}
+
+Strode et al. performed a multi-case study on three different co-located agile projects in 2012 \cite{Strode2012}. From these projects the findings led to a theoretical model of coordination that will be outlined in this section. It is important to note that these projects were not large-scale, but the model will nonetheless be used to compare if there are similarities from the model proposed by Strode et al., and the findings from the literature review on large-scale agile project coordination. This will be performed in chapter \ref{results}, \ref{disc} and \ref{concl}.
+
+From these case studies three main components for the theoretical model were extracted: Synchronisation, Structure and Boundary Spanning. These components combine to what is called the ``Coordination Strategy''. Coordination strategy is in this context a group of coordination mechanisms that manage dependencies in a situation. The theoretical model of coordination can be seen in figure \ref{strode}. Below the three main components will be explained in more detail:
+
+\begin{figure}
+\centering
+\includegraphics[width=160mm]{images/Strode.pdf}
+\caption{A theory of coordination in agile software development projects.}
+\label{strode}
+\end{figure}
+
+\subsubsection{Synchronisation}
+
+Synchronisation in this context consists of synchronisation activities and synchronisation artefacts produced and used during these activities. Synchronisation activities are activities performed by all team members simultaneously. They contribute to a common understanding of the task, process, and or expertise of other team members. Synchronisation artefacts on the other hand are artefacts that are generated during synchronisation activities. These artefacts may be visible for the entire team or largely invisible but available. The artefacts can take a physical or virtual form, and are temporary or permanent.
+
+\subsubsection{Structure}
+
+Structure in this model is the arrangement of, and relations between, the parts of something complex. It consists of three categories: proximity, availability and substitutability. Proximity is the physical closeness of other (individual) team members. Availability means that other team members are accessible for requests or information. Lastly, substitutability has to do with the team members ability to perform others' work to maintain time schedules.
+
+\subsubsection{Boundary Spanning}
+
+The last component of the coordination strategy is boundary spanning. Boundary spanning has to do with the interaction with other organisations or other business units that are not involved in the project. It consists of three aspects: boundary spanning activities, boundary spanning artefacts and a coordinator role. Boundary spanning activities are activities performed to achieve help from some unit or organisation not involved in the project. The boundary spanning artefacts are artefacts produced to enable this external coordination. These artefacts have the same characteristics as synchronisation artefacts. Lastly, the coordinator role is a role taken by someone within the project team. His or her role is to support interaction to outside personnel to extract resources or information needed in the project at hand.
+
+\subsubsection{Coordination Effectiveness}
+
+There is another important part of the theoretical model of coordination, namely the coordination effectiveness concept. This concept will be further explained in section \ref{efficiency} that takes a look at coordination effectiveness.
+
+\subsubsection{Propositions}
+
+There are in total ten propositions (Proposition 1 has two parts) linking the coordination concepts in Strode's theoretical coordination model showed in figure \ref{strode}. These are outlined below:
+
+\begin{fancyquotes}
+\textbf{Proposition 1a:} A coordination strategy that includes synchronisation and structure coordination mechanisms improves project coordination effectiveness when the customer is included in the project team. Synchronisation activities and associated artefacts are required at all frequencies – project, iteration, daily, and ad hoc.
+\end{fancyquotes}
+
+\begin{fancyquotes}
+\textbf{Proposition 1b:} A coordination strategy that includes synchronisation, structure, and boundary spanning coordination mechanisms improves project coordination effectiveness when the customer is an external party to the project. Synchronisation activities and associated artefacts are required at all frequencies – project, iteration, daily, and ad hoc. Boundary spanning activities and associated artefacts are required at all frequencies – project, iteration, and ad hoc.
+\end{fancyquotes}
+
+\begin{fancyquotes}
+\textbf{Proposition 2:} Synchronisation activities at all frequencies – project, iteration, daily, and ad hoc, along with their associated synchronisation artefacts, increase implicit coordination effectiveness.
+\end{fancyquotes}
+
+\begin{fancyquotes}
+\textbf{Proposition 3:} Structural coordination mechanisms i.e. close proximity, high availability, and high substitutability, increase implicit coordination effectiveness.
+\end{fancyquotes}
+
+\begin{fancyquotes}
+\textbf{Proposition 4:} High levels of boundary spanning coordination mechanisms, i.e. boundary spanning activities at all frequencies – project, iteration, and ad hoc, their associated boundary spanning artefacts, and a coordinator role, increases explicit coordination effectiveness.
+\end{fancyquotes}
+
+\begin{fancyquotes}
+\textbf{Proposition 5:} Under conditions of high project complexity, increasing the frequency of iteration and ad hoc synchronisation activities will maintain coordination effectiveness. The production of related synchronisation artefacts must be adjusted accordingly.
+\end{fancyquotes}
+
+\begin{fancyquotes}
+\textbf{Proposition 6:} Under conditions of high project uncertainty, to maintain synchronisation activity frequency and production of associated artefacts, changing the priority of stories will maintain coordination effectiveness.
+\end{fancyquotes}
+
+\begin{fancyquotes}
+\textbf{Proposition 7:} A mono-project organisation structure enables close proximity relative to multi- or matrix structures.
+\end{fancyquotes}
+
+\begin{fancyquotes}
+\textbf{Proposition 8:} A mono-project organisation structure improves availability relative to multi- or matrix style structures.
+\end{fancyquotes}
+
+\begin{fancyquotes}
+\textbf{Proposition 9:} Under conditions of high project uncertainty, when the customer is not part of the team, increased boundary spanning coordination mechanisms will maintain coordination effectiveness. The production of related boundary spanning artefacts must be adjusted accordingly.
+\end{fancyquotes}
+
+\subsection{Coordination in Large-scale}
+\label{largescalecor}
+
+This section takes a closer look at general studies performed on large-scale coordination and is not specifically focusing on software development. The section is added to highlight the introduction of complexity that a large-scale context brings with it.
+
+Van der Ven et al. released an article in 1976 where they tried to identify determinants of coordination modes within organisations. They state that an increase in size will produce a trade-off between the increasing complexity and cost of coordination at the administrative level. From the research two different coordination forms are described, namely vertical and horizontal. The vertical communication includes coordination through curators, while the horizontal communication occurs by way of one-to-one communication. Their findings show that when team size increases the coordination moves towards a more vertical and impersonal style \cite{Ven1976}. This is backed up by John Child in a publication from 1973. Here he states that with a growing complexity level there is likely that administrative problems will occur regarding coordination and control \cite{Child1973}.
+
+\section{Large-scale}
+
+Having looked at coordination in large-scale in section \ref{largescalecor}, what is actually this so-called ``large-scale''? This was a topic brought up at a workshop regarding research challenges in large-scale agile software development where opinions regarding how large-scale should be defined varied a lot. Some suggestions were to define it through project duration, project cost, number of people involved, number of remote sites and/or number of teams \cite{Dingsoyr2013b}. This issue was further analysed by Dingsøyr, Fægri and Itkonen trying to work out a taxonomy of scale for agile software development. Their results are summarised in table \ref{Scale} where the taxonomy of scale is based on the amount of teams involved in the development project \cite{Dingsoyr2013a}.
+
+\begin{table}[H]
+\begin{center}
+    \begin{tabular}{| l | l | p{7cm} |}
+    \hline
+    \textbf{Level} & \textbf{Number of teams} & \textbf{Coordination approaches} \\ \hline
+    Small-scale & 1 & Coordinating the team can be done using agile practices such as daily meetings, common planning, review and retrospective meetings. \\ \hline
+    Large-scale & 2-9 & Coordination of teams can be achieved in a new forum such as a Scrum of Scrums forum. \\ \hline
+    Very large-scale & 10+ & Several forums are needed for coordination, such as multiple Scrum of Scrums. \\
+    \hline
+    \end{tabular}
+    \caption{A taxonomy of scale of agile software development projects.}
+    \label{Scale}
+\end{center}
+\end{table}
+
+Others have also discussed problems regarding large-scale. For example Schnitter and Mackert discuss the scaling of Scrum at SAP AG and concludes that in their case the maximum involved development employees that may be organised with regards to agile project management is 130 (This number sums up developers in 7 teams (max. 70 people), the product team (max. 16), development infrastructure responsible (about 10), quality assurance and testers (about 25), general management (about 10)) \cite{Nord2011}.
+
+Another example is taken from Nord et al. defining large-scale by scope of the system, team size, and project duration. They say that the size of the development team must be more than 18 people and distributed into a few teams \cite{Robert2014}.
+
+So the definition of a ``large-scale agile project'' used in this research will be:
+
+\begin{fancyquotes}
+An agile project must consist of a minimum amount of two teams coordinating across the teams to be categorised as large-scale.
+\end{fancyquotes}
+
+\section{Efficiency, Effectiveness, Productivity and Performance in Coordination}
+\label{efficiency}
+
+There has been released a good amount of papers regarding effectiveness, productivity and efficiency in project literature. Unfortunately research in this area that focuses on large-scale is scarce. Therefore, the work highlighted in this section will mainly be extracted from small-scale studies. To start the section of a closer look at the aforementioned study by Strode et al. will be performed, before a summary of some different field studies on the matter will be carried out.
+
+\subsection{Strode's Coordination Effectiveness}
+\label{cordinationeffectiveness}
+
+Part of the theoretical model of coordination by Strode et al. seen in figure \ref{strode} is the so-called ``coordination effectiveness''. This concept was developed by Strode et al. in 2011 having used the same three agile projects discussed earlier, as well as a non-agile software development project as a foundation \cite{Strode2011}. Coordination effectiveness is defined as the outcome of a particular coordination strategy. Coordination effectiveness is split into two components: an implicit and an explicit part.
+
+The implicit part is concerned with coordination that occurs without explicit speech or message passing, this happens within work groups. It has five components: ``Know why'', ``Know what is going on and when'', ``Know what to do and when'', ``Know who is doing what'', and ``Know who knows what''. These aspects are pretty self-explanatory.
+
+The explicit component on the other hand is concerned with the physical aspects of the project. It states that the objects involved in the project have to be in the correct place, at the correct time and in a state of readiness for use. A summary of the combination of explicit and implicit coordination effectiveness is provided in figure \ref{effectiveness}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[trim=0cm 17.5cm 0cm 1.5cm, width=160mm]{images/Coordination_Effectiveness.pdf}
+\caption{Components of coordination effectiveness from Strode et al. (2011).}
+\label{effectiveness}
+\end{figure}
+
+To end this subsection a definition of coordination effectiveness from Strode et al. is provided:
+
+\begin{fancyquotes}
+Coordination effectiveness is a state of coordination wherein the entire agile software development team has a comprehensive understanding of the project goal, the project priorities, what is going on and when, what they as individuals need to do and when, who is doing what, and how each individuals work fits in with other team members work. In addition, every object (thing or resource) needed to meet a project goal is in the correct place or location at the correct time and in a state of readiness for use from the perspective of each individual involved in the project \cite{Strode2011}.
+\end{fancyquotes}
+
+\subsection{Some Studies on the Field}
+
+Below four studies that try to identify important factors of coordination's impact on team performance are described.
+
+\subsubsection{Team Effectiveness 1997-2007: A Review of Recent Advancements and a Glimpse Into the Future}
+
+Mathieu et al. takes a look at literature published on team effectiveness in a ten year period. They look at several different aspects regarding the nature of teamwork \cite{Mathieu2008}. It is important to note that the main focus of this article is on small-scale teams, and that the publications used are not gathered directly from the software and agile field. However, the article gives perspectives that are noteworthy. The main focal point here will be on Mathieu's chapter on organisational contexts, and the section on multi-team systems coordination in particular.
+
+One aspect that was identified in several studies having a positive impact on performance was an ``openness climate''. What was concluded at the macro organisational level was that a support for a openness climate at the broader level of the organisation had a positive impact on team level processes.
+
+Quite a few studies were identified on multi-team systems coordination as well. Here, the findings showed a positive correlation between inter-team coordination and intra-team coordination. Hyatt et al. indicated that teams perform more effectively as self-contained units when they have robust information networks, as well as communication and cooperation channels, both within and between teams \cite{Hyatt1997}. This again highlights the importance of studies focusing on coordination in large-scale.
+
+\subsubsection{Interpretative Case Studies on Agile Team Productivity and Management}
+
+Melo et al. performed a multi-case study on three large Brazilian IT companies that were using agile methods in their projects \cite{Melo2013}. The objective of the research was to provide a better understanding of which factors that had an impact on agile team productivity. To document teamwork effectiveness they used the well-known theoretical model ``Input-Process-Outcome'' (IPO). Their input factors were ``Individual and Group characteristics'', ``Stage of team development'', ``Nature of task'', ``Organizational context'' and ``Supervisory behaviors''. One process-category was identified: ``Group processes''. Lastly they identified two outcome-groups, namely ``Agile team productivity'' and ``Attitudinal and Behavioral''. All of these are summarised constituting the conceptual framework for their agile team productivity in figure \ref{atpcf}.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=150mm]{images/IPO.png}
+\caption{Agile team productivity conceptual framework.}
+\label{atpcf}
+\end{figure}
+
+After collecting the data from their multi-case study they mapped the results in a thematic map on agile productivity factors. These findings showed three main groups of team management and their impact on productivity. For this study it is the ``Inter-team coordination'' and ``Team design choices'' that are interesting because of their impact on coordination to a larger degree, meaning ``Team member turnover'' is left out. 
+
+In ``Team design choices'' four roots of impact were identified: ``Team size'', ``Team members skills'', ``Team collocation'' and ``Team members allocation''. Out of these team collocation and team size seem to effect coordination effectiveness the most. Their findings showed that smaller teams led to better communication and alignment, while collocation had a positive influence on team productivity as it helped overcome invisible barriers between teams in a hierarchical company.
+
+For ``Inter-team coordination'' two roots were identified: ``Lack of commitment among teams'' and ``Inappropriate coordination rules among teams''. One of the main reasons for negative impact was identified to be external dependencies because projects often were left waiting for results of entities outside the project team. So a problem in inter-team coordination was misalignment, hence, synchronisation is an important factor.
+
+\subsubsection{Dispersion, Coordination and Performance in Global Software Teams: A Systematic Review}
+
+Anh et al. performed a systematic literature review (SLR) to collect relevant studies on dispersion, coordination and performance in global software development (GSD), and highlighted the findings of impact factors in a thematic mapping \cite{Anh2012}. It is important to note that the findings are not from agile software development, but they are still interesting because of the global aspect in the literature used. The results are briefly summarised in table \ref{GSD}:
+
+\begin{table}[H]
+\begin{center}
+    \begin{tabular}{ | p{5cm} | p{8cm} |}
+    \hline
+    \textbf{Type} & \textbf{Impact on team performance} \\ \hline
+    Presence of geographical dispersion & Negative (work takes longer time, less effective communication and coordination) \\ \hline
+    Number of sites/Team size & Negative (complicates coordination and hampers communication) \\ \hline
+    Large time zone differences between teams & Negative (creates coordination problems because of the complexity introduced) \\ \hline
+    \end{tabular}
+    \caption{Impact of geographical dispersion on performance.}
+    \label{GSD}
+\end{center}
+\end{table}
+
+\subsubsection{Team Performance in Agile Development Teams: Findings from 18 Focus Groups}
+
+Dingsøyr and Lindsjørn carried out a focus group study looking at which factors the agile software practitioners in the research perceived as influential on effective teamwork \cite{Dingsoyr2013c}. This paper focuses on the team performance of individual teams, but is included because of its agile nature. To place the suggestions from the participants into categorise Dingsøyr et al. decided to use the ``Big Five'' model proposed by Salas et al. \cite{Salas2005} leading to eight teamwork components: ``Team leadership'', ``Mutual performance monitoring'', ``Backup behaviour'', ``Adaptability'', ``Team orientation'', ``Shared mental models'', ``Mutual trust'' and ``Closed-loop communication''. A summary of the distribution of all suggestions over these components is outlined in table \ref{summary2}.
+
+\begin{table}[H]
+\begin{center}
+    \begin{tabular}{ | p{6cm} | p{2.5cm} | p{2.5cm} | p{2.5cm} |}
+    \hline
+    \textbf{Teamwork component} & \textbf{Foster} & \textbf{Hinder} & \textbf{Total} \\ \hline
+    Team leadership & 90 & 139 & 229 \\ \hline
+    Mutual performance monitoring & 49 & 22 & 71 \\ \hline
+    Backup behaviour & 44 & 57 & 101 \\ \hline
+    Adaptability & 46 & 50 & 96 \\ \hline
+    Team orientation & 91 & 65 & 156 \\ \hline
+    Shared mental models & 104 & 59 & 163 \\ \hline
+    Mutual trust & 97 & 58 & 155 \\ \hline
+    Closed-loop communication & 122 & 90 & 212 \\ \hline
+    Sum & 643 & 540 & 1183 \\ \hline
+    \end{tabular}
+    \caption{Summary of the distribution of suggestions over teamwork components.}
+    \label{summary2}
+\end{center}
+\end{table}
+
+The teamwork component with the strongest connection to coordination is ``closed-loop communication''. Looking at table \ref{summary2} a lot of emphasis was aimed towards the component from the practitioners (second highest total count). This again illustrates the importance of coordination. The sub-components identified of closed-loop communication are outlined in table \ref{closedloop}.
+
+\begin{table}[H]
+\begin{center}
+    \begin{tabular}{ | p{4cm} | p{5.25cm} | p{5.25cm} |}
+    \hline
+    \textbf{Sub-component} & \textbf{Foster} & \textbf{Hinder} \\ \hline
+    Co-location & Physical presence \newline Co-location \newline Physically placed together & People are distributed \newline Distance \newline Not co-located \\ \hline
+    Openness & Open communication \newline Openness in the team \newline Open dialogue & Secrecy \newline Retaining information \\ \hline
+    Infrastructure & Process support tools \newline Suitable office spaces \newline Tools that work & Bad tools \newline Bad office facilities \\ \hline
+    Visualising status and progress & Informative workspace \newline Visualise things that go well \newline Whiteboard/task-board & No whiteboards \\ \hline
+    Social atmosphere & Good atmosphere \newline Fun \newline Friendly tone & Scolding \newline Antisocial environment \newline Bad atmosphere \\ \hline
+    \end{tabular}
+    \caption{Sub-components identified of closed-loop communication with their respective performance items.}
+    \label{closedloop}
+\end{center}
+\end{table}
+
+As can be seen from table \ref{closedloop} a lot of attention was directed towards location of team members, infrastructure and supportive tools, and organisational culture. The presence of co-location, a good infrastructure and supportive tools, and an open and social climate seem to all have a positive effect on team effectiveness.
+
+\subsubsection{Summary}
+
+The findings from the different studies are summarised in table \ref{summary}. Note that it could be argued that misalignment and synchronisation, as well as team collocation and presence of geographical dispersion, are contrasts of each other. They are however included in the summary table because they were identified as important aspects in the different studies.
+
+\begin{table}[H]
+\begin{center}
+    \begin{tabular}{ | p{8cm} | p{6cm} |}
+    \hline
+    \textbf{Type} & \textbf{Impact} \\ \hline
+    Organisational openness culture & \textcolor{ForestGreen}{Positive} \\ \hline
+    Misalignment & \textcolor{red}{Negative} \\ \hline
+    Synchronisation & \textcolor{ForestGreen}{Positive} \\ \hline
+    Team co-location & \textcolor{ForestGreen}{Positive} \\ \hline
+    Presence of geographical dispersion & \textcolor{red}{Negative} \\ \hline
+    Number of sites/Team size & \textcolor{red}{Negative} \\ \hline
+    Large time zone differences between teams & \textcolor{red}{Negative} \\ \hline
+    Infrastructure/Supportive tools & \textcolor{ForestGreen}{Positive} \\ \hline
+    \end{tabular}
+    \caption{Summary of impacts identified in the studies.}
+    \label{summary}
+\end{center}
+\end{table}

@@ -1,0 +1,125 @@
+\begin{thebibliography}{10}
+
+\bibitem{waterfall}
+{Dr. Royce, Winston W.}, ``{Managing the Development of Large Software
+  Systems},'' 1970.
+
+\bibitem{abrahamsson2002}
+P.~Abrahamsson, O.~Salo, J.~Ronkainen, and J.~Warsta, ``{Agile software
+  development methods - Review and analysis},'' Tech. Rep. 478, VTT
+  PUBLICATIONS, 2002.
+
+\bibitem{Com2013}
+V.~O. N.~E. Com, ``{7th Annual State of Agile Development Survey}.''
+  \url{http://www.versionone.com/pdf/7th-Annual-State-of-Agile-Development-Survey.pdf},
+  2013.
+\newblock [Online; accessed 15-November-2014].
+
+\bibitem{scrum}
+{Takeuchi, Hirotaka and Nonaka, Ikujiro}, ``{New New Product Development
+  Game},'' 1986.
+
+\bibitem{Sutherland2001}
+J.~Sutherland, ``{Agile Can Scale: Inventing and Reinventing SCRUM in Five
+  Companies},'' vol.~Vol. 14, No. 12, Dec. 2001.
+
+\bibitem{Cohn2007}
+M.~Cohn, ``{Advice on Conducting the Scrum of Scrums Meeting}.''
+  \url{https://www.scrumalliance.org/community/articles/2007/may/advice-on-conducting-the-scrum-of-scrums-meeting},
+  2007.
+\newblock [Online; accessed 11-December-2014].
+
+\bibitem{takeuchi2004}
+H.~Takeuchi and I.~Nonaka, {\em Hitotsubashi on Knowledge Management}.
+\newblock Wiley, 2004.
+
+\bibitem{Malone1994}
+T.~W. Malone and K.~Crowston, ``The interdisciplinary study of coordination,''
+  {\em ACM Comput. Surv.}, vol.~26, pp.~87--119, Mar. 1994.
+
+\bibitem{Strode2012}
+D.~E. Strode, S.~L. Huff, B.~Hope, and S.~Link, ``Coordination in co-located
+  agile software development projects,'' {\em Journal of Systems and Software},
+  vol.~85, no.~6, pp.~1222 -- 1238, 2012.
+\newblock Special Issue: Agile Development.
+
+\bibitem{Ven1976}
+A.~H. Van De~Ven, A.~L. Delbecq, and R.~Koening~Jr., ``{Determinants of
+  Coordination Modes within Organizations},'' {\em American Sociological
+  Review}, vol.~41, no.~2, pp.~322--338, 1976.
+
+\bibitem{Child1973}
+J.~Child
+
+\bibitem{Dingsoyr2013b}
+T.~Dings\o{yr} and N.~B. Moe, ``{Research challenges in large-scale agile
+  software development},'' {\em ACM SIGSOFT Software Engineering Notes},
+  vol.~38, p.~38, Aug. 2013.
+
+\bibitem{Dingsoyr2013a}
+T.~Dings\o{yr}, T.~E. F\ae{gri}, and J.~Itkonen, ``{What is Large in
+  Large-Scale? A Taxonomy of Scale for Agile Software Development}.'' 2013.
+
+\bibitem{Nord2011}
+J.~Schnitter and O.~Mackert, ``Large-scale agile software development at sap
+  ag,'' in {\em Evaluation of Novel Approaches to Software Engineering}
+  (L.~Maciaszek and P.~Loucopoulos, eds.), vol.~230 of {\em Communications in
+  Computer and Information Science}, pp.~209--220, Springer Berlin Heidelberg,
+  2011.
+
+\bibitem{Robert2014}
+I.~O. Robert L.~Nord and P.~Kruchten, ``Agile in distress: Architecture to the
+  rescue.'' 2014.
+
+\bibitem{Strode2011}
+D.~E. Strode, B.~G. Hope, S.~L. Huff, and S.~Link, ``Coordination effectiveness
+  in an agile software development context.,'' in {\em PACIS} (P.~B. Seddon and
+  S.~Gregor, eds.), p.~183, Queensland University of Technology, 2011.
+
+\bibitem{Mathieu2008}
+J.~Mathieu, M.~T. Maynard, T.~Rapp, and L.~Gilson, ``{Team Effectiveness
+  1997-2007: A Review of Recent Advancements and a Glimpse Into the Future},''
+  {\em Journal of Management}, vol.~34, pp.~410--476, June 2008.
+
+\bibitem{Hyatt1997}
+D.~E. Hyatt and T.~M. Ruddy, ``An examination of the relationship between work
+  group characteristics and performance: Once more into the breech,'' {\em
+  Personnel Psychology}, vol.~50, no.~3, pp.~553--585, 1997.
+
+\bibitem{Melo2013}
+C.~De~O.~Melo, D.~S.~Cruzes, F.~Kon, and R.~Conradi, ``Interpretative case
+  studies on agile team productivity and management,'' {\em Inf. Softw.
+  Technol.}, vol.~55, pp.~412--427, Feb. 2013.
+
+\bibitem{Anh2012}
+N.-D. Anh, D.~S. Cruzes, and R.~Conradi, ``Dispersion, coordination and
+  performance in global software teams: A systematic review,'' in {\em
+  Proceedings of the ACM-IEEE International Symposium on Empirical Software
+  Engineering and Measurement}, ESEM '12, (New York, NY, USA), pp.~129--138,
+  ACM, 2012.
+
+\bibitem{Dingsoyr2013c}
+T.~Dingsøyr and Y.~Lindsjørn, ``Team performance in agile development teams:
+  Findings from 18 focus groups,'' in {\em Agile Processes in Software
+  Engineering and Extreme Programming} (H.~Baumeister and B.~Weber, eds.),
+  vol.~149 of {\em Lecture Notes in Business Information Processing},
+  pp.~46--60, Springer Berlin Heidelberg, 2013.
+
+\bibitem{Salas2005}
+E.~Salas, D.~E. Sims, and C.~S. Burke, ``{Is there a ” Big Five” in
+  Teamwork?},'' {\em Small Group Research}, vol.~36, pp.~555--599, Oct. 2005.
+
+\bibitem{khan2003}
+K.~S. Khan, R.~Kunz, J.~Kleijnen, and G.~Antes, ``{Five steps to conducting a
+  systematic review.},'' {\em Journal of the Royal Society of Medicine},
+  vol.~96, pp.~118--121, Mar. 2003.
+
+\bibitem{Oates2006}
+B.~J. Oates, {\em Researching Information Systems and Computing}.
+\newblock Sage Publications Ltd., 2006.
+
+\bibitem{Goodman1961}
+L.~A. Goodman, ``Snowball sampling,'' {\em Ann. Math. Statist.}, vol.~32,
+  pp.~148--170, 03 1961.
+
+\end{thebibliography}

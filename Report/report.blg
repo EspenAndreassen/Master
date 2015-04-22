@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: report.aux
+The style file: ieeetr.bst
+Database file #1: references.bib
+Repeated entry---line 622 of file references.bib
+ : @article{Malone1994
+ :                    ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 869 of file references.bib
+ :    
+ :    pages = {168-185}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+A bad cross reference---entry "Strode2011"
+refers to entry "conf/pacis/2011", which doesn't exist
+Warning--I didn't find a database entry for "conf/pacis/2011"
+Warning--empty journal in waterfall
+Warning--empty journal in scrum
+Warning--empty journal in Sutherland2001
+Warning--empty title in Child1973
+Warning--empty journal in Child1973
+Warning--empty year in Child1973
+Warning--empty note in Dingsoyr2013a
+Warning--empty note in Robert2014
+You've used 25 entries,
+            1876 wiz_defined-function locations,
+            661 strings with 8053 characters,
+and the built_in function-call counts, 6283 in all, are:
+= -- 617
+> -- 240
+< -- 1
++ -- 89
+- -- 64
+* -- 458
+:= -- 901
+add.period$ -- 29
+call.type$ -- 25
+change.case$ -- 22
+chr.to.int$ -- 0
+cite$ -- 33
+duplicate$ -- 315
+empty$ -- 596
+format.name$ -- 64
+if$ -- 1519
+int.to.chr$ -- 0
+int.to.str$ -- 25
+missing$ -- 22
+newline$ -- 83
+num.names$ -- 31
+pop$ -- 80
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 220
+stack$ -- 0
+substring$ -- 385
+swap$ -- 125
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 8
+while$ -- 63
+width$ -- 27
+write$ -- 239
+(There were 3 error messages)
