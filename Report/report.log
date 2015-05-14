@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  5 MAY 2015 18:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  14 MAY 2015 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1596,54 +1596,55 @@ LaTeX Warning: Citation `TODO' on page 22 undefined on input line 379.
 
 LaTeX Warning: Citation `?' on page 23 undefined on input line 403.
 
-
-Underfull \hbox (badness 5460) in paragraph at lines 431--431
-[]|\T1/cmr/m/n/12 Communication struc-ture:
- []
-
-
-Underfull \hbox (badness 5460) in paragraph at lines 432--432
-[]|\T1/cmr/m/n/12 Communication struc-ture:
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 438--438
-[]|\T1/cmr/m/n/12 Transformation of sys-tem
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 438--438
-\T1/cmr/m/n/12 com-po-si-tion: Mem-ber-ship
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 439--439
-[]|\T1/cmr/m/n/12 Transformation of sys-tem
- []
-
-
-Overfull \hbox (27.07251pt too wide) in paragraph at lines 414--442
-[][] 
- []
-
-[23]
-Overfull \vbox (74.56984pt too high) has occurred while \output is active []
-
-
-[24] <images/multiteam_system_model.pdf, id=597, 597.23125pt x 845.1575pt>
+[23] [24]
+<images/multiteam_system_model.pdf, id=598, 597.23125pt x 845.1575pt>
 File: images/multiteam_system_model.pdf Graphic file (type pdf)
 
 <use images/multiteam_system_model.pdf>
 Package pdftex.def Info: images/multiteam_system_model.pdf used on input line 4
-50.
-(pdftex.def)             Requested size: 426.79134pt x 265.80467pt.
+33.
+(pdftex.def)             Requested size: 426.79134pt x 230.21819pt.
+
+Underfull \hbox (badness 5460) in paragraph at lines 458--458
+[]|\T1/cmr/m/n/12 Communication struc-ture:
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 459--459
+[]|\T1/cmr/m/n/12 Communication struc-ture:
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 465--465
+[]|\T1/cmr/m/n/12 Transformation of sys-tem
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 465--465
+\T1/cmr/m/n/12 com-po-si-tion: Mem-ber-ship
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 466--466
+[]|\T1/cmr/m/n/12 Transformation of sys-tem
+ []
+
+
+Overfull \hbox (27.07251pt too wide) in paragraph at lines 441--469
+[][] 
+ []
+
 ) (./method.tex [25 <./images/multiteam_system_model.pdf>]
+Overfull \vbox (11.49275pt too high) has occurred while \output is active []
+
+
+[26]
 Chapter 3.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc3) [26
+(./report.mtc3) [27
 
 ]
 Overfull \hbox (2.0pt too wide) in paragraph at lines 30--31
@@ -1661,13 +1662,13 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 50--51
 [][] 
  []
 
-[27] [28]) (./result.tex [29]
+[28] [29]) (./result.tex [30]
 Chapter 4.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc4) [30
+(./report.mtc4) [31
 
 ]
 Underfull \hbox (badness 3792) in paragraph at lines 17--17
@@ -1754,41 +1755,41 @@ Underfull \hbox (badness 3803) in paragraph at lines 20--20
 \T1/cmr/m/n/12 Pri-or-ity; Align-ment;
  []
 
-) (./discussion.tex [31]
+) (./discussion.tex [32]
 Chapter 5.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc5) [32
+(./report.mtc5) [33
 
 ]) (./conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--1
 
  []
 
-[33]
+[34]
 Chapter 6.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc6) [34
+(./report.mtc6) [35
 
 ]) (./future_work.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--1
 
  []
 
-[35]
+[36]
 Chapter 7.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc7) [36
+(./report.mtc7) [37
 
-] [37]) (./report.bbl
+] [38]) (./report.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1868,8 +1869,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 32943 strings out of 493308
- 679046 string characters out of 6137815
+ 32944 strings out of 493308
+ 679053 string characters out of 6137815
  858460 words of memory out of 5000000
  35365 multiletter control sequences out of 15000+600000
  17659 words of font info for 39 fonts, out of 8000000 for 9000
@@ -1889,10 +1890,10 @@ ve/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 /2013/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2
 013/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/201
 3/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on report.pdf (46 pages, 1072216 bytes).
+Output written on report.pdf (47 pages, 1077819 bytes).
 PDF statistics:
- 866 PDF objects out of 1000 (max. 8388607)
- 686 compressed objects within 7 object streams
- 157 named destinations out of 1000 (max. 500000)
+ 871 PDF objects out of 1000 (max. 8388607)
+ 690 compressed objects within 7 object streams
+ 158 named destinations out of 1000 (max. 500000)
  234 words of extra memory for PDF output out of 10000 (max. 10000000)
 
