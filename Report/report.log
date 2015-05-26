@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  26 MAY 2015 16:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  26 MAY 2015 18:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1460,7 +1460,7 @@ Package minitoc Info: I0033
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 ...\numberline {7}Future Work}{38}{chapter.7}
+l.52 ...\numberline {7}Future Work}{39}{chapter.7}
                                                    [2
 
 ])
@@ -1668,21 +1668,21 @@ Underfull \hbox (badness 4403) in paragraph at lines 80--80
  []
 
 [29]
-Overfull \hbox (2.0pt too wide) in paragraph at lines 106--107
-[] 
- []
-
-[30]
-Overfull \hbox (2.0pt too wide) in paragraph at lines 121--122
+Overfull \hbox (2.0pt too wide) in paragraph at lines 109--110
 [][] 
  []
 
+[30]
+Overfull \hbox (2.0pt too wide) in paragraph at lines 133--134
+[][] 
+ []
 
-Underfull \hbox (badness 2393) in paragraph at lines 133--133
+[31]
+Underfull \hbox (badness 2393) in paragraph at lines 147--147
 []|\T1/cmr/m/n/12 Inter-team co-or-di-na-tion and
  []
 
-) (./result.tex [31] [32]
+) (./result.tex [32]
 Chapter 4.
 \openout4 = `report.mtc'.
 
@@ -1910,10 +1910,10 @@ ve/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 /2013/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2
 013/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/201
 3/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on report.pdf (49 pages, 1083564 bytes).
+Output written on report.pdf (49 pages, 1085068 bytes).
 PDF statistics:
- 898 PDF objects out of 1000 (max. 8388607)
- 714 compressed objects within 8 object streams
+ 900 PDF objects out of 1000 (max. 8388607)
+ 716 compressed objects within 8 object streams
  165 named destinations out of 1000 (max. 500000)
  242 words of extra memory for PDF output out of 10000 (max. 10000000)
 

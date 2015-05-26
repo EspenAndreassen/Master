@@ -40,7 +40,7 @@
 \contentsline {subsection}{\numberline {3.1.2}Snowball Sampling}{30}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}General Accumulation}{30}{subsection.3.1.3}
 \contentsline {section}{\numberline {3.2}Research Method}{30}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Case Selection}{30}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Case Selection}{31}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Data Collection}{31}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Data Analysis}{32}{subsection.3.2.3}
 \contentsline {chapter}{\numberline {4}Results}{33}{chapter.4}
