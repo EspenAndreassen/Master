@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  26 MAY 2015 18:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  27 MAY 2015 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1460,7 +1460,7 @@ Package minitoc Info: I0033
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 ...\numberline {7}Future Work}{39}{chapter.7}
+l.52 ...\numberline {7}Future Work}{40}{chapter.7}
                                                    [2
 
 ])
@@ -1667,28 +1667,23 @@ Underfull \hbox (badness 4403) in paragraph at lines 80--80
 []|\T1/cmr/m/n/12 Global, multiteam/multi-team (sys-tems),
  []
 
-[29]
-Overfull \hbox (2.0pt too wide) in paragraph at lines 109--110
+[29] [30]
+Overfull \hbox (2.0pt too wide) in paragraph at lines 148--149
 [][] 
  []
 
-[30]
-Overfull \hbox (2.0pt too wide) in paragraph at lines 133--134
-[][] 
- []
-
-[31]
-Underfull \hbox (badness 2393) in paragraph at lines 147--147
+[31] [32]
+Underfull \hbox (badness 2393) in paragraph at lines 162--162
 []|\T1/cmr/m/n/12 Inter-team co-or-di-na-tion and
  []
 
-) (./result.tex [32]
+) (./result.tex [33]
 Chapter 4.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc4) [33
+(./report.mtc4) [34
 
 ]
 Underfull \hbox (badness 3792) in paragraph at lines 17--17
@@ -1775,41 +1770,41 @@ Underfull \hbox (badness 3803) in paragraph at lines 20--20
 \T1/cmr/m/n/12 Pri-or-ity; Align-ment;
  []
 
-) (./discussion.tex [34]
+) (./discussion.tex [35]
 Chapter 5.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc5) [35
+(./report.mtc5) [36
 
 ]) (./conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--1
 
  []
 
-[36]
+[37]
 Chapter 6.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc6) [37
+(./report.mtc6) [38
 
 ]) (./future_work.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--1
 
  []
 
-[38]
+[39]
 Chapter 7.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc7) [39
+(./report.mtc7) [40
 
-] [40]) (./report.bbl
+] [41]) (./report.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1889,13 +1884,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 32954 strings out of 493308
- 679177 string characters out of 6137815
+ 32955 strings out of 493308
+ 679184 string characters out of 6137815
  858460 words of memory out of 5000000
  35368 multiletter control sequences out of 15000+600000
  17659 words of font info for 39 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,12n,74p,1320b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,12n,77p,1320b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></u
@@ -1910,10 +1905,10 @@ ve/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 /2013/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2
 013/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/201
 3/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on report.pdf (49 pages, 1085068 bytes).
+Output written on report.pdf (50 pages, 1088556 bytes).
 PDF statistics:
- 900 PDF objects out of 1000 (max. 8388607)
- 716 compressed objects within 8 object streams
- 165 named destinations out of 1000 (max. 500000)
+ 904 PDF objects out of 1000 (max. 8388607)
+ 719 compressed objects within 8 object streams
+ 166 named destinations out of 1000 (max. 500000)
  242 words of extra memory for PDF output out of 10000 (max. 10000000)
 

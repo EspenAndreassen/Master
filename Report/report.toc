@@ -42,13 +42,13 @@
 \contentsline {section}{\numberline {3.2}Research Method}{30}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Case Selection}{31}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Data Collection}{31}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Data Analysis}{32}{subsection.3.2.3}
-\contentsline {chapter}{\numberline {4}Results}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction and Clarification}{34}{section.4.1}
-\contentsline {chapter}{\numberline {5}Discussion}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}Research Question}{36}{section.5.1}
-\contentsline {chapter}{\numberline {6}Conclusion}{37}{chapter.6}
-\contentsline {section}{\numberline {6.1}Research Question}{38}{section.6.1}
-\contentsline {chapter}{\numberline {7}Future Work}{39}{chapter.7}
-\contentsline {section}{\numberline {7.1}Suggestions for Future Research Focus}{40}{section.7.1}
+\contentsline {subsection}{\numberline {3.2.3}Data Analysis}{33}{subsection.3.2.3}
+\contentsline {chapter}{\numberline {4}Results}{34}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction and Clarification}{35}{section.4.1}
+\contentsline {chapter}{\numberline {5}Discussion}{36}{chapter.5}
+\contentsline {section}{\numberline {5.1}Research Question}{37}{section.5.1}
+\contentsline {chapter}{\numberline {6}Conclusion}{38}{chapter.6}
+\contentsline {section}{\numberline {6.1}Research Question}{39}{section.6.1}
+\contentsline {chapter}{\numberline {7}Future Work}{40}{chapter.7}
+\contentsline {section}{\numberline {7.1}Suggestions for Future Research Focus}{41}{section.7.1}
 \contentsline {chapter}{References}{I}{section.7.1}
