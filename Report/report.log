@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  27 MAY 2015 21:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  28 MAY 2015 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1460,7 +1460,7 @@ Package minitoc Info: I0033
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 ...\numberline {7}Future Work}{42}{chapter.7}
+l.52 ...\numberline {7}Future Work}{45}{chapter.7}
                                                    [2
 
 ])
@@ -1519,7 +1519,7 @@ Chapter 2.
 (./report.mtc2) [3
 
 ] [4]
-<images/chapters/development_models/waterfall.pdf, id=264, 476.78125pt x 265.99
+<images/chapters/development_models/waterfall.pdf, id=272, 476.78125pt x 265.99
 374pt>
 File: images/chapters/development_models/waterfall.pdf Graphic file (type pdf)
  <use images/chapters/development_models/waterfall.pdf>
@@ -1527,7 +1527,7 @@ Package pdftex.def Info: images/chapters/development_models/waterfall.pdf used
 on input line 33.
 (pdftex.def)             Requested size: 426.79134pt x 238.1177pt.
  [5 <./images/chapters/development_models/waterfall.pdf>] [6]
-<images/chapters/development_models/Scrum.png, id=287, 970.62625pt x 466.74374p
+<images/chapters/development_models/Scrum.png, id=295, 970.62625pt x 466.74374p
 t>
 File: images/chapters/development_models/Scrum.png Graphic file (type png)
  <use images/chapters/development_models/Scrum.png>
@@ -1535,14 +1535,14 @@ Package pdftex.def Info: images/chapters/development_models/Scrum.png used on i
 nput line 80.
 (pdftex.def)             Requested size: 426.79134pt x 205.23256pt.
  [7 <./images/chapters/development_models/Scrum.png>]
-<images/distributed_scrum.png, id=300, 371.3875pt x 217.81375pt>
+<images/distributed_scrum.png, id=308, 371.3875pt x 217.81375pt>
 File: images/distributed_scrum.png Graphic file (type png)
 
 <use images/distributed_scrum.png>
 Package pdftex.def Info: images/distributed_scrum.png used on input line 98.
 (pdftex.def)             Requested size: 312.9803pt x 183.56384pt.
  [8 <./images/distributed_scrum.png>]
-<images/Strode.pdf, id=318, 614.295pt x 794.97pt>
+<images/Strode.pdf, id=326, 614.295pt x 794.97pt>
 File: images/Strode.pdf Graphic file (type pdf)
  <use images/Strode.pdf>
 Package pdftex.def Info: images/Strode.pdf used on input line 128.
@@ -1553,7 +1553,7 @@ Overfull \hbox (2.27618pt too wide) in paragraph at lines 128--129
  []
 
 [9] [10 <./images/Strode.pdf>] [11] [12] [13] [14] [15]
-<images/Coordination_Effectiveness.pdf, id=393, 597.23125pt x 845.1575pt>
+<images/Coordination_Effectiveness.pdf, id=401, 597.23125pt x 845.1575pt>
 File: images/Coordination_Effectiveness.pdf Graphic file (type pdf)
 
 <use images/Coordination_Effectiveness.pdf>
@@ -1566,7 +1566,7 @@ Overfull \hbox (2.27618pt too wide) in paragraph at lines 245--246
  []
 
 [16 <./images/Coordination_Effectiveness.pdf>] [17]
-<images/IPO.png, id=552, 515.9275pt x 307.1475pt>
+<images/IPO.png, id=560, 515.9275pt x 307.1475pt>
 File: images/IPO.png Graphic file (type png)
  <use images/IPO.png>
 Package pdftex.def Info: images/IPO.png used on input line 274.
@@ -1597,7 +1597,7 @@ LaTeX Warning: Citation `TODO' on page 22 undefined on input line 379.
 LaTeX Warning: Citation `?' on page 23 undefined on input line 403.
 
 [23] [24]
-<images/multiteam_system_model.pdf, id=611, 597.23125pt x 845.1575pt>
+<images/multiteam_system_model.pdf, id=619, 597.23125pt x 845.1575pt>
 File: images/multiteam_system_model.pdf Graphic file (type pdf)
 
 <use images/multiteam_system_model.pdf>
@@ -1770,7 +1770,7 @@ Underfull \hbox (badness 3803) in paragraph at lines 20--20
 \T1/cmr/m/n/12 Pri-or-ity; Align-ment;
  []
 
-<images/omega_organisation.png, id=779, 912.40875pt x 664.4825pt>
+<images/omega_organisation.png, id=787, 912.40875pt x 664.4825pt>
 File: images/omega_organisation.png Graphic file (type png)
 
 <use images/omega_organisation.png>
@@ -1781,53 +1781,93 @@ Overfull \hbox (59.1817pt too wide) in paragraph at lines 45--46
  [][] 
  []
 
-[35] <images/execution_model.png, id=784, 982.67125pt x 595.22375pt>
+[35] <images/execution_model.png, id=792, 982.67125pt x 595.22375pt>
 File: images/execution_model.png Graphic file (type png)
 
 <use images/execution_model.png>
 Package pdftex.def Info: images/execution_model.png used on input line 52.
-(pdftex.def)             Requested size: 512.1496pt x 359.08064pt.
+(pdftex.def)             Requested size: 925.76349pt x 595.2223pt.
 
-Overfull \hbox (59.1817pt too wide) in paragraph at lines 52--53
+Overfull \hbox (2.27689pt too wide) in paragraph at lines 52--53
  [][] 
  []
 
-) (./discussion.tex [36 <./images/omega_organisation.png>] [37 <./images/execut
-ion_model.png>]
+[36 <./images/omega_organisation.png>]
+Overfull \vbox (8.4097pt too high) has occurred while \output is active []
+
+
+[37 <./images/execution_model.png>]
+<images/initial_development_process.png, id=802, 993.7125pt x 460.72125pt>
+File: images/initial_development_process.png Graphic file (type png)
+
+<use images/initial_development_process.png>
+Package pdftex.def Info: images/initial_development_process.png used on input l
+ine 59.
+(pdftex.def)             Requested size: 936.8047pt x 460.72012pt.
+
+Overfull \hbox (2.27583pt too wide) in paragraph at lines 59--60
+ [][] 
+ []
+
+
+Overfull \vbox (8.43845pt too high) has occurred while \output is active []
+
+
+[38 <./images/initial_development_process.png>]
+Underfull \hbox (badness 2875) in paragraph at lines 70--70
+[]|\T1/cmr/m/n/12 Ulike nivåer (pros-jekt, leverandør og team),
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 72--72
+[]|\T1/cmr/m/n/12 Solution de-scrip-tion / ``Mas-ter
+ []
+
+
+Underfull \hbox (badness 7433) in paragraph at lines 125--125
+[]|\T1/cmr/m/n/12 Alfa/Beta-personnel placed in
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 128--128
+[]|\T1/cmr/m/n/12 3-level hi-er-ar-chy from prod-uct
+ []
+
+) (./discussion.tex [39] [40]
 Chapter 5.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc5) [38
+(./report.mtc5) [41
 
 ]) (./conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--1
 
  []
 
-[39]
+[42]
 Chapter 6.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc6) [40
+(./report.mtc6) [43
 
 ]) (./future_work.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--1
 
  []
 
-[41]
+[44]
 Chapter 7.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc7) [42
+(./report.mtc7) [45
 
-] [43]) (./report.bbl
+] [46]) (./report.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1907,10 +1947,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 32973 strings out of 493308
- 679581 string characters out of 6137815
+ 32989 strings out of 493308
+ 679925 string characters out of 6137815
  858460 words of memory out of 5000000
- 35379 multiletter control sequences out of 15000+600000
+ 35387 multiletter control sequences out of 15000+600000
  17659 words of font info for 39 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,12n,77p,1320b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1928,10 +1968,10 @@ ve/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 /2013/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2
 013/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/201
 3/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on report.pdf (52 pages, 1544616 bytes).
+Output written on report.pdf (55 pages, 1720842 bytes).
 PDF statistics:
- 921 PDF objects out of 1000 (max. 8388607)
- 732 compressed objects within 8 object streams
- 171 named destinations out of 1000 (max. 500000)
- 252 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 944 PDF objects out of 1000 (max. 8388607)
+ 751 compressed objects within 8 object streams
+ 178 named destinations out of 1000 (max. 500000)
+ 257 words of extra memory for PDF output out of 10000 (max. 10000000)
 
