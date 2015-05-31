@@ -45,10 +45,10 @@
 \contentsline {subsection}{\numberline {3.2.3}Data Analysis}{33}{subsection.3.2.3}
 \contentsline {chapter}{\numberline {4}Results}{34}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction and Clarification}{35}{section.4.1}
-\contentsline {chapter}{\numberline {5}Discussion}{41}{chapter.5}
-\contentsline {section}{\numberline {5.1}Research Question}{42}{section.5.1}
-\contentsline {chapter}{\numberline {6}Conclusion}{43}{chapter.6}
-\contentsline {section}{\numberline {6.1}Research Question}{44}{section.6.1}
-\contentsline {chapter}{\numberline {7}Future Work}{45}{chapter.7}
-\contentsline {section}{\numberline {7.1}Suggestions for Future Research Focus}{46}{section.7.1}
+\contentsline {chapter}{\numberline {5}Discussion}{42}{chapter.5}
+\contentsline {section}{\numberline {5.1}Research Question}{43}{section.5.1}
+\contentsline {chapter}{\numberline {6}Conclusion}{44}{chapter.6}
+\contentsline {section}{\numberline {6.1}Research Question}{45}{section.6.1}
+\contentsline {chapter}{\numberline {7}Future Work}{46}{chapter.7}
+\contentsline {section}{\numberline {7.1}Suggestions for Future Research Focus}{47}{section.7.1}
 \contentsline {chapter}{References}{I}{section.7.1}
