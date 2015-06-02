@@ -1,6 +1,6 @@
 %TEX-template borrowed from https://github.com/idlouhy/wonsole/blob/master/report/src/report.tex
 
-\documentclass[12pt,a4paper,oneside]{report}
+\documentclass[12pt,a4paper,twoside,openright]{report}
 
 \usepackage[section] {placeins}
 
@@ -24,6 +24,7 @@
 \usepackage{pgfplotstable}
 \usepackage{longtable}
 \usepackage{pdfpages}
+\usepackage{emptypage}
 
 \usepackage{nameref}
 \usepackage{fullpage}
@@ -163,7 +164,9 @@
 
 \newpage
 
+\cleardoublepage
 \input{abstract}
+\cleardoublepage
 \pagenumbering{gobble}
 \input{preface}
 
