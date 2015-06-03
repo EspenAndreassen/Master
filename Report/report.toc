@@ -11,30 +11,33 @@
 \contentsline {subsubsection}{Waterfall}{4}{section*.5}
 \contentsline {subsection}{\numberline {2.1.2}Agile Software Development}{5}{subsection.2.1.2}
 \contentsline {subsubsection}{Scrum}{6}{section*.7}
-\contentsline {section}{\numberline {2.2}Coordination}{8}{section.2.2}
+\contentsline {subsubsection}{Kanban}{8}{section*.10}
+\contentsline {subsubsection}{Scrumban}{8}{section*.11}
+\contentsline {subsubsection}{Pair programming}{8}{section*.12}
+\contentsline {section}{\numberline {2.2}Coordination}{9}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Malone and Crowston's Coordination Theory}{9}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Mintzberg's Coordination Mechanisms}{9}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Strode's Theoretical Model of Coordination}{10}{subsection.2.2.3}
-\contentsline {subsubsection}{Synchronisation}{10}{section*.11}
-\contentsline {subsubsection}{Structure}{10}{section*.12}
-\contentsline {subsubsection}{Boundary Spanning}{12}{section*.13}
-\contentsline {subsubsection}{Coordination Effectiveness}{12}{section*.14}
-\contentsline {subsubsection}{Propositions}{12}{section*.15}
-\contentsline {subsection}{\numberline {2.2.4}Coordination in Large-scale}{14}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Large-scale}{15}{section.2.3}
-\contentsline {section}{\numberline {2.4}Efficiency, Effectiveness, Productivity and Performance in Coordination}{16}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Strode's Coordination Effectiveness}{16}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Some Studies on the Field}{17}{subsection.2.4.2}
-\contentsline {subsubsection}{Team Effectiveness 1997-2007: A Review of Recent Advancements and a Glimpse Into the Future}{18}{section*.18}
-\contentsline {subsubsection}{Interpretative Case Studies on Agile Team Productivity and Management}{18}{section*.19}
-\contentsline {subsubsection}{Dispersion, Coordination and Performance in Global Software Teams: A Systematic Review}{19}{section*.21}
-\contentsline {subsubsection}{Team Performance in Agile Development Teams: Findings from 18 Focus Groups}{20}{section*.23}
-\contentsline {subsubsection}{Summary}{21}{section*.26}
-\contentsline {section}{\numberline {2.5}Multiteam Systems}{22}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}MTS Characteristics}{23}{subsection.2.5.1}
-\contentsline {subsubsection}{Compositional Attributes}{23}{section*.28}
-\contentsline {subsubsection}{Linkage Attributes}{24}{section*.29}
-\contentsline {subsubsection}{Developmental Attributes}{25}{section*.30}
+\contentsline {subsection}{\numberline {2.2.2}Mintzberg's Coordination Mechanisms}{10}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Strode's Theoretical Model of Coordination}{11}{subsection.2.2.3}
+\contentsline {subsubsection}{Synchronisation}{11}{section*.14}
+\contentsline {subsubsection}{Structure}{11}{section*.15}
+\contentsline {subsubsection}{Boundary Spanning}{13}{section*.16}
+\contentsline {subsubsection}{Coordination Effectiveness}{13}{section*.17}
+\contentsline {subsubsection}{Propositions}{13}{section*.18}
+\contentsline {subsection}{\numberline {2.2.4}Coordination in Large-scale}{15}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Large-scale}{16}{section.2.3}
+\contentsline {section}{\numberline {2.4}Efficiency, Effectiveness, Productivity and Performance in Coordination}{17}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Strode's Coordination Effectiveness}{17}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Some Studies on the Field}{18}{subsection.2.4.2}
+\contentsline {subsubsection}{Team Effectiveness 1997-2007: A Review of Recent Advancements and a Glimpse Into the Future}{19}{section*.21}
+\contentsline {subsubsection}{Interpretative Case Studies on Agile Team Productivity and Management}{19}{section*.22}
+\contentsline {subsubsection}{Dispersion, Coordination and Performance in Global Software Teams: A Systematic Review}{20}{section*.24}
+\contentsline {subsubsection}{Team Performance in Agile Development Teams: Findings from 18 Focus Groups}{21}{section*.26}
+\contentsline {subsubsection}{Summary}{22}{section*.29}
+\contentsline {section}{\numberline {2.5}Multiteam Systems}{23}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}MTS Characteristics}{24}{subsection.2.5.1}
+\contentsline {subsubsection}{Compositional Attributes}{24}{section*.31}
+\contentsline {subsubsection}{Linkage Attributes}{25}{section*.32}
+\contentsline {subsubsection}{Developmental Attributes}{26}{section*.33}
 \contentsline {chapter}{\numberline {3}Method}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}Literature Review}{30}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}General Outline}{31}{subsection.3.1.1}
@@ -46,10 +49,11 @@
 \contentsline {subsection}{\numberline {3.2.3}Data Analysis}{35}{subsection.3.2.3}
 \contentsline {chapter}{\numberline {4}Results}{37}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction and Clarification}{38}{section.4.1}
-\contentsline {chapter}{\numberline {5}Discussion}{51}{chapter.5}
-\contentsline {section}{\numberline {5.1}Research Question}{52}{section.5.1}
-\contentsline {chapter}{\numberline {6}Conclusion}{53}{chapter.6}
-\contentsline {section}{\numberline {6.1}Research Question}{54}{section.6.1}
-\contentsline {chapter}{\numberline {7}Future Work}{55}{chapter.7}
-\contentsline {section}{\numberline {7.1}Suggestions for Future Research Focus}{56}{section.7.1}
+\contentsline {subsection}{\numberline {4.1.1}Overview of the Omega-project}{38}{subsection.4.1.1}
+\contentsline {chapter}{\numberline {5}Discussion}{55}{chapter.5}
+\contentsline {section}{\numberline {5.1}Research Question}{56}{section.5.1}
+\contentsline {chapter}{\numberline {6}Conclusion}{57}{chapter.6}
+\contentsline {section}{\numberline {6.1}Research Question}{58}{section.6.1}
+\contentsline {chapter}{\numberline {7}Future Work}{59}{chapter.7}
+\contentsline {section}{\numberline {7.1}Suggestions for Future Research Focus}{60}{section.7.1}
 \contentsline {chapter}{References}{I}{section.7.1}

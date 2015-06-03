@@ -9,43 +9,36 @@ In this chapter relevant articles gathered on ...
 
 \section{Introduction and Clarification}
 
-\begin{table}[H]
-\begin{center}
-    \begin{tabular}{| p{5cm} | p{3.7cm} | p{1cm} | p{4cm} |}
-    \hline
-    \textbf{Article Name} & \textbf{Author(s)} & \textbf{Year} & \textbf{Keywords} \\ \hline
-    Inter-team Coordination in Large-scale Globally Distributed Scrum: Do Scrum-of-Scrums Really Work? & Maria Paasivaara, Casper Lassenius, Ville T. Heikkilä & 2012 & Agile Software Development; Distributed Scrum; Global Software Engineering; Inter-team Coordination \\ \hline
-    Communities of Practice in a Large Distributed Agile Software Development Organization – Case Ericsson & Maria Paasivaara, Casper Lassenius & 2014 & Communities of Practice; Large-scale Agile Software Development; Scaling Agile \\ \hline
-    Operational Release Planning in Large-scale Scrum with Multiple Stakeholders – A Longitudinal Case Study at F-Secure Corporation & Ville T. Heikkilä, Maria Paasivaara, Kristian Rautiainen, Casper Lassenius, Towo Toivola, Janne Järvinen & 2015 & Agile Software Development; Scrum; Large Projects; Release Planning; Software Project Management \\ \hline
-Towards a Governance Framework for Chains of Scrum Teams & Jan Vlietland, Hans van Vliet & 2015 & Agile; Chain of Scrum Teams; Coordination; Priority; Alignment; Predictability \\ \hline
-    \end{tabular}
-    \caption{Summary of articles used in this chapter.}
-    \label{soauitc}
-\end{center}
-\end{table}
+\subsection{Overview of the Omega-project}
 
-\begin{table}[H]
-\begin{center}
-    \begin{tabular}{| p{4cm} | p{8cm} |}
-    \hline
-    \textbf{Role} & \textbf{Description of role} \\ \hline
-    Scrum master & \\ \hline
-    Functional architect & \\ \hline
-    Technical architect & \\ \hline
-    Tester & \\ \hline
-    Developer & \\ \hline
-    \end{tabular}
-    \caption{Team roles present in Scrum teams.}
-    \label{trpist}
-\end{center}
-\end{table}
+To start of the result chapter it is important to get a clear overview of how the project was organised and conducted. The Omega-project was initiated and conducted by the public sector department Gamma. Gamma saw a need for a new office automation system, and argued that a new system was needed, especially because the current platform was outdated and about to be abandoned. It is important to note that with the commencement of the Omega-project little was known about the content of the public reform, and therefore an agile development methodology and mindset was selected.
 
+%Fire eller fem eksterne? Cap Gemini, Kantega, Steria og Accenture? Hvem er siste?
+Omega is one of the largest IT development projects in Norway to date, constituting 175 members, where 100 of these came from five external companies. The project had a final budget of approximately 140 million euro. It lasted for about four years (January 2008 to March 2012) and had a strict deadline because because of the reform. Around 800.000 person hours were used on developing \~300 epics with a total of \~2500 user stories. All of these were divided into 12 main releases (there were also smaller releases throughout the project). Figure \ref{releases} shows how these 12 releases where located in the timeline of the project.
+
+\begin{figure}[H]
+\centering
+\includegraphics[trim = 8mm 0mm 0mm 0mm,width=160mm]{images/project_releases}
+\caption{Main project releases in Omega.}
+\label{releases}
+\end{figure}
+
+The project was organised with a ``project director'' at the top of the hierarchy mainly focusing on external relations. Underneath the project director there was a ``project manager'' responsible for operations. Omega also had four sub-projects with one ``sub-project manager'' each. These sub-projects were architecture, business, development and test, and are further described below. There were also a ``controller'' (or ``secretary'') present for administrative reasons. As can be seen from figure \ref{omega} the project used a matrix structure where the business and development sub-projects were both closely linked to the test and architecture sub-projects.
+
+%TODO: Endre Alfa til Alpha
 \begin{figure}[H]
 \centering
 \includegraphics[trim = 40mm 0mm 7mm 0mm,width=180mm]{images/omega_organisation.png}
 \caption{Omega-project's organisation.}
 \label{omega}
 \end{figure}
+
+\begin{itemize}
+   \item \textbf{Architecture:} Architects were in general responsible for the overall architecture of the project, but more specifically focused on solution description. They were also important in dealing with dependencies in Omega, and continuously updated a dependency map. The sub-project had both head architects and technical architects located on a team level.
+   \item \textbf{Business:} The business and line resources were present in the whole execution of the project (as can be seen from figure \ref{project_execution}). The responsibility of the business sub-project was categorise needs and requirements, and then defining these into epics and user stories in a product backlog. In this sub-project there was a product owner team, but also other business and line resources (approximately 30 members at a peak period). Both functional and technical architects from the Scrum teams were also involved in the business sub-project.
+   \item \textbf{Development:} The construction sub-project was further divided into three sub-projects led by Alpha, Beta and Gamma. The Gamma organisation had at most six development teams involved with both their own personnel and external consultants hired in from five different consulting companies. Alpha had at most four teams, while Beta had a maximum of three development teams. All 13 component teams worked corresponding to the Scrum methodology and delivered on a common demo day at the end of every three-week sprint iteration. There was also a system environment team present which was in charge of development and test environments. All roles of the Scrum teams are outlined in table \ref{trpist}.
+   \item \textbf{Test:} The test sub-project had responsibility for all the testing of the project and the providing of deliverables from the development teams. Hence, they were important for quality assurance. The sub-project included a test leader, as well as test personnel from the development teams.
+\end{itemize}
 
 \begin{figure}[H]
 \centering
@@ -60,6 +53,62 @@ Towards a Governance Framework for Chains of Scrum Teams & Jan Vlietland, Hans v
 \caption{Initial development process.}
 \label{initial_development_process}
 \end{figure}
+
+Scrum teams typically consisted of eight to nine members. The roles in the different Scrum teams are further outlined in table \ref{trpist}. It is however important to remember that all members were somewhat cross-functional in the project. This means that a tester could for example be 60\% tester, 30\% developer and 10\% designer, and a Scrum master could be 50\% leader, 30\% architect and 20\% developer. 
+
+%TODO: Ta en kikk på roller en gang til
+\begin{table}[H]
+\begin{center}
+    \begin{tabular}{| p{4cm} | p{8cm} |}
+    \hline
+    \textbf{Role} & \textbf{Description of role} \\ \hline
+    Scrum master & The Scrum master facilitated all meetings such as the daily stand-up, demo presentations, retrospectives and iteration planning. Some teams rotated the role, while others had a fixed Scrum master. \\ \hline
+    Functional architect & The functional architect was typically working 50\% with analysis and design, and 50\% as a developer. \\ \hline
+    Technical architect & About half of the time went towards technical design, while the other half usually was spent developing. \\ \hline
+    Tester & The person with the title ``tester'' was not responsible for doing all the testing, but was rather responsible for the tests being conducted. He was also in charge of writing and delivering test criteria to the sub-project test. The tests at the team level was unit tests, integration tests, system tests and system integration tests. Some of the teams did not have fixed testers, but rotated the role somewhat, e.g., at Beta. \\ \hline
+    Developer & Each team had a mixture of four to five junior and senior developers. \\ \hline
+    \end{tabular}
+    \caption{Team roles present in Scrum teams.}
+    \label{trpist}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{adjustwidth}{-1.15cm}{}
+%\begin{center}
+\begin{tabular}{ | p{2.7cm} | p{5cm} | p{9cm} | }
+	\hline
+	\textbf{Dimension} & \textbf{Attribute} & \textbf{} \\ \hline
+	\multirow{10}{*}{Compositional} & Number & There was a maximum of 13 development teams (but also other teams involved such as project management) \\ \cline{2-3}
+ 	& Size & Approximately 175 members at most (?) \\ \cline{2-3}
+ 	& Boundary status & Multiple organisations (mer?) \\ \cline{2-3}
+ 	& Organisational diversity & There were in total five organisations taking part in the project, though three of these were the main organisations with the most members allocated to the project \\ \cline{2-3}
+	& Proportional membership & 3-4-6 (at most) \\ \cline{2-3}
+	& Functional diversity & Somewhat high degree of heterogeneity in core purposes and missions of teams \\ \cline{2-3}
+	& Geographic dispersion & The teams were co-located in the same open-plan office space \\ \cline{2-3}
+	& Cultural diversity & Low degree \\ \cline{2-3}
+	& Motive structure & High degree (?) \\ \cline{2-3}
+	& Temporal orientation & High? \\ \cline{2-3}
+\hline
+	\multirow{5}{*}{Linkage} & Interdependence & ? \\ \cline{2-3}
+ 	& Hierarchical arrangement & Development teams located at the same level in the hierarchical arrangement \\ \cline{2-3}
+ 	& Power distribution & The development teams had an even power distribution \\ \cline{2-3}
+	& Communication structure: Network & Both informal and formal communication patterns \\ \cline{2-3}
+	& Communication structure: Modality & Mainly face-to-face communication \\ \cline{2-3}
+\hline
+	\multirow{6}{*}{Developmental} & Genesis & Appointed \\ \cline{2-3}
+ 	& Direction of development & ? \\ \cline{2-3}
+	& Tenure & ? \\ \cline{2-3}
+	& Stage & Ended \\ \cline{2-3}
+	& Transformation of system composition: Membership constancy & Some fluidity depending on need throughout the Omega-project \\ \cline{2-3}
+	& Transformation of system composition: Linkage constancy & Some communication lines and arenas were fluid, changing base on a need basis, while others were constant through the whole project \\ \cline{2-3}
+	\hline
+\end{tabular}
+\caption{test}
+\label{test}
+%\end{center}
+\end{adjustwidth}
+\end{table}
 
 %\begin{table}[H]
 \begin{center}
@@ -158,6 +207,22 @@ Towards a Governance Framework for Chains of Scrum Teams & Jan Vlietland, Hans v
     Alpha/Beta-personnel placed in Gamma teams & An aspect that might have been important both for trust and the informal communication was that both Alpha and Beta members were located in Gamma teams. This probably made it easier to get informal communication going at an early stage of the Omega-project because some members knew each other across the organisations already. \\ \hline
     Continuous planning and change & Self-organising was present at different levels in Omega such as team, organisation and project level. At the team level the teams changed their ways as the project moved along introducing new and removing old aspects, e.g., moving from pair-programming to individual programming when knowledge increased. At both the organisational level and the project level different communication arenas were changed on a need-basis. This had mainly to do with the respective arenas being covered elsewhere, e.g., through informal communication. Another part of the project where continuous planning and change was present was within the dependency mapping and solution description. \\ \hline
     3-level hierarchy from product owner & Mentioned by Gamma was the way the product owner was organised within the project. At the top of the food change the main product owner sat, then three representatives from the product owner were located at Alpha, Beta and Gamma, and at the bottom of the hierarchy the product owner had functional experts and architects inside or close to the teams. This led to easier decision making as the representatives further down the hierarchy could answer on the behalf of the product owner, or at least knew who to ask for the answer increasing the pace of development and problem solving. \\ \hline
+
+%Trust
+%A teamwork model for understanding an agile team: A case study of a Scrum project
+%http://www.uio.no/studier/emner/matnat/ifi/INF5181/h14/artikler-teamarbeid/salas_etal_2005_is_there_a_big_five_in_teamwork---copy.pdf
+
+% http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5287007 Har definisjon av trust og andre aspekter
+% http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=926814&contentType=Conference+Publications
+% S. P. Shapiro, "The Social Control of Impersonal Trust", American J. Sociology, vol. 93, no. 3, pp. 623-658, 1987
+% J. M. Wilson , S. G. Straus and W. J. McEvily, "All In Due Time: The Development of Trust in Computer-Mediated and Face-to-Face Groups", Organizational Behavior and Human Decision Processes, vol. 99, pp. 16-33, 2006
+
+% http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8608.2008.00517.x/full
+% Kassicieh, S.K., Walsh, S.T., Cummings, J.C., McWhorter, P.J., Romig, A.D. and Williams, W.D. 2002. ‘Factors differentiating the commercialization of disruptive and sustaining technologies. IEEE Transactions on Engineering Management, 49:4, 375–387. 
+% Stuart, T.E. 1998. ‘Network positions and propensities to collaborate: an investigation of strategic alliance formation in a high-technology industry. Administrative Science Quarterly, 43:3, 668–698. 
+% Gulati, R. 1999. ‘Network location and learning: the influence of network resources and firm capabilities on alliance formation. Strategic Management Journal, 20:5, 397–420. 
+% Ahuja, G. 2000. ‘Collaboration networks, structural holes and innovation: a longitudinal study. Administrative Science Quarterly, 45:3, 425–455. 
+% McEvily, B. and Marcus, A. 2005. ‘Embedded ties and the acquisition of competitive capabilities. Strategic Management Journal, 26:11, 1033–1055. 
 
     \caption{Other coordination mechanisms and important aspects.}
     \label{ocmaia}
