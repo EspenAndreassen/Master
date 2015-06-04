@@ -14,7 +14,7 @@ In this chapter relevant articles gathered on ...
 To start of the result chapter it is important to get a clear overview of how the project was organised and conducted. The Omega-project was initiated and conducted by the public sector department Gamma. Gamma saw a need for a new office automation system, and argued that a new system was needed, especially because the current platform was outdated and about to be abandoned. It is important to note that with the commencement of the Omega-project little was known about the content of the public reform, and therefore an agile development methodology and mindset was selected.
 
 %Fire eller fem eksterne? Cap Gemini, Kantega, Steria og Accenture? Hvem er siste?
-Omega is one of the largest IT development projects in Norway to date, constituting 175 members, where 100 of these came from five external companies. The project had a final budget of approximately 140 million euro. It lasted for about four years (January 2008 to March 2012) and had a strict deadline because because of the reform. Around 800.000 person hours were used on developing \~300 epics with a total of \~2500 user stories. All of these were divided into 12 main releases (there were also smaller releases throughout the project). Figure \ref{releases} shows how these 12 releases where located in the timeline of the project.
+Omega is one of the largest IT development projects in Norway to date, consisting of 175 members, where 100 of these came from five external companies. The project had a final budget of approximately 140 million euro. It lasted for about four years (January 2008 to March 2012) and had a strict deadline because because of the reform. Around 800.000 person hours were used on developing {\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}300 epics with a total of {\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}2500 user stories. All of these were divided into 12 main releases (there were also smaller releases throughout the project). Figure \ref{releases} shows how these 12 releases where located in the timeline of the project.
 
 \begin{figure}[H]
 \centering
@@ -23,12 +23,21 @@ Omega is one of the largest IT development projects in Norway to date, constitut
 \label{releases}
 \end{figure}
 
+The initial project execution model consisted of six phases involving different personnel. The planned project execution was as follow: Starting of the project was a general requirements phase where also potential impacts were assessed, here both business resources and architectures were present. Following the general overview phase was a requirements analysis phase, again with both business and architecture resources. After these more general phases the solution description was worked on. The solution description was the main responsibility of the architecture unit, but business resources, developers, test resources and the heads of delivery were included. Going into the construction and approval phases all resources were collaborating to get continuous deliveries finished for production. In the production phase the main responsibility was put on the heads of delivery, but business and line resources were also present throughout the whole process, and architects, developers and testers were included in parts of the phase. The whole project execution model can be seen in figure \ref{project_execution}.
+
+\begin{figure}
+\centering
+\includegraphics[angle=90, trim = 0mm 0mm 20mm 0mm,width=160mm, height=230mm]{images/execution_model.png}
+\caption{Project execution model.}
+\label{project_execution}
+\end{figure}
+
 The project was organised with a ``project director'' at the top of the hierarchy mainly focusing on external relations. Underneath the project director there was a ``project manager'' responsible for operations. Omega also had four sub-projects with one ``sub-project manager'' each. These sub-projects were architecture, business, development and test, and are further described below. There were also a ``controller'' (or ``secretary'') present for administrative reasons. As can be seen from figure \ref{omega} the project used a matrix structure where the business and development sub-projects were both closely linked to the test and architecture sub-projects.
 
 %TODO: Endre Alfa til Alpha
 \begin{figure}[H]
 \centering
-\includegraphics[trim = 40mm 0mm 7mm 0mm,width=180mm]{images/omega_organisation.png}
+\includegraphics[trim = 0mm 0mm 0mm 0mm,width=150mm]{images/omega_organisation.png}
 \caption{Omega-project's organisation.}
 \label{omega}
 \end{figure}
@@ -40,21 +49,23 @@ The project was organised with a ``project director'' at the top of the hierarch
    \item \textbf{Test:} The test sub-project had responsibility for all the testing of the project and the providing of deliverables from the development teams. Hence, they were important for quality assurance. The sub-project included a test leader, as well as test personnel from the development teams.
 \end{itemize}
 
-\begin{figure}[H]
-\centering
-\includegraphics[angle=90, trim = 0mm 0mm 20mm 0mm,width=160mm, height=230mm]{images/execution_model.png}
-\caption{Project execution model.}
-\label{project_execution}
-\end{figure}
+The main focus of this thesis has been on development of the system. The development iterations had four phases: ``analysis of need'', ``solution description'', ``construction'' and ``approval''. These are further described below. The development process can be seen in figure \ref{initial_development_process}.
 
-\begin{figure}[H]
+\begin{itemize}
+   \item \textbf{Analysis of need:} Starting of each development release was an analysis phase. Here the focus was on functionality to be included in the coming release, and identifying and working out user stories. The product owner was involved in this process and was, e.g., responsible for prioritising the product backlog.
+   \item \textbf{Solution description:} After identifying and working out general user stories in the ``analysis of need'' phase the user stories were further developed and made more comprehensive in the ``solution description'' phase. These user stories were also assigned to epics, and further estimated in approximate work-hours to completion before being assigned to different Scrum teams. Design and architectural choices were also determined in this phase.
+   \item \textbf{Construction:} The construction phase typically consisted of five to seven sprint iterations per main development release. Here all development was carried out, and all work was functionally tested.
+   \item \textbf{Approval:} In the last phase of each development release the delivered functionality was tested, both formal and non-formal functional testing. This was done to assure both the internal and external interfaces were working as expected.
+\end{itemize}
+
+\begin{figure}
 \centering
 \includegraphics[angle=90, trim = 0mm 0mm 20mm 0mm,width=160mm, height=230mm]{images/initial_development_process}
 \caption{Initial development process.}
 \label{initial_development_process}
 \end{figure}
 
-Scrum teams typically consisted of eight to nine members. The roles in the different Scrum teams are further outlined in table \ref{trpist}. It is however important to remember that all members were somewhat cross-functional in the project. This means that a tester could for example be 60\% tester, 30\% developer and 10\% designer, and a Scrum master could be 50\% leader, 30\% architect and 20\% developer. 
+The development phase consisted primarily of several Scrum teams typically involving eight to nine members each. The roles in the different Scrum teams are further outlined in table \ref{trpist}. It is however important to remember that all members were somewhat cross-functional in the project. This means that a tester could for example have been 60\% tester, 30\% developer and 10\% designer, and a Scrum master could have been 50\% leader, 30\% architect and 20\% developer. 
 
 %TODO: Ta en kikk på roller en gang til
 \begin{table}[H]
@@ -80,10 +91,10 @@ Scrum teams typically consisted of eight to nine members. The roles in the diffe
 	\hline
 	\textbf{Dimension} & \textbf{Attribute} & \textbf{} \\ \hline
 	\multirow{10}{*}{Compositional} & Number & There was a maximum of 13 development teams (but also other teams involved such as project management) \\ \cline{2-3}
- 	& Size & Approximately 175 members at most (?) \\ \cline{2-3}
+ 	& Size & Approximately 175 members involved in the MTS \\ \cline{2-3}
  	& Boundary status & Multiple organisations (mer?) \\ \cline{2-3}
  	& Organisational diversity & There were in total five organisations taking part in the project, though three of these were the main organisations with the most members allocated to the project \\ \cline{2-3}
-	& Proportional membership & 3-4-6 (at most) \\ \cline{2-3}
+	& Proportional membership & Alpha had four development teams (31\%), Beta had three teams (23\%) and Gamma had six component teams (46\%) \\ \cline{2-3}
 	& Functional diversity & Somewhat high degree of heterogeneity in core purposes and missions of teams \\ \cline{2-3}
 	& Geographic dispersion & The teams were co-located in the same open-plan office space \\ \cline{2-3}
 	& Cultural diversity & Low degree \\ \cline{2-3}
@@ -98,14 +109,14 @@ Scrum teams typically consisted of eight to nine members. The roles in the diffe
 \hline
 	\multirow{6}{*}{Developmental} & Genesis & Appointed \\ \cline{2-3}
  	& Direction of development & ? \\ \cline{2-3}
-	& Tenure & ? \\ \cline{2-3}
+	& Tenure & Approximately four years \\ \cline{2-3}
 	& Stage & Ended \\ \cline{2-3}
 	& Transformation of system composition: Membership constancy & Some fluidity depending on need throughout the Omega-project \\ \cline{2-3}
 	& Transformation of system composition: Linkage constancy & Some communication lines and arenas were fluid, changing base on a need basis, while others were constant through the whole project \\ \cline{2-3}
 	\hline
 \end{tabular}
-\caption{test}
-\label{test}
+\caption{Overview of the Omega-project in a MTS fashion}
+\label{ootopiamf}
 %\end{center}
 \end{adjustwidth}
 \end{table}

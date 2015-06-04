@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  4 JUN 2015 01:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  4 JUN 2015 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1770,97 +1770,89 @@ Overfull \hbox (2.27618pt too wide) in paragraph at lines 21--22
  []
 
 [38 <./images/project_releases.png>]
-<images/omega_organisation.png, id=833, 912.40875pt x 664.4825pt>
-File: images/omega_organisation.png Graphic file (type png)
-
-<use images/omega_organisation.png>
-Package pdftex.def Info: images/omega_organisation.png used on input line 31.
-(pdftex.def)             Requested size: 512.1496pt x 437.06934pt.
-
-Overfull \hbox (59.1817pt too wide) in paragraph at lines 31--32
- [][] 
- []
-
-[39 <./images/omega_organisation.png>]
-<images/execution_model.png, id=840, 982.67125pt x 595.22375pt>
+<images/execution_model.png, id=834, 982.67125pt x 595.22375pt>
 File: images/execution_model.png Graphic file (type png)
 
 <use images/execution_model.png>
-Package pdftex.def Info: images/execution_model.png used on input line 45.
+Package pdftex.def Info: images/execution_model.png used on input line 30.
 (pdftex.def)             Requested size: 925.76349pt x 595.2223pt.
 
-Overfull \hbox (2.27689pt too wide) in paragraph at lines 45--46
+Overfull \hbox (2.27689pt too wide) in paragraph at lines 30--31
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 8.4097pt on input line 48.
+LaTeX Warning: Float too large for page by 8.4097pt on input line 33.
 
-<images/initial_development_process.png, id=841, 995.72pt x 459.7175pt>
+<images/omega_organisation.png, id=836, 912.40875pt x 664.4825pt>
+File: images/omega_organisation.png Graphic file (type png)
+
+<use images/omega_organisation.png>
+Package pdftex.def Info: images/omega_organisation.png used on input line 40.
+(pdftex.def)             Requested size: 426.79134pt x 310.81635pt.
+ [39 <./images/omega_organisation.png>]
+[40 <./images/execution_model.png>] [41]
+<images/initial_development_process.png, id=852, 995.72pt x 459.7175pt>
 File: images/initial_development_process.png Graphic file (type png)
 
 <use images/initial_development_process.png>
 Package pdftex.def Info: images/initial_development_process.png used on input l
-ine 52.
+ine 63.
 (pdftex.def)             Requested size: 938.81221pt x 459.71637pt.
 
-Overfull \hbox (2.30113pt too wide) in paragraph at lines 52--53
+Overfull \hbox (2.30113pt too wide) in paragraph at lines 63--64
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 8.43701pt on input line 55.
+LaTeX Warning: Float too large for page by 8.43701pt on input line 66.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
-[41 <./images/execution_model.png>] [42 <./images/initial_development_process.p
-ng>]
-Underfull \hbox (badness 5460) in paragraph at lines 96--96
+Underfull \hbox (badness 5460) in paragraph at lines 107--107
 []|\T1/cmr/m/n/12 Communication struc-ture:
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 97--97
+Underfull \hbox (badness 5460) in paragraph at lines 108--108
 []|\T1/cmr/m/n/12 Communication struc-ture:
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 103--103
+Underfull \hbox (badness 2150) in paragraph at lines 114--114
 []|\T1/cmr/m/n/12 Transformation of sys-tem
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 103--103
+Underfull \hbox (badness 1210) in paragraph at lines 114--114
 \T1/cmr/m/n/12 com-po-si-tion: Mem-ber-ship
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 104--104
+Underfull \hbox (badness 2150) in paragraph at lines 115--115
 []|\T1/cmr/m/n/12 Transformation of sys-tem
  []
 
 
-Overfull \hbox (27.07251pt too wide) in paragraph at lines 79--107
+Overfull \hbox (27.07251pt too wide) in paragraph at lines 90--118
 [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7256) has occurred while \output is active []
 
- [43]
-Underfull \hbox (badness 1642) in paragraph at lines 135--135
+ [42]
+[43 <./images/initial_development_process.png>]
+Underfull \hbox (badness 1642) in paragraph at lines 146--146
 []|\T1/cmr/m/n/12 Solution de-scrip-tion / ``Mas-ter
  []
 
 [44] [45] [46] [47] [48]
-Underfull \hbox (badness 3536) in paragraph at lines 202--202
+Underfull \hbox (badness 3536) in paragraph at lines 213--213
 []|\T1/cmr/m/n/12 An in-for-mal com-mu-ni-ca-tion arena that was
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 209--209
+Underfull \hbox (badness 1681) in paragraph at lines 220--220
 []|\T1/cmr/m/n/12 3-level hi-er-ar-chy from prod-uct
  []
 
@@ -1978,31 +1970,32 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
  ) 
 Here is how much of TeX's memory you used:
- 33036 strings out of 493308
- 680655 string characters out of 6137815
- 884596 words of memory out of 5000000
- 35408 multiletter control sequences out of 15000+600000
- 17659 words of font info for 39 fonts, out of 8000000 for 9000
+ 33042 strings out of 493308
+ 680730 string characters out of 6137815
+ 884597 words of memory out of 5000000
+ 35411 multiletter control sequences out of 15000+600000
+ 18332 words of font info for 43 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,12n,77p,1320b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/loc
-al/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on report.pdf (74 pages, 1827242 bytes).
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr
+/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2013/
+texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on report.pdf (74 pages, 1836521 bytes).
 PDF statistics:
- 1042 PDF objects out of 1200 (max. 8388607)
- 828 compressed objects within 9 object streams
+ 1048 PDF objects out of 1200 (max. 8388607)
+ 833 compressed objects within 9 object streams
  198 named destinations out of 1000 (max. 500000)
  262 words of extra memory for PDF output out of 10000 (max. 10000000)
 
