@@ -28,7 +28,7 @@ For larger projects, the following steps are suggested:
 	\item \textbf{Operation and Maintenance:} Once the project has been completed, it has to be maintained during its usage. In addition to improving the program in various ways, this may also involve the inclusion of extra features if the customer so desires. These features can in themselves use the Waterfall model.
 \end{enumerate}
 
-\begin{figure}[H]
+\begin{figure}
 \centering
 \includegraphics[width=150mm]{images/chapters/development_models/waterfall.pdf}
 \caption{The Waterfall model.}
@@ -75,7 +75,7 @@ The last listed meeting occurs at the end of each cycle, and is therefore called
 
 The Scrum team usually consists of five to nine members. It is important to note that Scrum teams do not use traditional roles such as programmer, tester, designer or architect. Instead the main goal for the Scrum team is to collectively complete the tasks within the sprint.
 
-\begin{figure}[ht!]
+\begin{figure}
 \centering
 \includegraphics[width=150mm]{images/chapters/development_models/Scrum.png}
 \caption{The Scrum cycle.}
@@ -93,7 +93,7 @@ To end the section, as well as making a natural shift towards the next topic (Co
 
 Takeuchi et al. identified three strategies for distributed Scrum teams. The first type is isolated Scrum teams where teams operate as silos and no collaboration across teams is performed violating the agile principles. The second type is Scrum-of-Scrums which means overlapping Scrum teams. Here teams coordination, communicate and collaborate across teams through SoS meetings with participants from each team involved. Lastly, totally integrated Scrum teams are suggested. In this type teams are fully distributed and each team has members located at several sites. This approach creates similar characteristics as co-location. Type B is what is most common when several Scrum teams work together. The different types are visualised in figure \ref{distributedscrum} \cite{takeuchi2004}.
 
-\begin{figure}[ht!]
+\begin{figure}
 \centering
 \includegraphics[width=110mm]{images/distributed_scrum.png}
 \caption{Different strategies for distributed Scrum teams.}
@@ -101,8 +101,24 @@ Takeuchi et al. identified three strategies for distributed Scrum teams. The fir
 \end{figure}
 
 \subsubsection{Kanban}
+%Anderson
+
+Kanban is a logistic control system that is closely related to lean software development. The word ``Kanban'' comes from two Japanese words: ``kan'' meaning visual and ``ban'' meaning board. The system was developed by Taiichi Ohno, an industrial engineer at Toyota. The reasoning behind developing this new system was to achieve and maintain a high level of production.
+
+%http://link.springer.com/chapter/10.1007%2F978-3-642-20677-1_9
+%Short description of Lean?
+
+Cocco et al. described Kanban as the process of breaking down work to work items which are descriptions on cards (often post-it notes). These cards are then made visible for the entire team on a board. The board is used to show the flow of work within the team (or project). The high visibility comes from the cards and board showing which tasks are assigned to which member, communication priorities and highlights possible obstacles. An important feature of the Kanban method is to minimize Work in Progress (WIP) by reducing the amount of work items (cards) being developed at a time. This is done so the developers and customer can focus on smaller amounts, and should lead to an optimised process, as well as a reduced lead time. Compared to the Scrum methodology, Kanban (being a lean method) is able to release new futures more constantly, and not only at the end of each sprint iteration. Scrum is not able to change the requirements and direction of development in the middle of a sprint iteration, which Kanban can.
+
+To get a more simplistic explanation of how the Kanban methodology works we can look at a standard work flow example. If a developer start on a task he moves this task from the ``work to be done'' section into the so-called ``work in progress'' column of the Kanban board. If there for some reason is a dependence towards other's work this particular work has to be moved to the ``on hold'' or ``waiting'' section of the board until the dependence is solved. After a task is completed it is moved into the final section of the board called the ``completed'' section. Teams also often use different colours to express the priority of the task, and tasks are often allocated to some specific part of the development, e.g., development, test etc. 
+
+%TODO: Add kanban board?
 
 \subsubsection{Scrumban}
+
+%CEEOL (lasted ned artikkel)
+%http://leansoftwareengineering.com/ksse/scrum-ban/
+%http://en.wikipedia.org/wiki/Scrum_ban
 
 \subsubsection{Pair programming}
 
@@ -249,7 +265,7 @@ Van der Ven et al. released an article in 1976 where they tried to identify dete
 
 Having looked at coordination in large-scale in section \ref{largescalecor}, what is actually this so-called ``large-scale''? This was a topic brought up at a workshop regarding research challenges in large-scale agile software development where opinions regarding how large-scale should be defined varied a lot. Some suggestions were to define it through project duration, project cost, number of people involved, number of remote sites and/or number of teams \cite{Dingsoyr2013b}. This issue was further analysed by Dingsøyr, Fægri and Itkonen trying to work out a taxonomy of scale for agile software development. Their results are summarised in table \ref{Scale} where the taxonomy of scale is based on the amount of teams involved in the development project \cite{Dingsoyr2013a}.
 
-\begin{table}[H]
+\begin{table}
 \begin{center}
     \begin{tabular}{| l | l | p{7cm} |}
     \hline
@@ -274,6 +290,8 @@ So the definition of a ``large-scale agile project'' used in this research will 
 An agile project must consist of a minimum amount of two teams coordinating across the teams to be categorised as large-scale.
 \end{fancyquotes}
 
+%TODO: Trust, Shared Mental Models (Cannon-Bowers et al. 1993, http://www-management.wharton.upenn.edu/klein/documents/Lim_Klein_Team_mental_models_2006.pdf,  task model, team model and team interaction model)
+
 \section{Efficiency, Effectiveness, Productivity and Performance in Coordination}
 \label{efficiency}
 
@@ -288,7 +306,7 @@ The implicit part is concerned with coordination that occurs without explicit sp
 
 The explicit component on the other hand is concerned with the physical aspects of the project. It states that the objects involved in the project have to be in the correct place, at the correct time and in a state of readiness for use. A summary of the combination of explicit and implicit coordination effectiveness is provided in figure \ref{effectiveness}.
 
-\begin{figure}[H]
+\begin{figure}
 \centering
 \includegraphics[trim=0cm 17.5cm 0cm 1.5cm, width=160mm]{images/Coordination_Effectiveness.pdf}
 \caption{Components of coordination effectiveness from Strode et al. (2011).}
@@ -317,7 +335,7 @@ Quite a few studies were identified on multi-team systems coordination as well. 
 
 Melo et al. performed a multi-case study on three large Brazilian IT companies that were using agile methods in their projects \cite{Melo2013}. The objective of the research was to provide a better understanding of which factors that had an impact on agile team productivity. To document teamwork effectiveness they used the well-known theoretical model ``Input-Process-Outcome'' (IPO). Their input factors were ``Individual and Group characteristics'', ``Stage of team development'', ``Nature of task'', ``Organizational context'' and ``Supervisory behaviors''. One process-category was identified: ``Group processes''. Lastly they identified two outcome-groups, namely ``Agile team productivity'' and ``Attitudinal and Behavioral''. All of these are summarised constituting the conceptual framework for their agile team productivity in figure \ref{atpcf}.
 
-\begin{figure}[ht!]
+\begin{figure}
 \centering
 \includegraphics[width=150mm]{images/IPO.png}
 \caption{Agile team productivity conceptual framework.}
@@ -334,7 +352,7 @@ For ``Inter-team coordination'' two roots were identified: ``Lack of commitment 
 
 Anh et al. performed a systematic literature review (SLR) to collect relevant studies on dispersion, coordination and performance in global software development (GSD), and highlighted the findings of impact factors in a thematic mapping \cite{Anh2012}. It is important to note that the findings are not from agile software development, but they are still interesting because of the global aspect in the literature used. The results are briefly summarised in table \ref{GSD}:
 
-\begin{table}[H]
+\begin{table}
 \begin{center}
     \begin{tabular}{ | p{5cm} | p{8cm} |}
     \hline
@@ -352,7 +370,7 @@ Anh et al. performed a systematic literature review (SLR) to collect relevant st
 
 Dingsøyr and Lindsjørn carried out a focus group study looking at which factors the agile software practitioners in the research perceived as influential on effective teamwork \cite{Dingsoyr2013c}. This paper focuses on the team performance of individual teams, but is included because of its agile nature. To place the suggestions from the participants into categorise Dingsøyr et al. decided to use the ``Big Five'' model proposed by Salas et al. \cite{Salas2005} leading to eight teamwork components: ``Team leadership'', ``Mutual performance monitoring'', ``Backup behaviour'', ``Adaptability'', ``Team orientation'', ``Shared mental models'', ``Mutual trust'' and ``Closed-loop communication''. A summary of the distribution of all suggestions over these components is outlined in table \ref{summary2}.
 
-\begin{table}[H]
+\begin{table}
 \begin{center}
     \begin{tabular}{ | p{6cm} | p{2.5cm} | p{2.5cm} | p{2.5cm} |}
     \hline
@@ -374,7 +392,7 @@ Dingsøyr and Lindsjørn carried out a focus group study looking at which factor
 
 The teamwork component with the strongest connection to coordination is ``closed-loop communication''. Looking at table \ref{summary2} a lot of emphasis was aimed towards the component from the practitioners (second highest total count). This again illustrates the importance of coordination. The sub-components identified of closed-loop communication are outlined in table \ref{closedloop}.
 
-\begin{table}[H]
+\begin{table}
 \begin{center}
     \begin{tabular}{ | p{4cm} | p{5.25cm} | p{5.25cm} |}
     \hline
@@ -396,7 +414,7 @@ As can be seen from table \ref{closedloop} a lot of attention was directed towar
 
 The findings from the different studies are summarised in table \ref{summary}. Note that it could be argued that misalignment and synchronisation, as well as team collocation and presence of geographical dispersion, are contrasts of each other. They are however included in the summary table because they were identified as important aspects in the different studies.
 
-\begin{table}[H]
+\begin{table}
 \begin{center}
     \begin{tabular}{ | p{8cm} | p{6cm} |}
     \hline
@@ -476,14 +494,14 @@ The last two developmental attributes together combine to the group term ``trans
 
 In the above sections three dimensions of multiteam systems and their attributes have been presented. It is important to note how the different attributes can be factors in achieving effective MTSs and MTS processes. A simple model of MTS effectiveness is outlined in figure \ref{amomse}, where the attributes of the compositional, linkage and developmental dimensions can be seen as predecessors of different intrateam and interteam processes. The effects of these attributes on the total effectiveness of the multiteam system would be arbitrated by these intra- and interteam processes.
 
-\begin{figure}[ht!]
+\begin{figure}
 \centering
 \includegraphics[trim = 15mm 190mm 15mm 10mm, width=150mm]{images/multiteam_system_model.pdf}
 \caption{A model of multiteam system effectiveness.}
 \label{amomse}
 \end{figure}
 
-\begin{table}[H]
+\begin{table}
 \begin{adjustwidth}{-1.15cm}{}
 %\begin{center}
 \begin{tabular}{ | p{2.7cm} | p{5cm} | p{9cm} | }

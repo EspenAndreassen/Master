@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  4 JUN 2015 17:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  6 JUN 2015 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1364,6 +1364,18 @@ fier (name{page.2}) has been already used, duplicate ignored
 l.169 \cleardoublepage
                        [2
 
+] (./sammendrag.texpdfTeX warning (ext4): destination with the same identifier 
+(name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.13 \end{abstract}
+                    [1])pdfTeX warning (ext4): destination with the same identi
+fier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.171 \cleardoublepage
+                       [2
+
 ] (./preface.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 32.
@@ -1373,7 +1385,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 32.
 )
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM report.toc on input line 175.
+(minitoc)             PREPARING MINITOCS FROM report.toc on input line 177.
 Package minitoc Info: I0033
 (minitoc)             Writing report.mtc1.
 \openout4 = `report.mtc1'.
@@ -1407,7 +1419,7 @@ Package minitoc Info: I0033
 \openout4 = `report.mtc8'.
 
 Package minitoc Info: I0034
-(minitoc)             PREPARING MINILOFS FROM report.lof on input line 176.
+(minitoc)             PREPARING MINILOFS FROM report.lof on input line 178.
 Package minitoc Info: I0033
 (minitoc)             Writing report.mlf1.
 \openout4 = `report.mlf1'.
@@ -1437,7 +1449,7 @@ Package minitoc Info: I0033
 \openout4 = `report.mlf7'.
 
 Package minitoc Info: I0037
-(minitoc)             PREPARING MINILOTS FROM report.lot on input line 177.
+(minitoc)             PREPARING MINILOTS FROM report.lot on input line 179.
 Package minitoc Info: I0033
 (minitoc)             Writing report.mlt1.
 \openout4 = `report.mlt1'.
@@ -1472,14 +1484,14 @@ Package minitoc Info: I0033
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.177 \tableofcontents
+l.179 \tableofcontents
                        [2
 
 ] (./report.tocpdfTeX warning (ext4): destination with the same identifier (nam
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 ...\numberline {7}Future Work}{59}{chapter.7}
+l.57 ...\numberline {7}Future Work}{61}{chapter.7}
                                                    [3])
 \tf@toc=\write6
 \openout6 = `report.toc'.
@@ -1488,7 +1500,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.178 \clearpage
+l.180 \clearpage
                  [4] (./report.lof)
 \tf@lof=\write7
 \openout7 = `report.lof'.
@@ -1497,7 +1509,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.180 \listoftables
+l.182 \listoftables
                     [5
 
 
@@ -1505,7 +1517,7 @@ l.180 \listoftables
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.180 \listoftables
+l.182 \listoftables
                     [6
 
 ] (./report.lot)
@@ -1551,15 +1563,18 @@ Chapter 2.
 (./report.mtc2) [3
 
 ] [4]
-<images/chapters/development_models/waterfall.pdf, id=293, 476.78125pt x 265.99
+<images/chapters/development_models/waterfall.pdf, id=299, 476.78125pt x 265.99
 374pt>
 File: images/chapters/development_models/waterfall.pdf Graphic file (type pdf)
  <use images/chapters/development_models/waterfall.pdf>
 Package pdftex.def Info: images/chapters/development_models/waterfall.pdf used 
 on input line 33.
 (pdftex.def)             Requested size: 426.79134pt x 238.1177pt.
+
+Underfull \vbox (badness 1694) has occurred while \output is active []
+
  [5 <./images/chapters/development_models/waterfall.pdf>] [6]
-<images/chapters/development_models/Scrum.png, id=315, 970.62625pt x 466.74374p
+<images/chapters/development_models/Scrum.png, id=323, 970.62625pt x 466.74374p
 t>
 File: images/chapters/development_models/Scrum.png Graphic file (type png)
  <use images/chapters/development_models/Scrum.png>
@@ -1567,155 +1582,139 @@ Package pdftex.def Info: images/chapters/development_models/Scrum.png used on i
 nput line 80.
 (pdftex.def)             Requested size: 426.79134pt x 205.23256pt.
  [7 <./images/chapters/development_models/Scrum.png>]
-<images/distributed_scrum.png, id=330, 371.3875pt x 217.81375pt>
+<images/distributed_scrum.png, id=336, 371.3875pt x 217.81375pt>
 File: images/distributed_scrum.png Graphic file (type png)
 
 <use images/distributed_scrum.png>
 Package pdftex.def Info: images/distributed_scrum.png used on input line 98.
 (pdftex.def)             Requested size: 312.9803pt x 183.56384pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 116.
+ [8 <./images/distributed_scrum.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 131.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
- [8 <./images/distributed_scrum.png>] [9] [10] <images/Strode.pdf, id=361, 614.
-295pt x 794.97pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
+ [9] [10] [11]
+<images/Strode.pdf, id=372, 614.295pt x 794.97pt>
 File: images/Strode.pdf Graphic file (type pdf)
-
-<use images/Strode.pdf>
-Package pdftex.def Info: images/Strode.pdf used on input line 176.
+ <use images/Strode.pdf>
+Package pdftex.def Info: images/Strode.pdf used on input line 191.
 (pdftex.def)             Requested size: 455.24408pt x 589.14197pt.
 
-Overfull \hbox (2.27618pt too wide) in paragraph at lines 176--177
+Overfull \hbox (2.27618pt too wide) in paragraph at lines 191--192
  [][] 
  []
 
-[11] [12 <./images/Strode.pdf>]
+[12] [13 <./images/Strode.pdf>] [14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
-[15]
-Underfull \vbox (badness 1173) has occurred while \output is active []
-
- [16]
-<images/Coordination_Effectiveness.pdf, id=430, 597.23125pt x 845.1575pt>
+ [15]
+[16] [17]
+<images/Coordination_Effectiveness.pdf, id=441, 597.23125pt x 845.1575pt>
 File: images/Coordination_Effectiveness.pdf Graphic file (type pdf)
 
 <use images/Coordination_Effectiveness.pdf>
 Package pdftex.def Info: images/Coordination_Effectiveness.pdf used on input li
-ne 293.
+ne 310.
 (pdftex.def)             Requested size: 455.24408pt x 232.15211pt.
 
-Overfull \hbox (2.27618pt too wide) in paragraph at lines 293--294
+Overfull \hbox (2.27618pt too wide) in paragraph at lines 310--311
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+ [18 <./images/Coordination_Effectiveness.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18 <./images/Coordination_Effectiveness.pdf>]
-<images/IPO.png, id=586, 515.9275pt x 307.1475pt>
+ [19]
+<images/IPO.png, id=600, 515.9275pt x 307.1475pt>
 File: images/IPO.png Graphic file (type png)
  <use images/IPO.png>
-Package pdftex.def Info: images/IPO.png used on input line 322.
+Package pdftex.def Info: images/IPO.png used on input line 339.
 (pdftex.def)             Requested size: 426.79134pt x 254.08875pt.
- [19]
-Underfull \hbox (badness 7344) in paragraph at lines 342--342
+ [20 <./images/IPO.png>]
+Underfull \hbox (badness 7344) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 Presence of ge-o-graph-i-cal
  []
 
 
-Underfull \hbox (badness 6758) in paragraph at lines 343--343
+Underfull \hbox (badness 6758) in paragraph at lines 360--360
 []|\T1/cmr/m/n/12 Negative (com-pli-cates co-or-di-na-tion and
  []
 
+[21] [22]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20 <./images/IPO.png>]
-Underfull \vbox (badness 1087) has occurred while \output is active []
-
- [21]
-
-LaTeX Warning: Citation `TODO' on page 22 undefined on input line 421.
-
-[22]
-
-LaTeX Warning: Citation `TODO' on page 23 undefined on input line 424.
+LaTeX Warning: Citation `TODO' on page 23 undefined on input line 438.
 
 
-LaTeX Warning: Citation `TODO' on page 23 undefined on input line 427.
+LaTeX Warning: Citation `TODO' on page 23 undefined on input line 441.
+
+[23]
+
+LaTeX Warning: Citation `TODO' on page 24 undefined on input line 444.
+
+[24]
+
+LaTeX Warning: Citation `?' on page 25 undefined on input line 468.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2486) has occurred while \output is active []
 
- [23]
-
-LaTeX Warning: Citation `?' on page 24 undefined on input line 451.
-
-[24] [25] [26]
-<images/multiteam_system_model.pdf, id=652, 597.23125pt x 845.1575pt>
+ [25]
+[26] <images/multiteam_system_model.pdf, id=658, 597.23125pt x 845.1575pt>
 File: images/multiteam_system_model.pdf Graphic file (type pdf)
 
 <use images/multiteam_system_model.pdf>
 Package pdftex.def Info: images/multiteam_system_model.pdf used on input line 4
-81.
+98.
 (pdftex.def)             Requested size: 426.79134pt x 230.21819pt.
 
-Underfull \hbox (badness 5460) in paragraph at lines 506--506
+Underfull \hbox (badness 5460) in paragraph at lines 523--523
 []|\T1/cmr/m/n/12 Communication struc-ture:
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 507--507
+Underfull \hbox (badness 5460) in paragraph at lines 524--524
 []|\T1/cmr/m/n/12 Communication struc-ture:
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 513--513
+Underfull \hbox (badness 2150) in paragraph at lines 530--530
 []|\T1/cmr/m/n/12 Transformation of sys-tem
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 513--513
+Underfull \hbox (badness 1210) in paragraph at lines 530--530
 \T1/cmr/m/n/12 com-po-si-tion: Mem-ber-ship
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 514--514
+Underfull \hbox (badness 2150) in paragraph at lines 531--531
 []|\T1/cmr/m/n/12 Transformation of sys-tem
  []
 
 
-Overfull \hbox (27.07251pt too wide) in paragraph at lines 489--517
+Overfull \hbox (27.07251pt too wide) in paragraph at lines 506--534
 [][] 
  []
 
-) (./method.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27 <./images/multiteam_system_model.pdf>]
-Overfull \vbox (11.49275pt too high) has occurred while \output is active []
+LaTeX Warning: Float too large for page by 11.49275pt on input line 538.
 
+) (./method.tex [27] [28] [29 <./images/multiteam_system_model.pdf>] [30
 
-[28]
+]
 Chapter 3.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc3) [29
-
-]
+(./report.mtc3) [31]
 Overfull \hbox (2.0pt too wide) in paragraph at lines 30--31
 [][] 
  []
@@ -1728,12 +1727,12 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 50--51
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
+ [32]
 Underfull \hbox (badness 4403) in paragraph at lines 80--80
 []|\T1/cmr/m/n/12 Global, multiteam/multi-team (sys-tems),
  []
 
-[31] [32]
+[33] [34]
 Overfull \hbox (2.0pt too wide) in paragraph at lines 148--149
 [][] 
  []
@@ -1741,15 +1740,15 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 148--149
 
 Underfull \vbox (badness 5954) has occurred while \output is active []
 
- [33]
+ [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [36]
 Underfull \hbox (badness 2393) in paragraph at lines 162--162
 []|\T1/cmr/m/n/12 Inter-team co-or-di-na-tion and
  []
 
-) (./result.tex [35] [36
+) (./result.tex [37] [38
 
 ]
 Chapter 4.
@@ -1757,8 +1756,8 @@ Chapter 4.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc4) [37]
-<images/project_releases.png, id=827, 873.2625pt x 630.355pt>
+(./report.mtc4) [39]
+<images/project_releases.png, id=841, 873.2625pt x 630.355pt>
 File: images/project_releases.png Graphic file (type png)
 
 <use images/project_releases.png>
@@ -1769,8 +1768,8 @@ Overfull \hbox (2.27618pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
-[38 <./images/project_releases.png>]
-<images/execution_model.png, id=834, 982.67125pt x 595.22375pt>
+[40 <./images/project_releases.png>]
+<images/execution_model.png, id=848, 982.67125pt x 595.22375pt>
 File: images/execution_model.png Graphic file (type png)
 
 <use images/execution_model.png>
@@ -1784,15 +1783,15 @@ Overfull \hbox (2.27689pt too wide) in paragraph at lines 30--31
 
 LaTeX Warning: Float too large for page by 8.4097pt on input line 33.
 
-<images/omega_organisation.png, id=836, 912.40875pt x 664.4825pt>
+<images/omega_organisation.png, id=850, 912.40875pt x 664.4825pt>
 File: images/omega_organisation.png Graphic file (type png)
 
 <use images/omega_organisation.png>
 Package pdftex.def Info: images/omega_organisation.png used on input line 40.
 (pdftex.def)             Requested size: 426.79134pt x 310.81635pt.
- [39 <./images/omega_organisation.png>]
-[40 <./images/execution_model.png>] [41]
-<images/initial_development_process.png, id=852, 995.72pt x 459.7175pt>
+ [41 <./images/omega_organisation.png>]
+[42 <./images/execution_model.png>] [43]
+<images/initial_development_process.png, id=868, 995.72pt x 459.7175pt>
 File: images/initial_development_process.png Graphic file (type png)
 
 <use images/initial_development_process.png>
@@ -1840,13 +1839,13 @@ Overfull \hbox (27.07251pt too wide) in paragraph at lines 90--118
 
 Underfull \vbox (badness 7256) has occurred while \output is active []
 
- [42]
-[43 <./images/initial_development_process.png>]
+ [44]
+[45 <./images/initial_development_process.png>]
 Underfull \hbox (badness 1642) in paragraph at lines 146--146
 []|\T1/cmr/m/n/12 Solution de-scrip-tion / ``Mas-ter
  []
 
-[44] [45] [46] [47] [48]
+[46] [47] [48] [49] [50]
 Underfull \hbox (badness 3536) in paragraph at lines 213--213
 []|\T1/cmr/m/n/12 An in-for-mal com-mu-ni-ca-tion arena that was
  []
@@ -1856,7 +1855,7 @@ Underfull \hbox (badness 1681) in paragraph at lines 220--220
 []|\T1/cmr/m/n/12 3-level hi-er-ar-chy from prod-uct
  []
 
-[49] [50] [51] [52]) (./discussion.tex [53] [54
+[51] [52] [53] [54]) (./discussion.tex [55] [56
 
 ]
 Chapter 5.
@@ -1864,33 +1863,33 @@ Chapter 5.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc5) [55]) (./conclusion.tex
+(./report.mtc5) [57]) (./conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--1
 
  []
 
-[56]
+[58]
 Chapter 6.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc6) [57
+(./report.mtc6) [59
 
 ]) (./future_work.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--1
 
  []
 
-[58]
+[60]
 Chapter 7.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc7) [59
+(./report.mtc7) [61
 
-] [60]) (./report.bbl
+] [62]) (./report.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1952,12 +1951,12 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the report.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 80B58BAAB3ED92A5307BAC39C687A84E;3393.
 
@@ -1967,13 +1966,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
  ) 
 Here is how much of TeX's memory you used:
- 33042 strings out of 493308
- 680730 string characters out of 6137815
+ 33046 strings out of 493308
+ 680778 string characters out of 6137815
  884597 words of memory out of 5000000
- 35411 multiletter control sequences out of 15000+600000
+ 35410 multiletter control sequences out of 15000+600000
  18332 words of font info for 43 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,12n,77p,1320b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1992,10 +1991,10 @@ ve/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive
 013/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/201
 3/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on report.pdf (74 pages, 1836521 bytes).
+Output written on report.pdf (78 pages, 1840581 bytes).
 PDF statistics:
- 1048 PDF objects out of 1200 (max. 8388607)
- 833 compressed objects within 9 object streams
- 198 named destinations out of 1000 (max. 500000)
+ 1063 PDF objects out of 1200 (max. 8388607)
+ 844 compressed objects within 9 object streams
+ 200 named destinations out of 1000 (max. 500000)
  262 words of extra memory for PDF output out of 10000 (max. 10000000)
 
