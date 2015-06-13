@@ -100,7 +100,7 @@ Takeuchi et al. identified three strategies for distributed Scrum teams. The fir
 \label{distributedscrum}
 \end{figure}
 
-\subsubsection{Kanban}
+\subsubsection{Kanban and Scrumban}
 %Anderson
 
 Kanban is a logistic control system that is closely related to lean software development. The word ``Kanban'' comes from two Japanese words: ``kan'' meaning visual and ``ban'' meaning board. The system was developed by Taiichi Ohno, an industrial engineer at Toyota. The reasoning behind developing this new system was to achieve and maintain a high level of production.
@@ -114,7 +114,50 @@ To get a more simplistic explanation of how the Kanban methodology works we can 
 
 %TODO: Add kanban board?
 
-\subsubsection{Scrumban}
+%TODO: http://www.aboutscrumban.com/comparison-of-scrum-kanban-and-scrumban/
+%TODO: http://www.aboutscrumban.com/
+
+In later years a new approach has slowly surfaced which combines the Scrum and Kanban practices. This new methodology has been coined ``Scrumban'' (also referred to as ``Scrum-ban'' and ``Scrum ban''). The reasoning behind the evolution of this new methodology was that some practitioners felt that Scrum and Kanban did not fit all aspects of their work on their own with Scrum being too strict for constant change and releases (fast paced environments), and Kanban not being structured enough. The combination of the two methodologies is suppose to create a practice that fits a fast paced development environment. To get a better overview of the differences between Scrum, Kanban and Scrumban table \ref{coskas} is included.
+
+\begin{center}
+    \begin{longtable}{| p{2.6cm} | p{3.9cm} | p{3.9cm} | p{3.9cm} |}
+   
+    \hline & \textbf{Scrum} & \textbf{Kanban} & \textbf{Scrumban} \\ \hline
+    \endfirsthead
+
+    \multicolumn{4}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\ \hline
+   & \textbf{Scrum} & \textbf{Kanban} & \textbf{Scrumban} \\ \hline
+    \endhead
+
+    \multicolumn{4}{|r|}{{Continued on the next page\ldots}} \\ \hline
+    \endfoot
+
+   \endlastfoot 
+
+    \textbf{Iterations} & 1-4 week sprints & Continuous work alongside releases shorter than one week or bigger iterations like goals & Continuous work with short cycles for planning and longer cycles for release \\ \hline
+    \textbf{Work routines} & Push and pull principle mixed with early binding to team members & Pull principle with late binding to team members & Pull principle with late binding to team members \\ \hline
+    \textbf{Scope limits} & Sprint limits total work amount & Work in progress limits current work amount & Work in progress limits current work amount \\ \hline
+    \textbf{Planning routines} & Sprint planning & Release/iteration planning, demand planning & Planning on demand for new tasks \\ \hline
+    \textbf{Estimation} & Must be done before start of sprint & Optional & Optional \\ \hline
+    \textbf{Performance metrics} & Burndown & Cumulative flow diagram, lead time cycle time & Average cycle time \\ \hline
+    \textbf{Continuous improvement} & Sprint retrospective & Optional & Short Kaizen (continuous improvement) event as an option \\ \hline
+    \textbf{Meetings} & Sprint planning, daily scrum, retrospective & Can be avoided & Short Kaizen event \\ \hline
+    \textbf{Roles} & Product owner, Scrum master, team & Team and other work specific roles & Team and other work specific roles \\ \hline
+    \textbf{Team members} & Cross-functional team members & Cross-functional team members, specialization is allowed & Specialization or preference to tasks \\ \hline
+    \textbf{Task size} & The size that can be completed in sprint & Any size & Any size \\ \hline
+    \textbf{New items in iteration} & Forbidden & Allowed whenever queue allows it & Allowed whenever queue allows it \\ \hline
+    \textbf{Ownership} & Owned by a team & Supports multiple teams ownership & Supports multiple teams ownership \\ \hline
+    \textbf{Board} & Defined/reset each sprint & Persistent & Persistent \\ \hline
+    \textbf{Prioritization} & Through backlog & Optional & Recommended on each planning \\ \hline
+    \textbf{Roles} & Scrum master, product owner, team & Not defined, may vary & Not defined, may vary \\ \hline
+    \textbf{Rules} & Constrained process & Only a few constraints, flexible process & Slightly constrained process \\ \hline
+    \textbf{Fit for} & Enterprise maturity for teams working on product or especially project which is longer than a year & Support and maintenance teams, continuous product manufacturing & Startups, fast-pace projects, continuous product manufacturing \\ \hline 
+
+    \caption{Comparison of Scrum, Kanban and Scrumban}
+    \label{coskas}
+    \end{longtable}
+\end{center}
 
 %CEEOL (lasted ned artikkel)
 %http://leansoftwareengineering.com/ksse/scrum-ban/
@@ -290,7 +333,7 @@ So the definition of a ``large-scale agile project'' used in this research will 
 An agile project must consist of a minimum amount of two teams coordinating across the teams to be categorised as large-scale.
 \end{fancyquotes}
 
-%TODO: Trust, Shared Mental Models (Cannon-Bowers et al. 1993, http://www-management.wharton.upenn.edu/klein/documents/Lim_Klein_Team_mental_models_2006.pdf,  task model, team model and team interaction model)
+\textbf{ }
 
 \section{Efficiency, Effectiveness, Productivity and Performance in Coordination}
 \label{efficiency}
@@ -433,6 +476,24 @@ The findings from the different studies are summarised in table \ref{summary}. N
 \end{center}
 \end{table}
 
+\section{Shared Mental Models}
+
+%TODO: Trust, Shared Mental Models (Cannon-Bowers et al. 1993, http://www-management.wharton.upenn.edu/klein/documents/Lim_Klein_Team_mental_models_2006.pdf,  task model, team model and team interaction model)
+
+%TODO: Sitering: Cannon-Bowers 1990, Cannon-Bowers 1993, Rouse and Morris 1986, Mathieu 2000, Yu 2014
+
+Shared (or team) mental models was originally proposed by Cannon-Bowers et al. in 1990 \cite{}, building on prior research in cognitive psychology on individuals’ mental models. Rouse et al. \cite{} defined the mental model of an individual as a ``mechanism whereby humans generate descriptions of system purpose and form, explanations of system functioning and observed system states, and predictions of future system states''. Hence, the mental model of a human-being can be seen as that individual's perception of the world, or put in other words, his reality. In similar fashion to individuals' mental model, Cannon-Bowers et al. propose that team members have shared mental models in regards to the equipment, interaction patterns, team procedures etc. within their respective teams. Below their definition of a shared mental model is outlined:
+
+\begin{fancyquotes}
+Knowledge structures held by members of a team that enable them to form accurate explanations and expectations for the task, and, in turn, to coordinate their actions and adapt their behaviour to demands of the task and other team members \cite{}.
+\end{fancyquotes}
+
+Cannon-Bowers et al. \cite{} goes on to suggest four shared mental models (or team mental models as they called them) that should be present to achieve a higher degree of team effectiveness: ``equipment model'', ``task model'', ``team interaction model'' and ``team model''. Firstly the ``equipment model'' is concerned with the technology used by the team to perform their team tasks, and their shared understanding of this technology. The ``task model'' looks at how team members perceive the team procedures, strategies, environmental conditions, and task contingencies. The third mental model described by Cannon-Bowers et al. is the ``team interaction model'' which captures how members understand their own and other team personnels' responsibilities, norms, and interaction patterns. The last model suggested is the ``team model'' which reflects how team members understand the others' skills, attitudes, knowledge, strengths and weaknesses.
+
+Mathieu et al. \cite{} however argued that these four team mental models suggested by Cannon-Bowers et al. \cite{} could be divided and categorised into two areas. The first of these he called ``task-work'' containing the ``equipment'' and ``task'' models, and the second labelled ``teamwork'' including the ``team interaction'' and ``team'' models. The ``task-work'' mental models describe how team members' mental models are structured in regards to the equipment and procedures used to carry out their tasks. The ``teamwork'' mental models on the other hand outline how team members' mental models are structured in regards to team interaction processes and the perception of other team members' knowledge. In the study by Mathieu et al. \cite{} they found that both task-work mental model similarity and teamwork mental model similarity were notably positively related to team process, e.g., communication, cooperation and coordination, which in turn were to a large degree associated to team performance.
+
+Yu et al. \cite{} also performed a conceptual analysis using shared mental model theory as a lens to examine three agile practices from Xtreme Programming (XP) and Scrum (system metaphor, stand-up meeting, and on-site customer). The objective of their research was to examine and understand how agile methodology practices enable software development teams to accomplish effective teamwork. In a short summary their work shows that the creation of shared mental models is one of the main benefits that agile development methodologies and practices brings with them, where the main benefit is enabling better collaboration within the teams. Their work demonstrates that the analysed agile practices assist the progress of the four stages of shared mental model development: knowing, learning, understanding and executing. Further, the research shows how agile practices contribute to achieving the two earlier mentioned shared mental models: teamwork and task-work.
+
 \section{Multiteam Systems}
 %TODO: Ha med referanse til tidligere?
 %TODO: Cites i avsnitt
@@ -501,12 +562,25 @@ In the above sections three dimensions of multiteam systems and their attributes
 \label{amomse}
 \end{figure}
 
-\begin{table}
-\begin{adjustwidth}{-1.15cm}{}
-%\begin{center}
-\begin{tabular}{ | p{2.7cm} | p{5cm} | p{9cm} | }
-	\hline
-	\textbf{Dimension} & \textbf{Attribute} & \textbf{Explanation} \\ \hline
+
+%TODO: Fiks tabell
+\begin{center}
+\begin{longtable}{ | p{2.5cm} | p{4cm} | p{8cm} | }
+
+   
+    \hline \textbf{Dimension} & \textbf{Attribute} & \textbf{Explanation} \\ \hline
+    \endfirsthead
+
+    \multicolumn{3}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\ \hline
+   \textbf{Dimension} & \textbf{Attribute} & \textbf{Explanation} \\ \hline
+    \endhead
+
+    \multicolumn{3}{|r|}{{Continued on the next page\ldots}} \\ \hline
+    \endfoot
+
+   \endlastfoot 
+
 	\multirow{10}{*}{Compositional} & Number & Number of component teams within the MTS \\ \cline{2-3}
  	& Size & Total number of individual members across teams \\ \cline{2-3}
  	& Boundary status & Component teams come from single organization (internal) versus multiple organisations (external or cross-boundary) \\ \cline{2-3}
@@ -531,9 +605,7 @@ In the above sections three dimensions of multiteam systems and their attributes
 	& Transformation of system composition: Membership constancy & Fluidity versus constancy of component teams as members \\ \cline{2-3}
 	& Transformation of system composition: Linkage constancy & Fluidity versus constancy of linkages among component teams \\ \cline{2-3}
 	\hline
-\end{tabular}
 \caption{Dimensions of multiteam system (MTS) characteristics.}
 \label{domsc}
-%\end{center}
-\end{adjustwidth}
-\end{table}
+\end{longtable}
+\end{center}
