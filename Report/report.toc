@@ -53,13 +53,13 @@
 \contentsline {section}{\numberline {4.3}Coordination Arenas and Important Aspects}{50}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Co-location}{50}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Informal Communication Arenas}{52}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Continuous Change of Coordination Arenas}{55}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Project Management Presence}{55}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Mutual Trust and Shared Mental Models}{55}{subsection.4.3.5}
-\contentsline {chapter}{\numberline {5}Discussion}{65}{chapter.5}
-\contentsline {section}{\numberline {5.1}Research Question}{66}{section.5.1}
-\contentsline {chapter}{\numberline {6}Conclusion}{67}{chapter.6}
-\contentsline {section}{\numberline {6.1}Research Question}{68}{section.6.1}
-\contentsline {chapter}{\numberline {7}Future Work}{69}{chapter.7}
-\contentsline {section}{\numberline {7.1}Suggestions for Future Research Focus}{70}{section.7.1}
+\contentsline {subsection}{\numberline {4.3.3}Continuous Change and Improvement}{55}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Presence from Project Management and Owner}{58}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Mutual Trust and Shared Mental Models}{61}{subsection.4.3.5}
+\contentsline {chapter}{\numberline {5}Discussion}{71}{chapter.5}
+\contentsline {section}{\numberline {5.1}Research Question}{72}{section.5.1}
+\contentsline {chapter}{\numberline {6}Conclusion}{73}{chapter.6}
+\contentsline {section}{\numberline {6.1}Research Question}{74}{section.6.1}
+\contentsline {chapter}{\numberline {7}Future Work}{75}{chapter.7}
+\contentsline {section}{\numberline {7.1}Suggestions for Future Research Focus}{76}{section.7.1}
 \contentsline {chapter}{References}{I}{section.7.1}

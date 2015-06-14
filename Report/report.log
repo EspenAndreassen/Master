@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  13 JUN 2015 03:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  14 JUN 2015 01:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1331,39 +1331,10 @@ LaTeX Info: Redefining \nameref on input line 127.
 \@outlinefile=\write5
 \openout5 = `report.out'.
 
-
-<images/logo-ntnu.pdf, id=110, 241.90375pt x 53.19875pt>
-File: images/logo-ntnu.pdf Graphic file (type pdf)
-
-<use images/logo-ntnu.pdf>
-Package pdftex.def Info: images/logo-ntnu.pdf used on input line 160.
-(pdftex.def)             Requested size: 180.67499pt x 40.69203pt.
+ (./abstract.tex [1
 
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./images/idi.pdf): PDF inclusion: fo
-und PDF version <1.6>, but at most version <1.5> allowed
-<images/idi.pdf, id=111, 692.5875pt x 105.39375pt>
-File: images/idi.pdf Graphic file (type pdf)
- <use images/idi.pdf>
-Package pdftex.def Info: images/idi.pdf used on input line 162.
-(pdftex.def)             Requested size: 252.94499pt x 41.19987pt.
-
-[1
-
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
-s/logo-ntnu.pdf> <./images/idi.pdf>] [2
-
-] (./abstract.texpdfTeX warning (ext4): destination with the same identifier (n
-ame{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.13 \end{abstract}
-                    [1])pdfTeX warning (ext4): destination with the same identi
-fier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.171 \cleardoublepage
-                       [2
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) [2
 
 ] (./sammendrag.texpdfTeX warning (ext4): destination with the same identifier 
 (name{page.1}) has been already used, duplicate ignored
@@ -1492,7 +1463,7 @@ l.181 \tableofcontents
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 ...{\numberline {6}Conclusion}{67}{chapter.6}
+l.61 ...{\numberline {6}Conclusion}{73}{chapter.6}
                                                    [3])
 \tf@toc=\write6
 \openout6 = `report.toc'.
@@ -1568,7 +1539,7 @@ Chapter 2.
 LaTeX Warning: Citation `waterfall' on page 4 undefined on input line 19.
 
 [4]
-<images/chapters/development_models/waterfall.pdf, id=315, 476.78125pt x 265.99
+<images/chapters/development_models/waterfall.pdf, id=293, 476.78125pt x 265.99
 374pt>
 File: images/chapters/development_models/waterfall.pdf Graphic file (type pdf)
  <use images/chapters/development_models/waterfall.pdf>
@@ -1592,7 +1563,7 @@ LaTeX Warning: Citation `Com2013' on page 5 undefined on input line 49.
 LaTeX Warning: Citation `scrum' on page 6 undefined on input line 51.
 
 [6]
-<images/chapters/development_models/Scrum.png, id=332, 970.62625pt x 466.74374p
+<images/chapters/development_models/Scrum.png, id=308, 970.62625pt x 466.74374p
 t>
 File: images/chapters/development_models/Scrum.png Graphic file (type png)
  <use images/chapters/development_models/Scrum.png>
@@ -1610,7 +1581,7 @@ LaTeX Warning: Citation `Cohn2007' on page 7 undefined on input line 85.
 
 LaTeX Warning: Citation `takeuchi2004' on page 8 undefined on input line 94.
 
-<images/distributed_scrum.png, id=340, 371.3875pt x 217.81375pt>
+<images/distributed_scrum.png, id=318, 371.3875pt x 217.81375pt>
 File: images/distributed_scrum.png Graphic file (type png)
 
 <use images/distributed_scrum.png>
@@ -1851,7 +1822,7 @@ LaTeX Warning: Citation `Strode2012' on page 12 undefined on input line 207.
 
 LaTeX Warning: Citation `Strode2012' on page 13 undefined on input line 229.
 
-<images/Strode.pdf, id=374, 614.295pt x 794.97pt>
+<images/Strode.pdf, id=351, 614.295pt x 794.97pt>
 File: images/Strode.pdf Graphic file (type pdf)
  <use images/Strode.pdf>
 Package pdftex.def Info: images/Strode.pdf used on input line 235.
@@ -1887,7 +1858,7 @@ LaTeX Warning: Citation `Robert2014' on page 18 undefined on input line 328.
 
 LaTeX Warning: Citation `Strode2011' on page 19 undefined on input line 346.
 
-<images/Coordination_Effectiveness.pdf, id=430, 597.23125pt x 845.1575pt>
+<images/Coordination_Effectiveness.pdf, id=407, 597.23125pt x 845.1575pt>
 File: images/Coordination_Effectiveness.pdf Graphic file (type pdf)
 
 <use images/Coordination_Effectiveness.pdf>
@@ -1913,7 +1884,7 @@ LaTeX Warning: Citation `Hyatt1997' on page 21 undefined on input line 375.
 
 LaTeX Warning: Citation `Melo2013' on page 21 undefined on input line 379.
 
-<images/IPO.png, id=582, 515.9275pt x 307.1475pt>
+<images/IPO.png, id=560, 515.9275pt x 307.1475pt>
 File: images/IPO.png Graphic file (type png)
  <use images/IPO.png>
 Package pdftex.def Info: images/IPO.png used on input line 383.
@@ -1954,7 +1925,7 @@ LaTeX Warning: Citation `TODO' on page 26 undefined on input line 506.
 LaTeX Warning: Citation `?' on page 27 undefined on input line 530.
 
 [27] [28] [29]
-<images/multiteam_system_model.pdf, id=642, 597.23125pt x 845.1575pt>
+<images/multiteam_system_model.pdf, id=619, 597.23125pt x 845.1575pt>
 File: images/multiteam_system_model.pdf Graphic file (type pdf)
 
 <use images/multiteam_system_model.pdf>
@@ -2063,7 +2034,7 @@ Chapter 4.
 \openout4 = `report.mtc'.
 
 (./report.mtc4) [41]
-<images/project_releases.png, id=825, 873.2625pt x 630.355pt>
+<images/project_releases.png, id=802, 873.2625pt x 630.355pt>
 File: images/project_releases.png Graphic file (type png)
 
 <use images/project_releases.png>
@@ -2074,7 +2045,7 @@ Overfull \hbox (2.27618pt too wide) in paragraph at lines 23--24
  [][] 
  []
 
-[42] <images/execution_model.png, id=832, 982.67125pt x 595.22375pt>
+[42] <images/execution_model.png, id=809, 982.67125pt x 595.22375pt>
 File: images/execution_model.png Graphic file (type png)
 
 <use images/execution_model.png>
@@ -2089,14 +2060,14 @@ Overfull \hbox (2.27689pt too wide) in paragraph at lines 32--33
 LaTeX Warning: Float too large for page by 8.4097pt on input line 35.
 
 [43 <./images/project_releases.png>] [44 <./images/execution_model.png>]
-<images/omega_organisation.png, id=842, 912.40875pt x 664.4825pt>
+<images/omega_organisation.png, id=820, 912.40875pt x 664.4825pt>
 File: images/omega_organisation.png Graphic file (type png)
 
 <use images/omega_organisation.png>
 Package pdftex.def Info: images/omega_organisation.png used on input line 42.
 (pdftex.def)             Requested size: 426.79134pt x 310.81635pt.
  [45 <./images/omega_organisation.png>]
-<images/initial_development_process.png, id=850, 995.72pt x 459.7175pt>
+<images/initial_development_process.png, id=828, 995.72pt x 459.7175pt>
 File: images/initial_development_process.png Graphic file (type png)
 
 <use images/initial_development_process.png>
@@ -2141,22 +2112,22 @@ Overfull \hbox (27.07251pt too wide) in paragraph at lines 92--120
 [][] 
  []
 
-[48] [49] [50] [51] [52] [53] [54]
-Underfull \hbox (badness 1642) in paragraph at lines 261--261
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60]
+Underfull \hbox (badness 1642) in paragraph at lines 371--371
 []|\T1/cmr/m/n/12 Solution de-scrip-tion / ``Mas-ter
  []
 
-[55] [56] [57] [58] [59]
-Underfull \hbox (badness 3536) in paragraph at lines 328--328
+[61] [62] [63] [64] [65]
+Underfull \hbox (badness 3536) in paragraph at lines 438--438
 []|\T1/cmr/m/n/12 An in-for-mal com-mu-ni-ca-tion arena that was
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 335--335
+Underfull \hbox (badness 1681) in paragraph at lines 445--445
 []|\T1/cmr/m/n/12 3-level hi-er-ar-chy from prod-uct
  []
 
-[60] [61] [62]) (./discussion.tex [63] [64
+[66] [67] [68]) (./discussion.tex [69] [70
 
 ]
 Chapter 5.
@@ -2164,33 +2135,33 @@ Chapter 5.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc5) [65]) (./conclusion.tex
+(./report.mtc5) [71]) (./conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--1
 
  []
 
-[66]
+[72]
 Chapter 6.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc6) [67
+(./report.mtc6) [73
 
 ]) (./future_work.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--1
 
  []
 
-[68]
+[74]
 Chapter 7.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc7) [69
+(./report.mtc7) [75
 
-] [70])
+] [76])
 No file report.bbl.
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
@@ -2240,10 +2211,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
  ) 
 Here is how much of TeX's memory you used:
- 33013 strings out of 493308
- 679889 string characters out of 6137815
+ 33009 strings out of 493308
+ 679737 string characters out of 6137815
  876609 words of memory out of 5000000
- 35396 multiletter control sequences out of 15000+600000
+ 35388 multiletter control sequences out of 15000+600000
  17335 words of font info for 41 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,12n,77p,1320b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2256,14 +2227,11 @@ ocal/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
 al/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local
 /texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb>
-Output written on report.pdf (85 pages, 1801763 bytes).
+live/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on report.pdf (89 pages, 1764475 bytes).
 PDF statistics:
- 1056 PDF objects out of 1200 (max. 8388607)
- 832 compressed objects within 9 object streams
- 188 named destinations out of 1000 (max. 500000)
- 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1050 PDF objects out of 1200 (max. 8388607)
+ 830 compressed objects within 9 object streams
+ 194 named destinations out of 1000 (max. 500000)
+ 276 words of extra memory for PDF output out of 10000 (max. 10000000)
 
