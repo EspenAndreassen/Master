@@ -61,9 +61,16 @@
 \contentsline {subsection}{\numberline {4.3.5}Mutual Trust and Shared Mental Models}{74}{subsection.4.3.5}
 \contentsline {chapter}{\numberline {5}Discussion}{79}{chapter.5}
 \contentsline {section}{\numberline {5.1}Research Question}{80}{section.5.1}
-\contentsline {section}{\numberline {5.2}Evaluation of the Study}{80}{section.5.2}
-\contentsline {chapter}{\numberline {6}Conclusion}{81}{chapter.6}
-\contentsline {section}{\numberline {6.1}Research Question}{82}{section.6.1}
-\contentsline {chapter}{\numberline {7}Future Work}{83}{chapter.7}
-\contentsline {section}{\numberline {7.1}Suggestions for Future Research Focus}{84}{section.7.1}
+\contentsline {subsection}{\numberline {5.1.1}Co-location}{80}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Informal Communication Arenas}{80}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Continuous Change and Improvement}{82}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Presence from Project Management and Owner}{82}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Mutual Trust and Shared Mental Models}{84}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}Summary}{85}{subsection.5.1.6}
+\contentsline {section}{\numberline {5.2}Evaluation of the Study}{86}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Research Process}{86}{subsection.5.2.1}
+\contentsline {chapter}{\numberline {6}Conclusion}{87}{chapter.6}
+\contentsline {section}{\numberline {6.1}Research Question}{88}{section.6.1}
+\contentsline {chapter}{\numberline {7}Future Work}{89}{chapter.7}
+\contentsline {section}{\numberline {7.1}Suggestions for Future Research Focus}{90}{section.7.1}
 \contentsline {chapter}{References}{I}{section.7.1}

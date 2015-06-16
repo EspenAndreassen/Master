@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  16 JUN 2015 02:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  17 JUN 2015 00:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1781,7 +1781,7 @@ Overfull \hbox (3.90608pt too wide) in alignment at lines 137--160
  [] [] [] [] 
  []
 
-[13] [14] [15] [16] <images/Strode.pdf, id=444, 614.295pt x 794.97pt>
+[13] [14] [15] [16] <images/Strode.pdf, id=441, 614.295pt x 794.97pt>
 File: images/Strode.pdf Graphic file (type pdf)
 
 <use images/Strode.pdf>
@@ -1794,126 +1794,126 @@ Overfull \hbox (2.27618pt too wide) in paragraph at lines 236--237
 
 [17] [18 <./images/Strode.pdf>] [19] [20] [21] [22]
 
-LaTeX Warning: Citation `TODO' on page 23 undefined on input line 342.
+LaTeX Warning: Citation `TODO' on page 23 undefined on input line 343.
 
 
-LaTeX Warning: Citation `TODO' on page 23 undefined on input line 345.
+LaTeX Warning: Citation `TODO' on page 23 undefined on input line 346.
 
 
-LaTeX Warning: Citation `TODO' on page 23 undefined on input line 348.
+LaTeX Warning: Citation `TODO' on page 23 undefined on input line 349.
 
 [23]
 
-LaTeX Warning: Citation `?' on page 24 undefined on input line 372.
+LaTeX Warning: Citation `?' on page 24 undefined on input line 373.
 
 [24] [25] [26]
-<images/multiteam_system_model.pdf, id=536, 597.23125pt x 845.1575pt>
+<images/multiteam_system_model.pdf, id=533, 597.23125pt x 845.1575pt>
 File: images/multiteam_system_model.pdf Graphic file (type pdf)
 
 <use images/multiteam_system_model.pdf>
 Package pdftex.def Info: images/multiteam_system_model.pdf used on input line 4
-02.
+03.
 (pdftex.def)             Requested size: 426.79134pt x 230.21819pt.
 
-Overfull \hbox (3.0055pt too wide) in paragraph at lines 426--426
+Overfull \hbox (3.0055pt too wide) in paragraph at lines 427--427
 []|[]| 
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 429--429
+Underfull \hbox (badness 2103) in paragraph at lines 430--430
 []|\T1/cmr/m/n/12 Organisational di-ver-
  []
 
 
-Underfull \hbox (badness 3068) in paragraph at lines 438--438
+Underfull \hbox (badness 3068) in paragraph at lines 439--439
 []|\T1/cmr/m/n/12 Hierarchical ar-range-
  []
 
 
-Overfull \hbox (4.73293pt too wide) in paragraph at lines 443--443
+Overfull \hbox (4.73293pt too wide) in paragraph at lines 444--444
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--447
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
 []|\T1/cmr/m/n/12 Transformation of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--447
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
 \T1/cmr/m/n/12 sys-tem com-po-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--447
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
 \T1/cmr/m/n/12 tion: Mem-ber-ship
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 447--447
+Underfull \hbox (badness 2635) in paragraph at lines 448--448
 []|\T1/cmr/m/n/12 Fluidity ver-sus con-stancy of com-po-nent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--448
+Underfull \hbox (badness 10000) in paragraph at lines 449--449
 []|\T1/cmr/m/n/12 Transformation of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--448
+Underfull \hbox (badness 10000) in paragraph at lines 449--449
 \T1/cmr/m/n/12 sys-tem com-po-si-tion:
  []
 
 [27 <./images/multiteam_system_model.pdf>] [28]
-<images/Coordination_Effectiveness.pdf, id=639, 597.23125pt x 845.1575pt>
+<images/Coordination_Effectiveness.pdf, id=636, 597.23125pt x 845.1575pt>
 File: images/Coordination_Effectiveness.pdf Graphic file (type pdf)
 
 <use images/Coordination_Effectiveness.pdf>
 Package pdftex.def Info: images/Coordination_Effectiveness.pdf used on input li
-ne 471.
+ne 472.
 (pdftex.def)             Requested size: 455.24408pt x 232.15211pt.
 
-Overfull \hbox (2.27618pt too wide) in paragraph at lines 471--472
+Overfull \hbox (2.27618pt too wide) in paragraph at lines 472--473
  [][] 
  []
 
 [29] [30 <./images/Coordination_Effectiveness.pdf>]
-<images/IPO.png, id=798, 515.9275pt x 307.1475pt>
+<images/IPO.png, id=795, 515.9275pt x 307.1475pt>
 File: images/IPO.png Graphic file (type png)
  <use images/IPO.png>
-Package pdftex.def Info: images/IPO.png used on input line 500.
+Package pdftex.def Info: images/IPO.png used on input line 502.
 (pdftex.def)             Requested size: 426.79134pt x 254.08875pt.
  [31 <./images/IPO.png>]
-Underfull \hbox (badness 7344) in paragraph at lines 520--520
+Underfull \hbox (badness 7344) in paragraph at lines 522--522
 []|\T1/cmr/m/n/12 Presence of ge-o-graph-i-cal
  []
 
 
-Underfull \hbox (badness 6758) in paragraph at lines 521--521
+Underfull \hbox (badness 6758) in paragraph at lines 523--523
 []|\T1/cmr/m/n/12 Negative (com-pli-cates co-or-di-na-tion and
  []
 
-[32] [33] [34] [35] <images/salas.png, id=838, 543.02875pt x 574.145pt>
+[32] [33] [34] [35] <images/salas.png, id=835, 543.02875pt x 574.145pt>
 File: images/salas.png Graphic file (type png)
 
 <use images/salas.png>
-Package pdftex.def Info: images/salas.png used on input line 635.
+Package pdftex.def Info: images/salas.png used on input line 637.
 (pdftex.def)             Requested size: 426.79134pt x 451.2655pt.
 
 
-LaTeX Warning: Citation `Bandow' on page 36 undefined on input line 640.
+LaTeX Warning: Citation `Bandow' on page 36 undefined on input line 642.
 
 
-LaTeX Warning: Citation `Cooper' on page 36 undefined on input line 640.
+LaTeX Warning: Citation `Cooper' on page 36 undefined on input line 642.
 
 
-LaTeX Warning: Citation `salas' on page 36 undefined on input line 642.
+LaTeX Warning: Citation `salas' on page 36 undefined on input line 644.
 
 
-LaTeX Warning: Citation `moe' on page 36 undefined on input line 642.
+LaTeX Warning: Citation `moe' on page 36 undefined on input line 644.
 
 
-LaTeX Warning: Citation `bandow' on page 36 undefined on input line 642.
+LaTeX Warning: Citation `bandow' on page 36 undefined on input line 644.
 
 ) (./method.tex [36] [37 <./images/salas.png>] [38]
 Chapter 3.
@@ -1957,21 +1957,21 @@ Chapter 4.
 \openout4 = `report.mtc'.
 
 (./report.mtc4) [47]
-<images/project_releases.png, id=938, 873.2625pt x 630.355pt>
+<images/project_releases.png, id=935, 873.2625pt x 630.355pt>
 File: images/project_releases.png Graphic file (type png)
 
 <use images/project_releases.png>
 Package pdftex.def Info: images/project_releases.png used on input line 23.
 (pdftex.def)             Requested size: 441.01772pt x 318.34119pt.
  [48 <./images/project_releases.png>]
-<images/execution_model.png, id=945, 982.67125pt x 595.22375pt>
+<images/execution_model.png, id=942, 982.67125pt x 595.22375pt>
 File: images/execution_model.png Graphic file (type png)
 
 <use images/execution_model.png>
 Package pdftex.def Info: images/execution_model.png used on input line 32.
 (pdftex.def)             Requested size: 441.01772pt x 267.1307pt.
 
-<images/omega_organisation.png, id=947, 912.40875pt x 664.4825pt>
+<images/omega_organisation.png, id=944, 912.40875pt x 664.4825pt>
 File: images/omega_organisation.png Graphic file (type png)
 
 <use images/omega_organisation.png>
@@ -1979,7 +1979,7 @@ Package pdftex.def Info: images/omega_organisation.png used on input line 42.
 (pdftex.def)             Requested size: 441.01772pt x 321.17859pt.
  [49 <./images/execution_model.png>]
 [50 <./images/omega_organisation.png>]
-<images/initial_development_process.png, id=960, 995.72pt x 459.7175pt>
+<images/initial_development_process.png, id=957, 995.72pt x 459.7175pt>
 File: images/initial_development_process.png Graphic file (type png)
 
 <use images/initial_development_process.png>
@@ -2063,7 +2063,7 @@ Underfull \hbox (badness 1681) in paragraph at lines 258--258
 
 [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74]
 [75] [76]) (./discussion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 494--1
+Underfull \hbox (badness 10000) in paragraph at lines 492--1
 
  []
 
@@ -2075,26 +2075,49 @@ Chapter 5.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc5) [79]) (./conclusion.tex [80]
+(./report.mtc5) [79]
+
+LaTeX Warning: Reference `Dingsoyr2013c' on page 80 undefined on input line 25.
+
+
+[80]
+
+LaTeX Warning: Reference `Dingsoyr2013c' on page 81 undefined on input line 37.
+
+
+[81] [82] [83]
+
+LaTeX Warning: Citation `bandow' on page 84 undefined on input line 90.
+
+
+LaTeX Warning: Citation `salas' on page 84 undefined on input line 90.
+
+
+LaTeX Warning: Citation `cooper' on page 84 undefined on input line 90.
+
+
+LaTeX Warning: Citation `mathieu' on page 84 undefined on input line 90.
+
+[84] [85]) (./conclusion.tex [86]
 Chapter 6.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc6) [81
+(./report.mtc6) [87
 
 ]) (./future_work.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--1
 
  []
 
-[82]
+[88]
 Chapter 7.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc7) [83
+(./report.mtc7) [89
 
 ]
 Overfull \hbox (8.89008pt too wide) in paragraph at lines 13--14
@@ -2102,7 +2125,7 @@ Overfull \hbox (8.89008pt too wide) in paragraph at lines 13--14
 ch-a-nism in large-scale projects.
  []
 
-[84]) (./report.bbl
+[90]) (./report.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 46.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -2182,32 +2205,29 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
  ) 
 Here is how much of TeX's memory you used:
- 33123 strings out of 493308
- 681591 string characters out of 6137815
- 876609 words of memory out of 5000000
- 35438 multiletter control sequences out of 15000+600000
+ 33141 strings out of 493308
+ 681806 string characters out of 6137815
+ 876608 words of memory out of 5000000
+ 35444 multiletter control sequences out of 15000+600000
  18332 words of font info for 43 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,12n,77p,1433b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.caption.42} has been referenced but does no
-t exist, replaced by a fixed one
-
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/loc
-al/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on report.pdf (99 pages, 1981409 bytes).
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr
+/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on report.pdf (105 pages, 2000329 bytes).
 PDF statistics:
- 1238 PDF objects out of 1440 (max. 8388607)
- 1003 compressed objects within 11 object streams
- 250 named destinations out of 1000 (max. 500000)
+ 1289 PDF objects out of 1440 (max. 8388607)
+ 1048 compressed objects within 11 object streams
+ 262 named destinations out of 1000 (max. 500000)
  305 words of extra memory for PDF output out of 10000 (max. 10000000)
 
