@@ -20,16 +20,16 @@ Omega is one of the largest IT development projects in Norway to date, consistin
 
 \begin{figure}[H]
 \centering
-\includegraphics[trim = 8mm 0mm 0mm 0mm,width=160mm]{images/project_releases}
+\includegraphics[trim = 0mm 0mm 0mm 0mm,width=155mm]{images/project_releases}
 \caption{Main project releases in Omega.}
 \label{releases}
 \end{figure}
 
 The initial project execution model consisted of six phases involving different personnel. The planned project execution was as follow: Starting of the project was a general requirements phase where also potential impacts were assessed, here both business resources and architectures were present. Following the general overview phase was a requirements analysis phase, again with both business and architecture resources. After these more general phases the solution description was worked on. The solution description was the main responsibility of the architecture unit, but business resources, developers, test resources and the heads of delivery were included. Going into the construction and approval phases all resources were collaborating to get continuous deliveries finished for production. In the production phase the main responsibility was put on the heads of delivery, but business and line resources were also present throughout the whole process, and architects, developers and testers were included in parts of the phase. The whole project execution model can be seen in figure \ref{project_execution}.
 
-\begin{figure}
+\begin{figure}[H]
 \centering
-\includegraphics[angle=90, trim = 0mm 0mm 20mm 0mm,width=160mm, height=230mm]{images/execution_model.png}
+\includegraphics[trim = 0mm 0mm 0mm 0mm,width=155mm]{images/execution_model.png}
 \caption{Project execution model.}
 \label{project_execution}
 \end{figure}
@@ -39,7 +39,7 @@ The project was organised with a ``project director'' at the top of the hierarch
 %TODO: Endre Alfa til Alpha
 \begin{figure}[H]
 \centering
-\includegraphics[trim = 0mm 0mm 0mm 0mm,width=150mm]{images/omega_organisation.png}
+\includegraphics[trim = 0mm 0mm 0mm 0mm,width=155mm]{images/omega_organisation.png}
 \caption{Omega-project's organisation.}
 \label{omega}
 \end{figure}
@@ -60,9 +60,9 @@ The main focus of this thesis has been on development of the system. The develop
    \item \textbf{Approval:} In the last phase of each development release the delivered functionality was tested, both formal and non-formal functional testing. This was done to assure both the internal and external interfaces were working as expected.
 \end{itemize}
 
-\begin{figure}
+\begin{figure}[H]
 \centering
-\includegraphics[angle=90, trim = 0mm 0mm 20mm 0mm,width=160mm, height=230mm]{images/initial_development_process}
+\includegraphics[trim = 0mm 0mm 0mm 0mm,width=155mm]{images/initial_development_process}
 \caption{Initial development process.}
 \label{initial_development_process}
 \end{figure}
@@ -70,58 +70,80 @@ The main focus of this thesis has been on development of the system. The develop
 The development phase consisted primarily of several Scrum teams typically involving eight to nine members each. The roles in the different Scrum teams are further outlined in table \ref{trpist}. It is however important to remember that all members were somewhat cross-functional in the project. This means that a tester could for example have been 60\% tester, 30\% developer and 10\% designer, and a Scrum master could have been 50\% leader, 30\% architect and 20\% developer. 
 
 %TODO: Ta en kikk på roller en gang til
-\begin{table}[H]
+
 \begin{center}
-    \begin{tabular}{| p{4cm} | p{8cm} |}
-    \hline
+    \begin{longtable}{| p{4cm} | p{8cm} |}
+   
+    \hline \textbf{Role} & \textbf{Description of role} \\ \hline
+    \endfirsthead
+
+    \multicolumn{2}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\ \hline
     \textbf{Role} & \textbf{Description of role} \\ \hline
+    \endhead
+
+    \multicolumn{2}{|r|}{{Continued on the next page\ldots}} \\ \hline
+    \endfoot
+
+   \endlastfoot 
+
     Scrum master & The Scrum master facilitated all meetings such as the daily stand-up, demo presentations, retrospectives and iteration planning. Some teams rotated the role, while others had a fixed Scrum master. \\ \hline
     Functional architect & The functional architect was typically working 50\% with analysis and design, and 50\% as a developer. \\ \hline
     Technical architect & About half of the time went towards technical design, while the other half usually was spent developing. \\ \hline
     Tester & The person with the title ``tester'' was not responsible for doing all the testing, but was rather responsible for the tests being conducted. He was also in charge of writing and delivering test criteria to the sub-project test. The tests at the team level was unit tests, integration tests, system tests and system integration tests. Some of the teams did not have fixed testers, but rotated the role somewhat, e.g., at Beta. \\ \hline
     Developer & Each team had a mixture of four to five junior and senior developers. \\ \hline
-    \end{tabular}
     \caption{Team roles present in Scrum teams.}
     \label{trpist}
+    \end{longtable}
 \end{center}
-\end{table}
 
-\begin{table}[H]
-\begin{adjustwidth}{-1.15cm}{}
-%\begin{center}
-\begin{tabular}{ | p{2.7cm} | p{5cm} | p{9cm} | }
-	\hline
-	\textbf{Dimension} & \textbf{Attribute} & \textbf{} \\ \hline
-	\multirow{10}{*}{Compositional} & Number & There was a maximum of 13 development teams (but also other teams involved such as project management) \\ \cline{2-3}
+
+\subsection{MTS Categorisation Overview}
+
+\begin{center}
+\begin{longtable}{ | p{2.5cm} | p{4cm} | p{8cm} | }
+
+    \hline \textbf{Dimension} & \textbf{Attribute} & \textbf{} \\ \hline
+    \endfirsthead
+
+    \multicolumn{3}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\ \hline
+   \textbf{Dimension} & \textbf{Attribute} & \textbf{} \\ \hline
+    \endhead
+
+    \multicolumn{3}{|r|}{{Continued on the next page\ldots}} \\ \hline
+    \endfoot
+
+   \endlastfoot 
+
+	\multirow{10}{*}{Compositional} & Number & There was a maximum of 13 development teams at any given time (but also other teams involved such as project management) \\ \cline{2-3}
  	& Size & Approximately 175 members involved in the MTS \\ \cline{2-3}
- 	& Boundary status & Multiple organisations (mer?) \\ \cline{2-3}
+ 	& Boundary status & Classified as an ``external MTS'' \\ \cline{2-3}
  	& Organisational diversity & There were in total five organisations taking part in the project, though three of these were the main organisations with the most members allocated to the project \\ \cline{2-3}
 	& Proportional membership & Alpha had four development teams (31\%), Beta had three teams (23\%) and Gamma had six component teams (46\%) \\ \cline{2-3}
 	& Functional diversity & Somewhat high degree of heterogeneity in core purposes and missions of teams \\ \cline{2-3}
 	& Geographic dispersion & The teams were co-located in the same open-plan office space \\ \cline{2-3}
 	& Cultural diversity & Low degree \\ \cline{2-3}
-	& Motive structure & High degree (?) \\ \cline{2-3}
-	& Temporal orientation & High? \\ \cline{2-3}
+	& Motive structure & High degree \\ \cline{2-3}
+	& Temporal orientation & High \\ \cline{2-3}
 \hline
-	\multirow{5}{*}{Linkage} & Interdependence & ? \\ \cline{2-3}
+	\multirow{5}{*}{Linkage} & Interdependence & The degree of interdependence varied throughout the course of the project. The degree was also higher between certain teams compared to others, especially teams working on similar functionality \\ \cline{2-3}
  	& Hierarchical arrangement & Development teams located at the same level in the hierarchical arrangement \\ \cline{2-3}
  	& Power distribution & The development teams had an even power distribution \\ \cline{2-3}
 	& Communication structure: Network & Both informal and formal communication patterns \\ \cline{2-3}
 	& Communication structure: Modality & Mainly face-to-face communication \\ \cline{2-3}
 \hline
 	\multirow{6}{*}{Developmental} & Genesis & Appointed \\ \cline{2-3}
- 	& Direction of development & ? \\ \cline{2-3}
+ 	& Direction of development & Became a formalised MTS, but now finished \\ \cline{2-3}
 	& Tenure & Approximately four years \\ \cline{2-3}
 	& Stage & Finished \\ \cline{2-3}
 	& Transformation of system composition: Membership constancy & Some fluidity depending on need throughout the Omega-project \\ \cline{2-3}
 	& Transformation of system composition: Linkage constancy & Some communication lines and arenas were fluid, changing base on a need basis, while others were constant through the whole project \\ \cline{2-3}
 	\hline
-\end{tabular}
 \caption{Overview of the Omega-project in a MTS fashion}
 \label{ootopiamf}
-%\end{center}
-\end{adjustwidth}
-\end{table}
+\end{longtable}
+\end{center}
 
 \section{Coordination Arenas and Important Aspects}
 
@@ -132,10 +154,113 @@ Considering the sheer amount of coordination mechanisms and other important aspe
 \begin{itemize}
    \item Co-location
    \item Informal communication arenas
-   \item Continuous changing of coordination arenas
+   \item Continuous change and improvement
    \item Presence from project management and owner
    \item Mutual trust and shared mental models
 \end{itemize}
+
+%\begin{table}[H]
+\begin{center}
+    \begin{longtable}{| p{6cm} | p{9cm} |}
+
+    \hline \textbf{Coordination mechanism} & \textbf{Description of mechanism} \\ \hline
+    \endfirsthead
+
+    \multicolumn{2}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\ \hline
+    \textbf{Coordination mechanism} & \textbf{Description of mechanism} \\ \hline
+    \endhead
+
+    \multicolumn{2}{|r|}{{Continued on the next page\ldots}} \\ \hline
+    \endfoot
+
+   \endlastfoot
+
+    Metascrum & A meeting similar to Scrum of Scrums but with less details which was held twice per week. Attending the metascrum was the project leaders and all the sub-project leaders from test, architecture, business and development. A ``technical metascrum'' was tried, but was shortly shut down after initiation. \\ \hline
+    Planning day & The planning day was a form of kick-off for each sprint iteration where the project members met up with the project owner. The planning day was performed on three levels: project, organisation (Alpha, Beta and Gamma) and team. A rough sketch of the focus areas and work to be performed in the coming sprint was presented with a distribution towards each of the three organisations by the project owner. After this the organisations distributed the work on their respective teams, and lastly the teams got together separately and worked out a contract with estimated work to be performed which was delivered to the project owner team. Before the planning day commenced the developers also had a ``developer forum'' where development-oriented information and discussion was carried out. This was however held on an organisation basis, and not across the three organisations. \\ \hline
+    Demo & Demo presentations were held by all Scrum teams at the end of each sprint iteration where everyone could attend. Each team was allocated approximately 10 minutes. There were also larger demo presentations for the project owner when a new release was finished. Some teams in addition started performing smaller demo sessions within the iterations to get rapid feedback. \\ \hline
+    Pre-planning day & Before the ``planning day'' was carried out a pre-planning day was performed. Here typically different types of architects (especially functional architects) and the project owner (as well as some other members of the project owner's team) met to create a rough classification and allocation of work to the different Scrum teams for the coming sprint iteration. The allocated work was listed in a prioritised manner. \\ \hline
+    Dependency meeting & A meeting held between all Scrum masters from the Alpha, Beta and Gamma teams. This meeting was held on the ``Planning day'' where the focus was on discovering dependencies across Scrum teams. However, these meetings faded away early on because of the dependencies being discovered and handled elsewhere. \\ \hline
+    Solution description / ``Master plan'' & At the start of the Omega-project a larger solution description phase was performed involving a lot of architects (as can be seen from figure \ref{project_execution}). This lead to a ``master plan'' for the project and was documented in an issue tracker program called Jira. The ``master plan'' was continuously altered throughout the course of the development phase as outlined in figure \ref{initial_development_process}. In the solution description meetings important aspects were discussed such as coordination across organisations and management of activities. An example of what came out of these meetings was a dependency map of the whole Omega-project, which was in constant change. Part of the solution description meetings were also negotiation and estimation meetings which were important for the contract for each release. \\ \hline
+    Jira and Wiki/Confluence & Different programs and forums were used for documentation and tracking within the project. In Jira all user stories and epics were located, and different information about the project and current sprint iteration could be seen on different levels, such as project and team level. The dependency map for the whole Omega-project was also located in Jira. Confluence was the main program used as a wiki. Here solution descriptions, team routines, routines across teams, system documentation, check lists, retrospectives, architectural guidelines, functional test etc. were all located. \\ \hline
+    Open-space & An arena held on a voluntary and need basis, which was used for exchanging experiences. Only used during a few of the releases. Participants suggested the topics beforehand, leading to agendas for open-space sessions. \\ \hline
+    Jabber & Jabber was introduced as an instant messaging service in the Omega-project after being identified as something needed in one of the Open-space sessions. Project members could ask both formal questions, e.g., technical questions, and informal questions or activities, e.g., wine lotteries. \\ \hline
+    Lunch seminars & Kind of similar to the ``open-space'' sessions. Typically two to three topics were held by project-personnel on relevant and interesting topics, often regarding themes correlated to the current situation of the project. As with the ``open-space'' session these seminars were also held on a certain period of the project before fading away. \\ \hline
+    Front-end meeting & The front-end developers worked with a complex framework called Flex. Because of this a lot of coordination had to be handled between teams working with this framework from all organisations. Therefore, front-end meetings where held were typically the most prominent Flex-developers were present. \\ \hline
+    Technical architecture forum & At the technical architecture forum all technical architects met up to discuss what was to be done in the coding base to prevent coordination issues. These meetings were slowly fading away because the need was covered in other arenas. \\ \hline
+    Architecture council & At these gatherings an architecture council listened to all team architects present their respective team's tasks for each sprint iteration. \\ \hline
+    Business meeting & The business part of the Omega-project was coordinated through meetings where the business architects from Alpha, Beta and Gamma met up with the business unit from the project owner. Here the sprint iteration queue, and the current status of the project and sprint was presented. This meeting was held around one time each week or every other week. \\ \hline
+    Bug-board discussion & The quality assurance unit with its testers had frequent meetings around bug-boards, especially after new releases and around acceptance testing. In the period after a new release these meetings were often held on a daily basis. Here all the bugs were gone through and allocated to the responsible Scrum team in either Alpha, Beta or Gamma. \\ \hline
+    
+    \caption{Coordination mechanisms used across the whole Omega-project.}
+    \label{cmuatwo} 
+    \end{longtable}
+\end{center}
+%\end{table}
+
+\begin{center}
+    \begin{longtable}{| p{6cm} | p{9cm} |}
+
+    \hline \textbf{Coordination mechanism} & \textbf{Description of mechanism} \\ \hline
+    \endfirsthead
+
+    \multicolumn{2}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\ \hline
+    \textbf{Coordination mechanism} & \textbf{Description of mechanism} \\ \hline
+    \endhead
+
+    \multicolumn{2}{|r|}{{Continued on the next page\ldots}} \\ \hline
+    \endfoot
+
+   \endlastfoot
+
+    Scrum of Scrums (SoS) & Scrum of Scrums were meetings held by all organisations (Alpha, Beta and Gamma) ranging from two to three times per week. In these meetings all Scrum masters from the corresponding organisation, as well as project management (project leader, test leader, head technical architect, head functional architect, business leader and development leader). The main goal of the SoSs was to identify and handle obstacles. There were also held a few SoS meetings across organisations to handle potential changes to the contracts. \\ \hline
+    Technical corner & The ``technical corner'' was a meeting Beta had in an early stage of the project. It was held on Fridays for about 1-1,5 hour. Here team architects presented important themes for the Beta-members. After a while it was shut down because of lack of interest and topics. \\ \hline
+    Experience forum & The experience forum was an arena established in the Alpha-organisation for exchanging experiences. Here Scrum masters and the development manager met to discuss topics such as retrospectives, the planning day, and how work was performed by the Alpha-organisation's Scrum teams. It could be seen as a coaching-session with exchange of ideas and thoughts. \\ \hline
+    Retrospective & Retrospectives were used on several levels in the project. All of the organisations used it on a pure Scrum team level, but some also used it on both the solution description personnel and in the project management team. The retrospectives for each Scrum team were held after the demo on Fridays. Here negative and positive information and aspects were brought forward and documented in Confluence. A few ``global retrospectives'' were also tested but swiftly faded away. \\ \hline
+    Technical and functional architecture meetings & Both technical and functional architects had separate meetings within the different organisations. These meetings were typically short and held on a weekly or biweekly basis. The meetings were as mentioned brief and were primarily used for status updates, and keeping the technical and functional managers up-to-date to make the cross-coordination meetings with the other organisations easier and more precise. \\ \hline
+    Supplier meeting & At Alpha a supplier meeting was held by the project leader for all Alpha-members. The project leader contributed with practical information regarding the project. In these meetings different members held presentation on different topics such as clean code, test driven development and project guidelines to keep the technical level up to scratch on the personnel. \\ \hline
+    Meeting about queue & Alpha also had a meeting regarding ``what was next in the queue?'', ``what is the next delivery?'', ``what is the status on current user stories?'' and ``what is it that we feel is needed to drive the queue forward?''. In these meetings was held with the functional architect, development manager and product owner from Gamma. \\ \hline
+
+    \caption{Coordination mechanisms used across teams within the specific organisations (Alpha, Beta and Gamma) in the Omega-project.}
+    \label{cmuasito}
+    \end{longtable}
+\end{center}
+
+\begin{center}
+    \begin{longtable}{| p{6cm} | p{9cm} |}
+   
+    \hline \textbf{Mechanism/Aspect} & \textbf{Description} \\ \hline
+    \endfirsthead
+
+    \multicolumn{2}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\ \hline
+    \textbf{Coordination mechanism} & \textbf{Description of mechanism} \\ \hline
+    \endhead
+
+    \multicolumn{2}{|r|}{{Continued on the next page\ldots}} \\ \hline
+    \endfoot
+
+   \endlastfoot 
+
+    Stand-up & Daily stand-ups were used on all Scrum teams in the project. Here obstacles, progression and possible needs were voiced around the Scrum-boards. Introduced by Gamma was also the way of organising the stand-up meeting such that they were held on different timeslots. This made it possible for members to attend several stand-ups if necessary. \\ \hline
+    Board discussion & An important aspect for coordination, discussion and status updates in the project was the frequent use of whiteboards. The stand-up meetings were for instance held around these boards, and on these boards the workload for each sprint iteration was put up and updated as the sprint moved along. The backside of the boards were left open to carry out informal discussion when needed. \\ \hline
+    Co-location & One of the biggest impacts on the project, and coordination, collaboration and communication within the project was the radical co-location. This co-location came at any early stage (with the introduction of Alpha and Beta in Omega) in the project where all teams, as well as project management, were located in an open-plan office space at the same floor. \\ \hline
+    Project management in same location & In both Alpha and Beta management by ``walking around, talking around'' was brought up. Because the project management was located in the same office space as the other project teams it was easy for them to keep track and manage by just being present. With management being close by it was, e.g., possible for development managers to have informal communication with each Scrum master every day, making sure they were up-to-date on the progress. This lead to easier decision making and problem handling for the project management team. Another important and positive factor was that decision making could be taken rapidly through more informal arenas, as teams could address project management at once without having to book formal meetings every time a decision had to be made. \\ \hline
+    Informal communication & Another important impact on the coordination and general information sharing was the extensive use of informal communication. These communication arenas seemed to be very important in the agile mindset because of the pressure on delivering within a short period of time. With the use of informal communication arenas decisions could be made faster than using formal arenas such as having to book meetings where, e.g., timeslots had to match for participants. As the project progressed the informal communication arenas were more and more present, often replacing some of the formal communication arenas. \\ \hline
+    Joint coffee break & An informal communication arena that was present throughout the Omega-project was the ongoing discussion around the coffee machine area. There were even joint coffee breaks at 2PM every day. These informal meetings saw a growth as the project moved along. \\ \hline
+    Pair-programming & Pair-programming was introduced by Beta and adopted by some of the other organisations. Often the pairs constituted of one senior and one junior developer. The main reasons for using pair-programming was to achieve a higher standard on the coding, increase knowledge (especially of junior developers) and to build better relationships and trust within teams. Pair-programming was also tested across teams, but was not deemed successful. \\ \hline
+    Trust & Another important aspect of the project was trust, both within and across organisations, but also between the organisations (Alpha, Beta and Gamma) and the product owner. Trust was increased through several ways, e.g., social gatherings, co-location and a general openness culture. With the increase in trust between the different project-members there was an increase in informal communication arenas, and a decrease in formal ones, leading to more rapid decision making, in line with the agile mindset. \\ \hline
+    Rotation of team members & At Beta some rotation of members across the Scrum teams happened. This was mainly to spread competence and knowledge across teams to make them more ``all round teams'' able to handle different types of work. There were also a few rotations because of personal chemistry. \\ \hline
+    Rotation of team placement & Another decision made by Beta and Gamma was to change location within the office space of some teams. This was a deliberate move by the project management to achieve better collaboration and communication, especially on the informal level, between teams working on similar parts of the project. \\ \hline
+    Alpha/Beta-personnel placed in Gamma teams & An aspect that might have been important both for trust and the informal communication was that both Alpha and Beta members were located in Gamma teams. This probably made it easier to get informal communication going at an early stage of the Omega-project because some members knew each other across the organisations already. \\ \hline
+    Continuous planning and change & Self-organising was present at different levels in Omega such as team, organisation and project level. At the team level the teams changed their ways as the project moved along introducing new and removing old aspects, e.g., moving from pair-programming to individual programming when knowledge increased. At both the organisational level and the project level different communication arenas were changed on a need-basis. This had mainly to do with the respective arenas being covered elsewhere, e.g., through informal communication. Another part of the project where continuous planning and change was present was within the dependency mapping and solution description. \\ \hline
+    3-level hierarchy from product owner & Mentioned by Gamma was the way the product owner was organised within the project. At the top of the food change the main product owner sat, then three representatives from the product owner were located at Alpha, Beta and Gamma, and at the bottom of the hierarchy the product owner had functional experts and architects inside or close to the teams. This led to easier decision making as the representatives further down the hierarchy could answer on the behalf of the product owner, or at least knew who to ask for the answer increasing the pace of development and problem solving. \\ \hline
+
+    \caption{Other coordination mechanisms and important aspects.}
+    \label{ocmaia}
+    \end{longtable}
+\end{center}
 
 \subsection{Co-location}
 
@@ -315,153 +440,56 @@ In regards to walking around, we kind of had a good knowledge of all the user st
 
 \subsection{Mutual Trust and Shared Mental Models}
 
-The last identified aspect that seemed to be brought up as an important factor in all three interviews was the growing trust, as well as a better shared understanding from the project members throughout the course of the development.
+The last identified aspect that seemed to be brought up as an important factor in all three interviews was the growing trust, as well as a better shared understanding from the project members throughout the course of the development. A problem faced at an earlier stage of the project, at least by some teams, was an individualistic focus by the teams. Meaning the teams were too focused on performing well as a team, and did not point their attention to the total delivery of the project. Hence, it is important to aim focus on both managing effective teams, sub-projects and the project as a whole to deliver at a fast pace. A product owner at Beta had this to say on the matter and added an example:
 
-%AP4: Sunn og litt og slenge bemerkninger til hverandre over gangen og sånne  ting, men på et sunt, hyggelig nivå. Men det var et ekstremt samhold i teamene.  De jobbet jo overordnet på en veldig lik måte gjennom erfaringsutveksling og  sånne ting. Så hvordan scrumtavlene fungerte, det ble jo normalisert til omtrent  det samme. Det var fargeforskjeller, ellers fungerte de på samme måte, for man  fant beste praksis. 
-%AP4: Ja. Og det var typisk sånne ting som kom ut av de erfaringsutvekslingene, at  man normaliserte seg inn på det samme tankesettet. 
+\begin{fancyquotes}
+After a while we were concious about the issue of an individualistic focus. We for instance removed all the burn down charts which were lined up next to each other in Jira. This came after a discussion on the matter where we agree that a too individualistic team focus was not necessarily good. We tried to turn the focus towards us as a sub-project, and that we deliver together. [...] How much team this and that delivered did mean as much, as long as we coordinated and collaborated towards the final delivery everything was good. [...] Another thing was that we for a long time had a poor access to environments in regards to integration testing, value chain testing and similar. After a while when we got everything up and running it was clear that the code we delivered and that was going to be showed in the demo, as well as being put into the production chain, it needed to work throughout. And because of this it was important that everything worked together in the demo presentations. We got a better unified focus within the sprint iterations.
+\end{fancyquotes}
 
-%AP4: Greia her var at det var på en måte tre leverandører. Generelt så det var  godt samhold på tvers av hele prosjektet. Alle jobbet jo sammen. Vi satt jo i et  lokale, veldig nært hverandre og alle hos oss @ utviklere @ når de skulle bruke noe  som noen andre hadde laget, så løp de bare bort i gangen og snakket med de og  sjekket ting. Det var en nærhet og folk kjente hverandre. 
+A project leader at Alpha had similar thoughts, and nicely summed it up:
 
-%AP4: Det er lett å gjenskape metascrum, scrum of scrum og vi har  erfaringsutvekslingen. Sånne konkrete, håndfaste ting er lette å gjenskape. Men  den teamdynamikken, å sitte på samme flate, snakke mye sammen, samholdet i  teamet og de tingene der, de litt mindre håndfaste tingene, de er ikke så lette å  gjenskape. 
+\begin{fancyquotes}
+It is all about optimising the totality. A team is better than an individual member, and a subproject is better than each of the teams on their own.
+\end{fancyquotes}
 
-%BP1: Men det vi etterhvert ble bevisste på: For det første så sluttet man å kikke B  man  tok  bort  alle  de  burndownene  som  var  stablet  opp  så  siden  av  hverandre  i  Jira  i  det  sentrale  prosjektet.  Og  vi  diskuterte  det  litt  der,  at  for  sterkt  fokus  på  hvert  enkelt  team  er  ikke  nødvendigvis  så  positivt.  Vi  prøvde  å  vri  fokus,  til  at  vi  er  en  leverandør,  og  det  vi  leverer  sammen.  Og  målestokken  for  hvor  mye  som  ble  levert  og  ikke  levert,  det  var  jo  kravpoeng.  Og  hvor  mange  kravpoeng  Beta  leverer  har  en  betydning  per  iterasjon,  og  det  har  en  betydning  ikke  minst  for  prosjektet  og  dets  suksess.  Vi  sa  jo  at  det  ikke  var  så  veldig  stor  betydning  i  forhold til å sammenligne oss B det var jo litt det og B men vi prøvde å spille på de  riktige greiene der. Hvor mye team sånn og slik leverer, spiller ingen spesielt stor  rolls  så  lenge  samarbeidet  om  den  totale  leveransen  er  bra.
+One arena that was used to gain a more unified work and structure across and within the teams was the knowledge exchanging arenas. A project leader at Alpha described how the teams through the sharing of experience gained a better shared mental model and mindset, things became normalised:
 
-%BP1:  En  annen  ting  her  er  at  vi  hadde  lenge  litt  for  dårlig  tilgang  på  miljøer  i  forhold  til  integrasjonstest  og  verdikjedetest  og  så  videre.  Etterhvert  når  vi  fikk  det  opp  så  ble  det  tydligere  at  den  koden  vi  leverer  og  som  skal  vises  fram  på  demo og etterhvert skal gjennom godkjenningsprogrammet og ut i prod. den skal  virke  hele  veien  igjennom.  Og  da  ble  det  også  på  demoene  viktig  at  det  vi  da  produksjonssetter  av  ting  virker  sammen  med  de  andre  sine  ting.  Da  fikk  vi  mer  enhetlig fokus i iterasjonene. 
+\begin{fancyquotes}
+It was an extreme togetherness within the teams. On the surface they worked on a very similar way because of knowledge and experience exchange and similar arenas. For example how the Scrum-boards worked, they were basically normalised so they had almost the same standard in every team. There were colour differences, but except for that they were practically the same. [...] And this was typically something that came through the use of knowledge and experience exchange, that we normalised to have the same shared mindset.
+\end{fancyquotes}
 
-%GA1: Ja, og hovedarkitekt og hovedfunksjonell arkitekt.  Og det jeg hørte våre si  om det var at i starten så var de mye tøffere de forhandlingene, det var litt å ta og  føle på hverandre, det var første gang man skulle prøve å treffe den målprisen.  Jeg tror de var ganske intense. Og så ble de enklere etterhvert fordi man så at det  var mer... man hadde mer tillit til hverandre. Jeg husker en gang vi hadde estimert noe ganske høyt og som vi utviklet mye kjappere og da sa vi at "her har  vi bommet", dere får igjen de timene, vi pusher ikke det i målprisen at vi likevel  skal få betalt for halvparten av overskytende. Og det at vi viste at vi var åpne om  det gjorde at senere forhandling ble mye enklere for man hadde tillit til at "har  man bommet grovt så utnytter man ikke situasjonen". Og så gikk det begge veier.  Så de forhandlingene ble mye enklere da vi hadde opparbeidet tillit opplevde vi.  
-%GA1: Og det at vi hadde "tillit" mellom leverandør og kunde, følte jeg. Det tror jeg var  en forutsetning for at man kunne gå litt ned i formalia, og da går det kjappere å  gjøre ting. Da blir ikke kontrakten så viktig at man finleser hele tiden. 
+An few interviewees from Beta especially highlighted ``pair programming'' as an important source for knowledge and experience exchanging:
 
-%AP4: For i alle fall noe jeg sitter igjen med, jeg har snakket litt med Kaja i det siste,  skal jo holde foredrag på smidig snart. Er jo, at de teamene hadde et ekstremt samhold. Det å bytte rundt på folk i team det var ikke nødvendigvis straight@ forward. De var utrolig sammensveiset. Alle teamene leverte bra, men de hadde  sin måte å gjøre det på og de hadde sin måte å være sosiale på. 
+\begin{fancyquotes}
+As for knowledge and experience exchanging we worked a lot with pair programming. Pair programming was in general the rule.
+\end{fancyquotes}
 
-%Bruke på trust? Knytter trust og co-location sammen
-%AP3: Hvis Beta hadde vært langt unna, hadde vi ikke kjent de så kunne jeg ikke  gå og snakke med han og han. Det at vi kjente hverandre, visste hvor de satt og  hva folk dreiv med gjorde at vi kunne sende folk mye rettere på rette svar. 
+There were also other aspects besides knowledge and experience exchanging arenas that seemed to have an effect on the trust and unity achieved between the teams and team members. A few interviewees from both Alpha and Beta brought up the fact that there were also more informal arenas outside of the office:
 
-%Bruke på informal eller trust?
-%AP4: Greia her var at det var på en måte tre leverandører. Generelt så det var  godt samhold på tvers av hele prosjektet. Alle jobbet jo sammen. Vi satt jo i et  lokale, veldig nært hverandre og alle hos oss @ utviklere @ når de skulle bruke noe  som noen andre hadde laget, så løp de bare bort i gangen og snakket med de og  sjekket ting. Det var en nærhet og folk kjente hverandre. 
+\begin{fancyquotes}
+And something that was good with sprints was that there was a beginning and an end. And what was good with the end of each sprint was that the teams had a shared lunch, typically after the demo at the end of a sprint iteration. [...] Sometimes we went out after work and took a beer together. The teams had different rituals, e.g., some travelled on trips. Even the project management were included. [...] We saw that quite a few of the teams went out on town after the retrospectives. [...] There were several social gatherings, e.g., trips out on town. I believe that a lot of things happened there which were not directly visible, but in turn were important for project members gaining trust and building a better unity.
+\end{fancyquotes}
 
-%BP1:  En  annen  ting  her  er  at  vi  hadde  lenge  litt  for  dårlig  tilgang  på  miljøer  i  forhold  til  integrasjonstest  og  verdikjedetest  og  så  videre.  Etterhvert  når  vi  fikk  det  opp  så  ble  det  tydligere  at  den  koden  vi  leverer  og  som  skal  vises  fram  på  demo og etterhvert skal gjennom godkjenningsprogrammet og ut i prod. den skal  virke  hele  veien  igjennom.  Og  da  ble  det  også  på  demoene  viktig  at  det  vi  da  produksjonssetter  av  ting  virker  sammen  med  de  andre  sine  ting.  Da  fikk  vi  mer  enhetlig fokus i iterasjonene. 
+It was not only the social aspects that seemed to be important for the closely linked teams. A couple of project leaders at Alpha brought up the aforementioned co-location as an aspect that was important to gain a better understanding and trust of your fellow project members:
 
-%AP3: Og det som er bra med sprinter da, kick@offs og sånne ting, at det er en  begynnelse og en slutt og det er bare tre uker. Og det som er bra med sluttene  her var jo at teamet ofte hadde en felles lunch. En gang i slutten av siste sprinten,  etter demoen. 
-%BA1:  Vi  så  at  en  del  av  teamene  gikk  ut  etter  retrspektivet  sitt  B  ut  på  byen.  Hvis  du gjorde det på en torsdag så reduserte jo det effektivitetet på fredag. (latter) 
-%BF1: Det ble jo av og til ut å ta en øl etter jobb og sånne ting. Teamene hadde sine  greier,  reiste  på  turer  men  det  var  jo  "hvem  vil  være  med".  Til  og  med  prosjektlederbordet ble tatt med. 
-%BA1:  Det  var  veldig  mye  sosialt  i  prosjektet,    turer  på  puben.  Der  skjedde  det  veldig  mye.  Det  tror  jeg  det  skjedde  mye  som  ikke  var  direkte  synlig  men  som  gjorde at folk kom veldig tett på hverandre, og at de snakket lett sammen. 
+\begin{fancyquotes}
+The thing here was that we were in a way three organisations. Generally there was a good togetherness across the whole project. Everyone worked together. We were all located in the same office space, everyone was close-by. And if, e.g., one of our developers were going to use something that someone else had developed he could just approach that person or team. We were a unity, and people knew each other. [...] I think that if Beta had been located far away, then I wouldn't have been able to talk to this and this person. The fact that we knew each other, and knew where everyone was located and what they worked on made it possible to just approach the correct person for specific questions.
+\end{fancyquotes}
 
-%\begin{table}[H]
-\begin{center}
-    \begin{longtable}{| p{6cm} | p{9cm} |}
+However, a somewhat downside with the extreme unity witnessed within the teams arose in the project. The downside was that it was a lot harder to make changes to the teams, they were so tightly connected. A project leader at Alpha noted:
 
-    \hline \textbf{Coordination mechanism} & \textbf{Description of mechanism} \\ \hline
-    \endfirsthead
+\begin{fancyquotes}
+At least something I remember was that the teams had an extreme togetherness. Because of this trying to perform any changes to the teams could became problematic. They were incredibly tight-knit.
+\end{fancyquotes}
 
-    \multicolumn{2}{c}%
-{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\ \hline
-    \textbf{Coordination mechanism} & \textbf{Description of mechanism} \\ \hline
-    \endhead
+The trust building was not only present within and across the project teams. An architect at Gamma highlighted that it was also important that the trust between the project owner and project teams was there. This was something that grew together with the progress of the project. He explained his thoughts on the matter:
 
-    \multicolumn{2}{|r|}{{Continued on the next page\ldots}} \\ \hline
-    \endfoot
+\begin{fancyquotes}
+I heard some of our architects say that there were some tough negotiations with the customer about the target price at the start. I believe they were pretty intense. However, after a while they became easier because you had more trust in each other. [...] I believe having a trust between the organisations and the customer was a precondition for being able to make negotiations more efficient and less formal.
+\end{fancyquotes}
 
-   \endlastfoot
+To end this section a quote from one of the project leaders at Alpha is included. As with both co-location and constant communication he believes it is hard to replicate such a togetherness which was witnessed within the Omega-project:
 
-    Metascrum & A meeting similar to Scrum of Scrums but with less details which was held twice per week. Attending the metascrum was the project leaders and all the sub-project leaders from test, architecture, business and development. A ``technical metascrum'' was tried, but was shortly shut down after initiation. \\ \hline
-    Planning day & The planning day was a form of kick-off for each sprint iteration where the project members met up with the project owner. The planning day was performed on three levels: project, organisation (Alpha, Beta and Gamma) and team. A rough sketch of the focus areas and work to be performed in the coming sprint was presented with a distribution towards each of the three organisations by the project owner. After this the organisations distributed the work on their respective teams, and lastly the teams got together separately and worked out a contract with estimated work to be performed which was delivered to the project owner team. Before the planning day commenced the developers also had a ``developer forum'' where development-oriented information and discussion was carried out. This was however held on an organisation basis, and not across the three organisations. \\ \hline
-    Demo & Demo presentations were held by all Scrum teams at the end of each sprint iteration where everyone could attend. Each team was allocated approximately 10 minutes. There were also larger demo presentations for the project owner when a new release was finished. Some teams in addition started performing smaller demo sessions within the iterations to get rapid feedback. \\ \hline
-    Pre-planning day & Before the ``planning day'' was carried out a pre-planning day was performed. Here typically different types of architects (especially functional architects) and the project owner (as well as some other members of the project owner's team) met to create a rough classification and allocation of work to the different Scrum teams for the coming sprint iteration. The allocated work was listed in a prioritised manner. \\ \hline
-    Dependency meeting & A meeting held between all Scrum masters from the Alpha, Beta and Gamma teams. This meeting was held on the ``Planning day'' where the focus was on discovering dependencies across Scrum teams. However, these meetings faded away early on because of the dependencies being discovered and handled elsewhere. \\ \hline
-    Solution description / ``Master plan'' & At the start of the Omega-project a larger solution description phase was performed involving a lot of architects (as can be seen from figure \ref{project_execution}). This lead to a ``master plan'' for the project and was documented in an issue tracker program called Jira. The ``master plan'' was continuously altered throughout the course of the development phase as outlined in figure \ref{initial_development_process}. In the solution description meetings important aspects were discussed such as coordination across organisations and management of activities. An example of what came out of these meetings was a dependency map of the whole Omega-project, which was in constant change. Part of the solution description meetings were also negotiation and estimation meetings which were important for the contract for each release. \\ \hline
-    Jira and Wiki/Confluence & Different programs and forums were used for documentation and tracking within the project. In Jira all user stories and epics were located, and different information about the project and current sprint iteration could be seen on different levels, such as project and team level. The dependency map for the whole Omega-project was also located in Jira. Confluence was the main program used as a wiki. Here solution descriptions, team routines, routines across teams, system documentation, check lists, retrospectives, architectural guidelines, functional test etc. were all located. \\ \hline
-    Open-space & An arena held on a voluntary and need basis, which was used for exchanging experiences. Only used during a few of the releases. Participants suggested the topics beforehand, leading to agendas for open-space sessions. \\ \hline
-    Jabber & Jabber was introduced as an instant messaging service in the Omega-project after being identified as something needed in one of the Open-space sessions. Project members could ask both formal questions, e.g., technical questions, and informal questions or activities, e.g., wine lotteries. \\ \hline
-    Lunch seminars & Kind of similar to the ``open-space'' sessions. Typically two to three topics were held by project-personnel on relevant and interesting topics, often regarding themes correlated to the current situation of the project. As with the ``open-space'' session these seminars were also held on a certain period of the project before fading away. \\ \hline
-    Front-end meeting & The front-end developers worked with a complex framework called Flex. Because of this a lot of coordination had to be handled between teams working with this framework from all organisations. Therefore, front-end meetings where held were typically the most prominent Flex-developers were present. \\ \hline
-    Technical architecture forum & At the technical architecture forum all technical architects met up to discuss what was to be done in the coding base to prevent coordination issues. These meetings were slowly fading away because the need was covered in other arenas. \\ \hline
-    Architecture council & At these gatherings an architecture council listened to all team architects present their respective team's tasks for each sprint iteration. \\ \hline
-    Business meeting & The business part of the Omega-project was coordinated through meetings where the business architects from Alpha, Beta and Gamma met up with the business unit from the project owner. Here the sprint iteration queue, and the current status of the project and sprint was presented. This meeting was held around one time each week or every other week. \\ \hline
-    Bug-board discussion & The quality assurance unit with its testers had frequent meetings around bug-boards, especially after new releases and around acceptance testing. In the period after a new release these meetings were often held on a daily basis. Here all the bugs were gone through and allocated to the responsible Scrum team in either Alpha, Beta or Gamma. \\ \hline
-    
-    \caption{Coordination mechanisms used across the whole Omega-project.}
-    \label{cmuatwo} 
-    \end{longtable}
-\end{center}
-%\end{table}
-
-\begin{center}
-    \begin{longtable}{| p{6cm} | p{9cm} |}
-
-    \hline \textbf{Coordination mechanism} & \textbf{Description of mechanism} \\ \hline
-    \endfirsthead
-
-    \multicolumn{2}{c}%
-{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\ \hline
-    \textbf{Coordination mechanism} & \textbf{Description of mechanism} \\ \hline
-    \endhead
-
-    \multicolumn{2}{|r|}{{Continued on the next page\ldots}} \\ \hline
-    \endfoot
-
-   \endlastfoot
-
-    Scrum of Scrums (SoS) & Scrum of Scrums were meetings held by all organisations (Alpha, Beta and Gamma) ranging from two to three times per week. In these meetings all Scrum masters from the corresponding organisation, as well as project management (project leader, test leader, head technical architect, head functional architect, business leader and development leader). The main goal of the SoSs was to identify and handle obstacles. There were also held a few SoS meetings across organisations to handle potential changes to the contracts. \\ \hline
-    Technical corner & The ``technical corner'' was a meeting Beta had in an early stage of the project. It was held on Fridays for about 1-1,5 hour. Here team architects presented important themes for the Beta-members. After a while it was shut down because of lack of interest and topics. \\ \hline
-    Experience forum & The experience forum was an arena established in the Alpha-organisation for exchanging experiences. Here Scrum masters and the development manager met to discuss topics such as retrospectives, the planning day, and how work was performed by the Alpha-organisation's Scrum teams. It could be seen as a coaching-session with exchange of ideas and thoughts. \\ \hline
-    Retrospective & Retrospectives were used on several levels in the project. All of the organisations used it on a pure Scrum team level, but some also used it on both the solution description personnel and in the project management team. The retrospectives for each Scrum team were held after the demo on Fridays. Here negative and positive information and aspects were brought forward and documented in Confluence. A few ``global retrospectives'' were also tested but swiftly faded away. \\ \hline
-    Technical and functional architecture meetings & Both technical and functional architects had separate meetings within the different organisations. These meetings were typically short and held on a weekly or biweekly basis. The meetings were as mentioned brief and were primarily used for status updates, and keeping the technical and functional managers up-to-date to make the cross-coordination meetings with the other organisations easier and more precise. \\ \hline
-    Supplier meeting & At Alpha a supplier meeting was held by the project leader for all Alpha-members. The project leader contributed with practical information regarding the project. In these meetings different members held presentation on different topics such as clean code, test driven development and project guidelines to keep the technical level up to scratch on the personnel. \\ \hline
-    Meeting about queue & Alpha also had a meeting regarding ``what was next in the queue?'', ``what is the next delivery?'', ``what is the status on current user stories?'' and ``what is it that we feel is needed to drive the queue forward?''. In these meetings was held with the functional architect, development manager and product owner from Gamma. \\ \hline
-
-    \caption{Coordination mechanisms used across teams within the specific organisations (Alpha, Beta and Gamma) in the Omega-project.}
-    \label{cmuasito}
-    \end{longtable}
-\end{center}
-
-\begin{center}
-    \begin{longtable}{| p{6cm} | p{9cm} |}
-   
-    \hline \textbf{Mechanism/Aspect} & \textbf{Description} \\ \hline
-    \endfirsthead
-
-    \multicolumn{2}{c}%
-{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\ \hline
-    \textbf{Coordination mechanism} & \textbf{Description of mechanism} \\ \hline
-    \endhead
-
-    \multicolumn{2}{|r|}{{Continued on the next page\ldots}} \\ \hline
-    \endfoot
-
-   \endlastfoot 
-
-    Stand-up & Daily stand-ups were used on all Scrum teams in the project. Here obstacles, progression and possible needs were voiced around the Scrum-boards. Introduced by Gamma was also the way of organising the stand-up meeting such that they were held on different timeslots. This made it possible for members to attend several stand-ups if necessary. \\ \hline
-    Board discussion & An important aspect for coordination, discussion and status updates in the project was the frequent use of whiteboards. The stand-up meetings were for instance held around these boards, and on these boards the workload for each sprint iteration was put up and updated as the sprint moved along. The backside of the boards were left open to carry out informal discussion when needed. \\ \hline
-    Co-location & One of the biggest impacts on the project, and coordination, collaboration and communication within the project was the radical co-location. This co-location came at any early stage (with the introduction of Alpha and Beta in Omega) in the project where all teams, as well as project management, were located in an open-plan office space at the same floor. \\ \hline
-    Project management in same location & In both Alpha and Beta management by ``walking around, talking around'' was brought up. Because the project management was located in the same office space as the other project teams it was easy for them to keep track and manage by just being present. With management being close by it was, e.g., possible for development managers to have informal communication with each Scrum master every day, making sure they were up-to-date on the progress. This lead to easier decision making and problem handling for the project management team. Another important and positive factor was that decision making could be taken rapidly through more informal arenas, as teams could address project management at once without having to book formal meetings every time a decision had to be made. \\ \hline
-    Informal communication & Another important impact on the coordination and general information sharing was the extensive use of informal communication. These communication arenas seemed to be very important in the agile mindset because of the pressure on delivering within a short period of time. With the use of informal communication arenas decisions could be made faster than using formal arenas such as having to book meetings where, e.g., timeslots had to match for participants. As the project progressed the informal communication arenas were more and more present, often replacing some of the formal communication arenas. \\ \hline
-    Joint coffee break & An informal communication arena that was present throughout the Omega-project was the ongoing discussion around the coffee machine area. There were even joint coffee breaks at 2PM every day. These informal meetings saw a growth as the project moved along. \\ \hline
-    Pair-programming & Pair-programming was introduced by Beta and adopted by some of the other organisations. Often the pairs constituted of one senior and one junior developer. The main reasons for using pair-programming was to achieve a higher standard on the coding, increase knowledge (especially of junior developers) and to build better relationships and trust within teams. Pair-programming was also tested across teams, but was not deemed successful. \\ \hline
-    Trust & Another important aspect of the project was trust, both within and across organisations, but also between the organisations (Alpha, Beta and Gamma) and the product owner. Trust was increased through several ways, e.g., social gatherings, co-location and a general openness culture. With the increase in trust between the different project-members there was an increase in informal communication arenas, and a decrease in formal ones, leading to more rapid decision making, in line with the agile mindset. \\ \hline
-    Rotation of team members & At Beta some rotation of members across the Scrum teams happened. This was mainly to spread competence and knowledge across teams to make them more ``all round teams'' able to handle different types of work. There were also a few rotations because of personal chemistry. \\ \hline
-    Rotation of team placement & Another decision made by Beta and Gamma was to change location within the office space of some teams. This was a deliberate move by the project management to achieve better collaboration and communication, especially on the informal level, between teams working on similar parts of the project. \\ \hline
-    Alpha/Beta-personnel placed in Gamma teams & An aspect that might have been important both for trust and the informal communication was that both Alpha and Beta members were located in Gamma teams. This probably made it easier to get informal communication going at an early stage of the Omega-project because some members knew each other across the organisations already. \\ \hline
-    Continuous planning and change & Self-organising was present at different levels in Omega such as team, organisation and project level. At the team level the teams changed their ways as the project moved along introducing new and removing old aspects, e.g., moving from pair-programming to individual programming when knowledge increased. At both the organisational level and the project level different communication arenas were changed on a need-basis. This had mainly to do with the respective arenas being covered elsewhere, e.g., through informal communication. Another part of the project where continuous planning and change was present was within the dependency mapping and solution description. \\ \hline
-    3-level hierarchy from product owner & Mentioned by Gamma was the way the product owner was organised within the project. At the top of the food change the main product owner sat, then three representatives from the product owner were located at Alpha, Beta and Gamma, and at the bottom of the hierarchy the product owner had functional experts and architects inside or close to the teams. This led to easier decision making as the representatives further down the hierarchy could answer on the behalf of the product owner, or at least knew who to ask for the answer increasing the pace of development and problem solving. \\ \hline
-
-    \caption{Other coordination mechanisms and important aspects.}
-    \label{ocmaia}
-    \end{longtable}
-\end{center}
-
-%Trust
-%A teamwork model for understanding an agile team: A case study of a Scrum project
-%http://www.uio.no/studier/emner/matnat/ifi/INF5181/h14/artikler-teamarbeid/salas_etal_2005_is_there_a_big_five_in_teamwork---copy.pdf
-
-% http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5287007 Har definisjon av trust og andre aspekter
-% http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=926814&contentType=Conference+Publications
-% S. P. Shapiro, "The Social Control of Impersonal Trust", American J. Sociology, vol. 93, no. 3, pp. 623-658, 1987
-% J. M. Wilson , S. G. Straus and W. J. McEvily, "All In Due Time: The Development of Trust in Computer-Mediated and Face-to-Face Groups", Organizational Behavior and Human Decision Processes, vol. 99, pp. 16-33, 2006
-
-% http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8608.2008.00517.x/full
-% Kassicieh, S.K., Walsh, S.T., Cummings, J.C., McWhorter, P.J., Romig, A.D. and Williams, W.D. 2002. ‘Factors differentiating the commercialization of disruptive and sustaining technologies. IEEE Transactions on Engineering Management, 49:4, 375–387. 
-% Stuart, T.E. 1998. ‘Network positions and propensities to collaborate: an investigation of strategic alliance formation in a high-technology industry. Administrative Science Quarterly, 43:3, 668–698. 
-% Gulati, R. 1999. ‘Network location and learning: the influence of network resources and firm capabilities on alliance formation. Strategic Management Journal, 20:5, 397–420. 
-% Ahuja, G. 2000. ‘Collaboration networks, structural holes and innovation: a longitudinal study. Administrative Science Quarterly, 45:3, 425–455. 
-% McEvily, B. and Marcus, A. 2005. ‘Embedded ties and the acquisition of competitive capabilities. Strategic Management Journal, 26:11, 1033–1055. 
-
+\begin{fancyquotes}
+It is easy to recreate Metascrums, Scrum of Scrums and the experience and knowledge sharing. The concrete, specific aspects are easy to replicate, but the team dynamics, having everyone located at the same floor, constant communication, \textbf{the togetherness witnessed}, and similar things, the less concrete aspects, they are harder to reproduce.
+\end{fancyquotes}
