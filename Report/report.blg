@@ -3,9 +3,14 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report.aux
 The style file: ieeetr.bst
 Case mismatch error between cite keys bandow and Bandow
----line 176 of file report.aux
+---line 183 of file report.aux
  : \citation{bandow
  :                 }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys bandow and Bandow
+---line 289 of file report.aux
+ : \citation{bandow
+ :                 ,salas,cooper,mathieu}
 I'm skipping whatever remains of this command
 Database file #1: references.bib
 Repeated entry---line 622 of file references.bib
@@ -69,4 +74,4 @@ warning$ -- 6
 while$ -- 109
 width$ -- 41
 write$ -- 378
-(There were 3 error messages)
+(There were 4 error messages)

@@ -50,6 +50,14 @@
 
 \usepackage{pdflscape}
 
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
 \tikzset{%
   fancy quotes/.style={
     text width=\fq@width pt,
@@ -185,18 +193,31 @@
 
 % CHAPTERS
 
+\part{Introduction and Theory}
 \input{introduction}
 \input{theory}
+\part{Research Methodology}
 \input{method}
+\part{Results and Evaluation}
 \input{result}
 \input{discussion}
+\part{Conclusion and the Road Forward}
 \input{conclusion}
 \input{future_work}
 
-
-
-\pagenumbering{Roman}
+\pagenumbering{roman}
 \addcontentsline{toc}{chapter}{References}
 \bibliography{references}
+
+\cleardoublepage
+\pagenumbering{gobble}
+
+\part{Appendices}
+
+\appendix
+\pagenumbering{Roman}
+
+\input{appendix_guide_engelsk}
+\input{appendix_nda}
 
 \end{document}

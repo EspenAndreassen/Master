@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  17 JUN 2015 00:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  17 JUN 2015 18:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1116,7 +1116,13 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 (/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 102.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
+\AP@output=\toks46
+\AP@partial=\box59
+\AP@footins=\box60
+)
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 110.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1158,7 +1164,7 @@ Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
 Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
+Package atveryend Info: \AP@enddocument detected (standard20110627).
 Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package hobsub Info: Skipping package `refcount' (already loaded).
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
@@ -1223,19 +1229,19 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 122.
+(hyperref)                setting the option has no effect on input line 130.
 
-Package hyperref Info: Option `unicode' set `true' on input line 122.
+Package hyperref Info: Option `unicode' set `true' on input line 130.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 122.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 122.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 122.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 122.
-Package hyperref Info: Option `colorlinks' set `false' on input line 122.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 130.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 130.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 130.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 130.
+Package hyperref Info: Option `colorlinks' set `false' on input line 130.
  (./report.aux
 
 LaTeX Warning: Label `scrum' multiply defined.
@@ -1243,35 +1249,35 @@ LaTeX Warning: Label `scrum' multiply defined.
 )
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
  (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count183
 \scratchdimen=\dimen212
-\scratchbox=\box59
+\scratchbox=\box61
 \nofMPsegments=\count184
 \nofMParguments=\count185
-\everyMPshowfont=\toks46
+\everyMPshowfont=\toks47
 \MPscratchCnt=\count186
 \MPscratchDim=\dimen213
 \MPnumerator=\count187
 \makeMPintoPDFobject=\count188
-\everyMPtoPDFconversion=\toks47
+\everyMPtoPDFconversion=\toks48
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1292,9 +1298,9 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.9} into y
 our preamble.
- on input line 127.
+ on input line 135.
 
-\AtBeginShipoutBox=\box60
+\AtBeginShipoutBox=\box62
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -1323,10 +1329,10 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count189
-Package hyperref Info: Link coloring OFF on input line 127.
-LaTeX Info: Redefining \ref on input line 127.
-LaTeX Info: Redefining \pageref on input line 127.
-LaTeX Info: Redefining \nameref on input line 127.
+Package hyperref Info: Link coloring OFF on input line 135.
+LaTeX Info: Redefining \ref on input line 135.
+LaTeX Info: Redefining \pageref on input line 135.
+LaTeX Info: Redefining \nameref on input line 135.
 (./report.out) (./report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
@@ -1345,7 +1351,7 @@ l.13 \end{abstract}
 fier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.173 \cleardoublepage
+l.181 \cleardoublepage
                        [2
 
 ] (./preface.tex
@@ -1357,7 +1363,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 32.
 )
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM report.toc on input line 179.
+(minitoc)             PREPARING MINITOCS FROM report.toc on input line 187.
 Package minitoc Info: I0033
 (minitoc)             Writing report.mtc1.
 \openout4 = `report.mtc1'.
@@ -1390,8 +1396,16 @@ Package minitoc Info: I0033
 (minitoc)             Writing report.mtc8.
 \openout4 = `report.mtc8'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing report.mtc9.
+\openout4 = `report.mtc9'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing report.mtc10.
+\openout4 = `report.mtc10'.
+
 Package minitoc Info: I0034
-(minitoc)             PREPARING MINILOFS FROM report.lof on input line 180.
+(minitoc)             PREPARING MINILOFS FROM report.lof on input line 188.
 Package minitoc Info: I0033
 (minitoc)             Writing report.mlf1.
 \openout4 = `report.mlf1'.
@@ -1420,8 +1434,16 @@ Package minitoc Info: I0033
 (minitoc)             Writing report.mlf7.
 \openout4 = `report.mlf7'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing report.mlf8.
+\openout4 = `report.mlf8'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing report.mlf9.
+\openout4 = `report.mlf9'.
+
 Package minitoc Info: I0037
-(minitoc)             PREPARING MINILOTS FROM report.lot on input line 181.
+(minitoc)             PREPARING MINILOTS FROM report.lot on input line 189.
 Package minitoc Info: I0033
 (minitoc)             Writing report.mlt1.
 \openout4 = `report.mlt1'.
@@ -1450,20 +1472,28 @@ Package minitoc Info: I0033
 (minitoc)             Writing report.mlt7.
 \openout4 = `report.mlt7'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing report.mlt8.
+\openout4 = `report.mlt8'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing report.mlt9.
+\openout4 = `report.mlt9'.
+
  [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.181 \tableofcontents
+l.189 \tableofcontents
                        [2
 
 ] (./report.tocpdfTeX warning (ext4): destination with the same identifier (nam
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 ...{\numberline {5}Discussion}{79}{chapter.5}
+l.58 ...er}{\numberline {4}Results}{51}{chapter.4}
                                                    [3])
 \tf@toc=\write6
 \openout6 = `report.toc'.
@@ -1472,7 +1502,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.182 \clearpage
+l.190 \clearpage
                  [4] (./report.lof)
 \tf@lof=\write7
 \openout7 = `report.lof'.
@@ -1481,7 +1511,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.184 \listoftables
+l.192 \listoftables
                     [5
 
 
@@ -1489,26 +1519,36 @@ l.184 \listoftables
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.184 \listoftables
+l.192 \listoftables
                     [6
 
 ] (./report.lot)
 \tf@lot=\write8
 \openout8 = `report.lot'.
 
- (./introduction.texpdfTeX warning (ext4): destination with the same identifier
- (name{page.}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {Introduction} [7]pdfTeX warning (ext4): destination with the same 
-identifier (name{page.}) has been already used, duplicate ignored
+l.196 \part
+           {Introduction and Theory} [7]pdfTeX warning (ext4): destination with
+ the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {Introduction} [8
+l.196 \part
+           {Introduction and Theory} [8
 
-]
+]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.196 \part{Introduction and Theory}
+                                     [9]pdfTeX warning (ext4): destination with
+ the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.196 \part{Introduction and Theory}
+                                     [10] (./introduction.tex
 Chapter 1.
 \openout4 = `report.mtc'.
 
@@ -1521,8 +1561,10 @@ e{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.9 \newpage
-             [1]pdfTeX warning (ext4): destination with the same identifier (na
-me{page.2}) has been already used, duplicate ignored
+             [1
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.28 T
@@ -1544,7 +1586,7 @@ Chapter 2.
 \openout4 = `report.mtc'.
 
 (./report.mtc2) [7] [8]
-<images/chapters/development_models/waterfall.pdf, id=370, 476.78125pt x 265.99
+<images/chapters/development_models/waterfall.pdf, id=413, 476.78125pt x 265.99
 374pt>
 File: images/chapters/development_models/waterfall.pdf Graphic file (type pdf)
  <use images/chapters/development_models/waterfall.pdf>
@@ -1552,7 +1594,7 @@ Package pdftex.def Info: images/chapters/development_models/waterfall.pdf used
 on input line 34.
 (pdftex.def)             Requested size: 426.79134pt x 238.1177pt.
  [9 <./images/chapters/development_models/waterfall.pdf>] [10]
-<images/chapters/development_models/Scrum.png, id=392, 970.62625pt x 466.74374p
+<images/chapters/development_models/Scrum.png, id=435, 970.62625pt x 466.74374p
 t>
 File: images/chapters/development_models/Scrum.png Graphic file (type png)
  <use images/chapters/development_models/Scrum.png>
@@ -1560,7 +1602,7 @@ Package pdftex.def Info: images/chapters/development_models/Scrum.png used on i
 nput line 81.
 (pdftex.def)             Requested size: 426.79134pt x 205.23256pt.
  [11 <./images/chapters/development_models/Scrum.png>]
-<images/distributed_scrum.png, id=405, 371.3875pt x 217.81375pt>
+<images/distributed_scrum.png, id=449, 371.3875pt x 217.81375pt>
 File: images/distributed_scrum.png Graphic file (type png)
 
 <use images/distributed_scrum.png>
@@ -1781,7 +1823,7 @@ Overfull \hbox (3.90608pt too wide) in alignment at lines 137--160
  [] [] [] [] 
  []
 
-[13] [14] [15] [16] <images/Strode.pdf, id=441, 614.295pt x 794.97pt>
+[13] [14] [15] [16] <images/Strode.pdf, id=485, 614.295pt x 794.97pt>
 File: images/Strode.pdf Graphic file (type pdf)
 
 <use images/Strode.pdf>
@@ -1807,7 +1849,7 @@ LaTeX Warning: Citation `TODO' on page 23 undefined on input line 349.
 LaTeX Warning: Citation `?' on page 24 undefined on input line 373.
 
 [24] [25] [26]
-<images/multiteam_system_model.pdf, id=533, 597.23125pt x 845.1575pt>
+<images/multiteam_system_model.pdf, id=576, 597.23125pt x 845.1575pt>
 File: images/multiteam_system_model.pdf Graphic file (type pdf)
 
 <use images/multiteam_system_model.pdf>
@@ -1865,7 +1907,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 449--449
  []
 
 [27 <./images/multiteam_system_model.pdf>] [28]
-<images/Coordination_Effectiveness.pdf, id=636, 597.23125pt x 845.1575pt>
+<images/Coordination_Effectiveness.pdf, id=679, 597.23125pt x 845.1575pt>
 File: images/Coordination_Effectiveness.pdf Graphic file (type pdf)
 
 <use images/Coordination_Effectiveness.pdf>
@@ -1878,7 +1920,7 @@ Overfull \hbox (2.27618pt too wide) in paragraph at lines 472--473
  []
 
 [29] [30 <./images/Coordination_Effectiveness.pdf>]
-<images/IPO.png, id=795, 515.9275pt x 307.1475pt>
+<images/IPO.png, id=839, 515.9275pt x 307.1475pt>
 File: images/IPO.png Graphic file (type png)
  <use images/IPO.png>
 Package pdftex.def Info: images/IPO.png used on input line 502.
@@ -1893,7 +1935,7 @@ Underfull \hbox (badness 6758) in paragraph at lines 523--523
 []|\T1/cmr/m/n/12 Negative (com-pli-cates co-or-di-na-tion and
  []
 
-[32] [33] [34] [35] <images/salas.png, id=835, 543.02875pt x 574.145pt>
+[32] [33] [34] [35] <images/salas.png, id=879, 543.02875pt x 574.145pt>
 File: images/salas.png Graphic file (type png)
 
 <use images/salas.png>
@@ -1915,13 +1957,15 @@ LaTeX Warning: Citation `moe' on page 36 undefined on input line 644.
 
 LaTeX Warning: Citation `bandow' on page 36 undefined on input line 644.
 
-) (./method.tex [36] [37 <./images/salas.png>] [38]
+) [36] [37 <./images/salas.png>] [38] [39
+
+] [40] (./method.tex
 Chapter 3.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc3) [39
+(./report.mtc3) [41
 
 ]
 Overfull \hbox (2.0pt too wide) in paragraph at lines 30--31
@@ -1933,141 +1977,143 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 50--51
 [][] 
  []
 
-[40]
+[42]
 Underfull \hbox (badness 4403) in paragraph at lines 80--80
 []|\T1/cmr/m/n/12 Global, multiteam/multi-team (sys-tems),
  []
 
-[41] [42]
+[43] [44]
 Overfull \hbox (2.0pt too wide) in paragraph at lines 148--149
 [][] 
  []
 
-[43] [44]
+[45] [46]
 Underfull \hbox (badness 2393) in paragraph at lines 162--162
 []|\T1/cmr/m/n/12 Inter-team co-or-di-na-tion and
  []
 
-) (./result.tex [45] [46
+) [47] [48
 
-]
+] [49] [50] (./result.tex
 Chapter 4.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc4) [47]
-<images/project_releases.png, id=935, 873.2625pt x 630.355pt>
+(./report.mtc4) [51
+
+]
+<images/project_releases.png, id=995, 873.2625pt x 630.355pt>
 File: images/project_releases.png Graphic file (type png)
 
 <use images/project_releases.png>
 Package pdftex.def Info: images/project_releases.png used on input line 23.
 (pdftex.def)             Requested size: 441.01772pt x 318.34119pt.
- [48 <./images/project_releases.png>]
-<images/execution_model.png, id=942, 982.67125pt x 595.22375pt>
+ [52 <./images/project_releases.png>]
+<images/execution_model.png, id=1002, 982.67125pt x 595.22375pt>
 File: images/execution_model.png Graphic file (type png)
 
 <use images/execution_model.png>
 Package pdftex.def Info: images/execution_model.png used on input line 32.
 (pdftex.def)             Requested size: 441.01772pt x 267.1307pt.
 
-<images/omega_organisation.png, id=944, 912.40875pt x 664.4825pt>
+<images/omega_organisation.png, id=1004, 912.40875pt x 664.4825pt>
 File: images/omega_organisation.png Graphic file (type png)
 
 <use images/omega_organisation.png>
 Package pdftex.def Info: images/omega_organisation.png used on input line 42.
 (pdftex.def)             Requested size: 441.01772pt x 321.17859pt.
- [49 <./images/execution_model.png>]
-[50 <./images/omega_organisation.png>]
-<images/initial_development_process.png, id=957, 995.72pt x 459.7175pt>
+ [53 <./images/execution_model.png>]
+[54 <./images/omega_organisation.png>]
+<images/initial_development_process.png, id=1018, 995.72pt x 459.7175pt>
 File: images/initial_development_process.png Graphic file (type png)
 
 <use images/initial_development_process.png>
 Package pdftex.def Info: images/initial_development_process.png used on input l
 ine 65.
 (pdftex.def)             Requested size: 441.01772pt x 203.61613pt.
- [51] [52 <./images/initial_development_process.png>]
-Overfull \hbox (3.0055pt too wide) in paragraph at lines 119--119
+ [55] [56 <./images/initial_development_process.png>]
+Overfull \hbox (3.0055pt too wide) in paragraph at lines 122--122
 []|[]| 
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 122--122
+Underfull \hbox (badness 2103) in paragraph at lines 125--125
 []|\T1/cmr/m/n/12 Organisational di-ver-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 []|\T1/cmr/m/n/12 The de-gree of in-ter-de-pen-dence var-ied
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 130--130
+Underfull \hbox (badness 2443) in paragraph at lines 133--133
 \T1/cmr/m/n/12 de-gree was also higher be-tween cer-tain
  []
 
 
-Underfull \hbox (badness 3068) in paragraph at lines 131--131
+Underfull \hbox (badness 3068) in paragraph at lines 134--134
 []|\T1/cmr/m/n/12 Hierarchical ar-range-
  []
 
 
-Overfull \hbox (4.73293pt too wide) in paragraph at lines 136--136
+Overfull \hbox (4.73293pt too wide) in paragraph at lines 139--139
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []|\T1/cmr/m/n/12 Transformation of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 \T1/cmr/m/n/12 sys-tem com-po-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 \T1/cmr/m/n/12 tion: Mem-ber-ship
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []|\T1/cmr/m/n/12 Transformation of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 \T1/cmr/m/n/12 sys-tem com-po-si-tion:
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 141--141
+Underfull \hbox (badness 1448) in paragraph at lines 144--144
 \T1/cmr/m/n/12 oth-ers were con-stant through the whole
  []
 
-[53] [54]
-Underfull \hbox (badness 1642) in paragraph at lines 184--184
+[57] [58]
+Underfull \hbox (badness 1642) in paragraph at lines 187--187
 []|\T1/cmr/m/n/12 Solution de-scrip-tion / ``Mas-ter
  []
 
-[55] [56] [57] [58] [59]
-Underfull \hbox (badness 3536) in paragraph at lines 251--251
+[59] [60] [61] [62] [63]
+Underfull \hbox (badness 3536) in paragraph at lines 254--254
 []|\T1/cmr/m/n/12 An in-for-mal com-mu-ni-ca-tion arena that was
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 258--258
+Underfull \hbox (badness 1681) in paragraph at lines 261--261
 []|\T1/cmr/m/n/12 3-level hi-er-ar-chy from prod-uct
  []
 
-[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74]
-[75] [76]) (./discussion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 492--1
+[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78]
+[79] [80]) (./discussion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 495--1
 
  []
 
-[77] [78
+[81] [82
 
 ]
 Chapter 5.
@@ -2075,57 +2121,48 @@ Chapter 5.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc5) [79]
+(./report.mtc5) [83] [84] [85] [86] [87]
 
-LaTeX Warning: Reference `Dingsoyr2013c' on page 80 undefined on input line 25.
-
-
-[80]
-
-LaTeX Warning: Reference `Dingsoyr2013c' on page 81 undefined on input line 37.
+LaTeX Warning: Citation `bandow' on page 88 undefined on input line 90.
 
 
-[81] [82] [83]
-
-LaTeX Warning: Citation `bandow' on page 84 undefined on input line 90.
+LaTeX Warning: Citation `salas' on page 88 undefined on input line 90.
 
 
-LaTeX Warning: Citation `salas' on page 84 undefined on input line 90.
+LaTeX Warning: Citation `cooper' on page 88 undefined on input line 90.
 
 
-LaTeX Warning: Citation `cooper' on page 84 undefined on input line 90.
+LaTeX Warning: Citation `mathieu' on page 88 undefined on input line 90.
 
+[88] [89]) [90] [91
 
-LaTeX Warning: Citation `mathieu' on page 84 undefined on input line 90.
-
-[84] [85]) (./conclusion.tex [86]
+] [92] (./conclusion.tex
 Chapter 6.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc6) [87
+(./report.mtc6) [93
 
-]) (./future_work.tex
-Underfull \hbox (badness 10000) in paragraph at lines 12--1
-
+]
+Underfull \hbox (badness 1210) in paragraph at lines 38--38
+[]|\T1/cmr/m/n/12 Informal com-mu-ni-ca-
  []
 
-[88]
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\T1/cmr/m/n/12 Continuous change
+ []
+
+[94] [95]) (./future_work.tex [96]
 Chapter 7.
 \openout4 = `report.mtc'.
 
 \openout4 = `report.mtc'.
 
-(./report.mtc7) [89
+(./report.mtc7) [97
 
-]
-Overfull \hbox (8.89008pt too wide) in paragraph at lines 13--14
-\T1/cmr/m/n/12 called Scrum-of-Scrums are sug-gested as the co-or-di-na-tion me
-ch-a-nism in large-scale projects.
- []
-
-[90]) (./report.bbl
+] [98]) (./report.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 46.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -2155,7 +2192,33 @@ Underfull \hbox (badness 1997) in paragraph at lines 112--116
 []\T1/cmr/m/n/12 , 2007.  [On-line; ac-
  []
 
-[2])
+[2]) [3] [4
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.215 \part{Appendices}
+                        [1
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.215 \part{Appendices}
+                        [2] (./appendix_guide_engelsk.tex
+Appendix A.
+[1
+
+]) (./appendix_nda.tex [2]
+Appendix B.
+<images/taushetsplikt.png, id=1305, 629.35126pt x 888.31876pt>
+File: images/taushetsplikt.png Graphic file (type png)
+
+<use images/taushetsplikt.png>
+Package pdftex.def Info: images/taushetsplikt.png used on input line 6.
+(pdftex.def)             Requested size: 452.9679pt x 557.44424pt.
+)
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the report.maf file.
@@ -2187,14 +2250,16 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the report.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
-[3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
+[3
+
+] [4 <./images/taushetsplikt.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 202.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 202.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 15A798786D81BC5E4168E46F1AA956DC;4553.
+(rerunfilecheck)             Checksum: F5F8C73162FB16FB3DDF581BC22DFB44;5798.
 
 
 LaTeX Warning: There were undefined references.
@@ -2202,16 +2267,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 33141 strings out of 493308
- 681806 string characters out of 6137815
- 876608 words of memory out of 5000000
- 35444 multiletter control sequences out of 15000+600000
+ 33228 strings out of 493308
+ 682775 string characters out of 6137815
+ 877110 words of memory out of 5000000
+ 35472 multiletter control sequences out of 15000+600000
  18332 words of font info for 43 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,12n,77p,1433b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,12n,77p,1476b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
@@ -2224,10 +2289,10 @@ exlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texli
 ve/2013/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive
 /2013/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on report.pdf (105 pages, 2000329 bytes).
+Output written on report.pdf (122 pages, 2109246 bytes).
 PDF statistics:
- 1289 PDF objects out of 1440 (max. 8388607)
- 1048 compressed objects within 11 object streams
- 262 named destinations out of 1000 (max. 500000)
- 305 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1424 PDF objects out of 1440 (max. 8388607)
+ 1163 compressed objects within 12 object streams
+ 290 named destinations out of 1000 (max. 500000)
+ 372 words of extra memory for PDF output out of 10000 (max. 10000000)
 
