@@ -5,8 +5,6 @@
 
 In this chapter theory and literature relevant to the study is presented. It starts of with an introduction of both traditional and agile software development methodologies, with the main focus on Scrum. Afterwards a shift towards coordination is taken. Some well-known literature is looked at, for example Malone and Crowston's coordination theory and Mintzberg's coordination mechanisms. Further, to put the study into context, a definition of large-scale is given and the reader is introduced to a general overview of multi-team systems. Moving on a look at different aspects of effectiveness in team coordination are introduced. To end the chapter two important coordination mechanisms and aspects are highlighted, namely mutual trust and shared mental models.
 
-\newpage
-
 \section{Software Development Methodologies}
 
 The term software development methodologies has been around for quite some time now. These methodologies are frameworks for accomplishing a well-structured development process. In this section a brief introduction to the most prominent methodologies will be carried out. It will start with a quick look at the traditional software development, before ending with a presentation of the new and agile way of thinking. The main focus (on agile software development) will be on Scrum as this is the methodology found in most of the literature gathered from the literature review, but also some other methodologies and mechanisms are described, e.g., Kanban, Scrumban and pair programming.
@@ -31,7 +29,7 @@ For larger projects, the following steps are suggested:
 
 \begin{figure}
 \centering
-\includegraphics[width=150mm]{images/chapters/development_models/waterfall.pdf}
+\includegraphics[width=\textwidth]{images/chapters/development_models/waterfall.pdf}
 \caption{The Waterfall model.}
 \label{waterfall}
 \end{figure}
@@ -78,7 +76,7 @@ The Scrum team usually consists of five to nine members. It is important to note
 
 \begin{figure}
 \centering
-\includegraphics[width=150mm]{images/chapters/development_models/Scrum.png}
+\includegraphics[width=\textwidth]{images/chapters/development_models/Scrum.png}
 \caption{The Scrum cycle.}
 \label{scrum}
 \end{figure}
@@ -96,7 +94,7 @@ Takeuchi et al. identified three strategies for distributed Scrum teams. The fir
 
 \begin{figure}
 \centering
-\includegraphics[width=110mm]{images/distributed_scrum.png}
+\includegraphics[width=100mm]{images/distributed_scrum.png}
 \caption{Different strategies for distributed Scrum teams.}
 \label{distributedscrum}
 \end{figure}
@@ -112,7 +110,7 @@ To get a more simplistic explanation of how the Kanban methodology works a stand
 In later years a new approach has slowly surfaced which combines the Scrum and Kanban practices. This new methodology has been coined ``Scrumban'' (also referred to as ``Scrum-ban'' and ``Scrum ban'') \cite{Scrumban2008}. The reasoning behind the evolution of this new methodology was that some practitioners felt that Scrum and Kanban did not fit all aspects of their work on their own with Scrum being too strict for constant change and releases (fast paced environments), and Kanban not being structured enough. The combination of the two methodologies is supposed to create a practice that fits a fast paced development environment \cite{Scrumban2015}. To get a better overview of the differences between Scrum, Kanban and Scrumban table \ref{coskas} is included.
 
 \begin{center}
-    \begin{longtable}{| p{2.6cm} | p{3.9cm} | p{3.9cm} | p{3.9cm} |}
+    \begin{longtable}{| p{2.25cm} | p{2.8cm} | p{2.8cm} | p{2.8cm} |}
    
     \hline & \textbf{Scrum} & \textbf{Kanban} & \textbf{Scrumban} \\ \hline
     \endfirsthead
@@ -211,7 +209,7 @@ From these case studies three main components for the theoretical model were ext
 
 \begin{figure}
 \centering
-\includegraphics[width=160mm]{images/Strode.pdf}
+\includegraphics[width=\textwidth]{images/Strode.pdf}
 \caption{A theory of coordination in agile software development projects.}
 \label{strode}
 \end{figure}
@@ -290,7 +288,7 @@ Having looked at coordination in large-scale in section \ref{largescalecor}, wha
 
 \begin{table}
 \begin{center}
-    \begin{tabular}{| l | l | p{7cm} |}
+    \begin{tabular}{| p{2cm} | p{2cm} | p{7cm} |}
     \hline
     \textbf{Level} & \textbf{Number of teams} & \textbf{Coordination approaches} \\ \hline
     Small-scale & 1 & Coordinating the team can be done using agile practices such as daily meetings, common planning, review and retrospective meetings. \\ \hline
@@ -316,6 +314,7 @@ An agile project must consist of a minimum amount of two teams coordinating acro
 \textbf{ }
 
 \section{Multiteam Systems}
+\label{MTS}
 
 As mentioned earlier the work environments have become more challenging and complex in line with the growth of communication and information technology. This growth has led to the globalisation of organisational work. With the globalisation an increase in interconnectivity across organisational boundaries has become apparent. Because of this trend new questions and problems have surfaced. Unfortunately, these questions and problems have not been possible to adapt to traditional organisational forms. This has led to the introduction of new and different organisational forms, e.g., matrix and virtual organisations, and cross-functioning and ad hoc project teams. One of these new organisational forms focuses on projects where collaboration exists across traditional teams and organisational boundaries. This form does not resemble traditional organisations or large-scale teams, but can be seen as an aggregation that includes tightly coupled arrangement of teams, where the different teams may have noticeable different norms, expertise, missions, structures and operating procedures to the overall work. Mathieu, Marks, and Zaccaro \cite{Mathieu2001} defined the organisations corresponding to the aforementioned form as multi-team systems (MTSs). Below their definition follows:
 
@@ -373,15 +372,15 @@ In the above sections three dimensions of multi-team systems and their attribute
 
 \begin{figure}
 \centering
-\includegraphics[trim = 15mm 190mm 15mm 10mm, width=150mm]{images/multiteam_system_model.pdf}
+\includegraphics[trim = 0mm 0mm 0mm 0mm, width=\textwidth]{images/multiteam_system_model.png}
 \caption{A model of multiteam system effectiveness.}
 \label{amomse}
 \end{figure}
 
-
+\newpage
 %TODO: Fiks tabell
 \begin{center}
-\begin{longtable}{ | p{2.5cm} | p{4cm} | p{8cm} | }
+\begin{longtable}{ | p{2.25cm} | p{2.75cm} | p{6.10cm} | }
 
    
     \hline \textbf{Dimension} & \textbf{Attribute} & \textbf{Explanation} \\ \hline
@@ -442,7 +441,7 @@ The explicit component on the other hand is concerned with the physical aspects 
 
 \begin{figure}
 \centering
-\includegraphics[trim=0cm 17.5cm 0cm 1.5cm, width=160mm]{images/Coordination_Effectiveness.pdf}
+\includegraphics[trim=0cm 17.5cm 0cm 1.5cm, width=\textwidth]{images/Coordination_Effectiveness.pdf}
 \caption{Components of coordination effectiveness from Strode et al. (2011).}
 \label{effectiveness}
 \end{figure}
@@ -472,7 +471,7 @@ Melo et al. performed a multi-case study on three large Brazilian IT companies t
 
 \begin{figure}
 \centering
-\includegraphics[width=150mm]{images/IPO.png}
+\includegraphics[width=\textwidth]{images/IPO.png}
 \caption{Agile team productivity conceptual framework.}
 \label{atpcf}
 \end{figure}
@@ -489,7 +488,7 @@ Anh et al. performed a systematic literature review (SLR) to collect relevant st
 
 \begin{table}[H]
 \begin{center}
-    \begin{tabular}{ | p{5cm} | p{8cm} |}
+    \begin{tabular}{ | p{4cm} | p{7.5cm} |}
     \hline
     \textbf{Type} & \textbf{Impact on team performance} \\ \hline
     Presence of geographical dispersion & Negative (work takes longer time, less effective communication and coordination) \\ \hline
@@ -507,7 +506,7 @@ Dingsøyr and Lindsjørn carried out a focus group study looking at which factor
 
 \begin{table}[H]
 \begin{center}
-    \begin{tabular}{ | p{6cm} | p{2.5cm} | p{2.5cm} | p{2.5cm} |}
+    \begin{tabular}{ | p{4.75cm} | p{2cm} | p{2cm} | p{2cm} |}
     \hline
     \textbf{Teamwork component} & \textbf{Foster} & \textbf{Hinder} & \textbf{Total} \\ \hline
     Team leadership & 90 & 139 & 229 \\ \hline
@@ -529,7 +528,7 @@ The teamwork component with the strongest connection to coordination is ``closed
 
 \begin{table}[H]
 \begin{center}
-    \begin{tabular}{ | p{4cm} | p{5.25cm} | p{5.25cm} |}
+    \begin{tabular}{ | p{2.75cm} | p{4.25cm} | p{4.25cm} |}
     \hline
     \textbf{Sub-component} & \textbf{Foster} & \textbf{Hinder} \\ \hline
     Co-location & Physical presence \newline Co-location \newline Physically placed together & People are distributed \newline Distance \newline Not co-located \\ \hline
@@ -551,7 +550,7 @@ The findings from the different studies are summarised in table \ref{summary}. N
 
 \begin{table}[H]
 \begin{center}
-    \begin{tabular}{ | p{8cm} | p{6cm} |}
+    \begin{tabular}{ | p{7.25cm} | p{4.25cm} |}
     \hline
     \textbf{Type} & \textbf{Impact} \\ \hline
     Organisational openness culture & \textcolor{ForestGreen}{Positive} \\ \hline
@@ -594,7 +593,7 @@ One of the more recognised papers on teamwork by Salas et al. \cite{Salas2005} h
 
 \begin{figure}
 \centering
-\includegraphics[width=150mm]{images/salas.png}
+\includegraphics[width=\textwidth]{images/salas.png}
 \caption{Graphical representation of the ``Big Five'' and supporting coordination mechanisms.}
 \label{salas}
 \end{figure}
