@@ -2,76 +2,62 @@ This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report.aux
 The style file: ieeetr.bst
-Case mismatch error between cite keys bandow and Bandow
----line 183 of file report.aux
- : \citation{bandow
- :                 }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys bandow and Bandow
----line 289 of file report.aux
- : \citation{bandow
- :                 ,salas,cooper,mathieu}
-I'm skipping whatever remains of this command
 Database file #1: references.bib
-Repeated entry---line 622 of file references.bib
+Repeated entry---line 619 of file references.bib
  : @article{Malone1994
  :                    ,
 I'm skipping whatever remains of this entry
-A bad cross reference---entry "Strode2011"
-refers to entry "conf/pacis/2011", which doesn't exist
-Warning--I didn't find a database entry for "TODO"
-Warning--I didn't find a database entry for "?"
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "Bandow"
-Warning--I didn't find a database entry for "Cooper"
-Warning--I didn't find a database entry for "salas"
-Warning--I didn't find a database entry for "moe"
-Warning--I didn't find a database entry for "conf/pacis/2011"
+Repeated entry---line 1150 of file references.bib
+ : @article{Salas2005
+ :                   ,
+I'm skipping whatever remains of this entry
 Warning--empty note in Haaster2014
 Warning--empty note in Dingsoyr2013a
 Warning--empty journal in waterfall
 Warning--empty journal in scrum
 Warning--empty journal in Sutherland2001
+Warning--empty booktitle in Cockburn2001
 Warning--empty note in Robert2014
-You've used 39 entries,
+Warning--empty journal in Cannon1990
+You've used 67 entries,
             1876 wiz_defined-function locations,
-            770 strings with 10570 characters,
-and the built_in function-call counts, 10163 in all, are:
-= -- 1039
-> -- 349
+            936 strings with 14962 characters,
+and the built_in function-call counts, 17264 in all, are:
+= -- 1752
+> -- 567
 < -- 1
-+ -- 132
-- -- 93
-* -- 719
-:= -- 1428
-add.period$ -- 46
-call.type$ -- 39
-change.case$ -- 35
++ -- 217
+- -- 150
+* -- 1169
+:= -- 2383
+add.period$ -- 85
+call.type$ -- 67
+change.case$ -- 55
 chr.to.int$ -- 0
-cite$ -- 45
-duplicate$ -- 516
-empty$ -- 961
-format.name$ -- 93
-if$ -- 2481
+cite$ -- 75
+duplicate$ -- 898
+empty$ -- 1704
+format.name$ -- 150
+if$ -- 4296
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 37
-newline$ -- 127
-num.names$ -- 45
-pop$ -- 109
+int.to.str$ -- 67
+missing$ -- 70
+newline$ -- 222
+num.names$ -- 74
+pop$ -- 216
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 373
+skip$ -- 631
 stack$ -- 0
-substring$ -- 701
-swap$ -- 219
+substring$ -- 1141
+swap$ -- 369
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 109
-width$ -- 41
-write$ -- 378
-(There were 4 error messages)
+warning$ -- 8
+while$ -- 172
+width$ -- 69
+write$ -- 654
+(There were 2 error messages)

@@ -5,9 +5,9 @@
 \contentsline {xchapter}{Introduction}{1}{chapter.1}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Theory}{7}{chapter.2}
-\contentsline {table}{\numberline {2.1}{\ignorespaces Comparison of Scrum, Kanban and Scrumban}}{14}{table.2.1}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Comparison of Scrum, Kanban and Scrumban \cite {Scrumban2015}.}}{14}{table.2.1}
 \contentsline {table}{\numberline {2.2}{\ignorespaces A taxonomy of scale of agile software development projects.\relax }}{22}{table.caption.18}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Dimensions of multiteam system (MTS) characteristics.}}{28}{table.2.3}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Dimensions of multi-team system (MTS) characteristics.}}{28}{table.2.3}
 \contentsline {table}{\numberline {2.4}{\ignorespaces Impact of geographical dispersion on performance.\relax }}{32}{table.caption.28}
 \contentsline {table}{\numberline {2.5}{\ignorespaces Summary of the distribution of suggestions over teamwork components.\relax }}{33}{table.caption.30}
 \contentsline {table}{\numberline {2.6}{\ignorespaces Sub-components identified of closed-loop communication with their respective performance items.\relax }}{33}{table.caption.31}
@@ -17,7 +17,7 @@
 \contentsline {xchapter}{Method}{41}{chapter.3}
 \contentsline {table}{\numberline {3.1}{\ignorespaces Databases used in the literature review.\relax }}{43}{table.caption.35}
 \contentsline {table}{\numberline {3.2}{\ignorespaces Search words used in the literature review.\relax }}{43}{table.caption.36}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Participants in focus groups.\relax }}{47}{table.caption.37}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Participants in focus groups.\relax }}{46}{table.caption.37}
 \contentsline {xpart}{Results and Evaluation}{51}{part.3}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Results}{51}{chapter.4}
@@ -31,7 +31,7 @@
 \contentsline {xpart}{Conclusion and the Road Forward}{93}{part.4}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Conclusion}{93}{chapter.6}
-\contentsline {table}{\numberline {6.1}{\ignorespaces Summary of identified impacts on coordination and performance}}{96}{table.6.1}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Summary of identified impacts on coordination and performance.}}{96}{table.6.1}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Future Work}{97}{chapter.7}
 \contentsline {xpart}{Appendices}{I}{part.5}

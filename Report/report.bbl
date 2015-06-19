@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{Scrumban2015}
+``A guide to scrumban.'' \url{http://www.aboutscrumban.com/}.
+\newblock [Online; accessed 10-June-2015].
+
 \bibitem{Herbsleb2007}
 J.~D. Herbsleb, ``Global software engineering: The future of socio-technical
   coordination,'' in {\em 2007 Future of Software Engineering}, FOSE '07,
@@ -91,6 +95,11 @@ D.~Reifer, F.~Maurer, and H.~Erdogmus, ``{Scaling Agile Methods},'' {\em IEEE
 B.~J. Oates, {\em Researching Information Systems and Computing}.
 \newblock Sage Publications Ltd., 2006.
 
+\bibitem{Andreassen2014}
+E.~Andreassen, ``Coordination effectiveness in large-scale agile software
+  development.'' Preliminary study performed for a planned master thesis and
+  case study, 2014.
+
 \bibitem{waterfall}
 {Dr. Royce, Winston W.}, ``{Managing the Development of Large Software
   Systems},'' 1970.
@@ -118,15 +127,55 @@ M.~Cohn, ``{Advice on Conducting the Scrum of Scrums Meeting}.''
 H.~Takeuchi and I.~Nonaka, {\em Hitotsubashi on Knowledge Management}.
 \newblock Wiley, 2004.
 
+\bibitem{anderson2010kanban}
+D.~Anderson, {\em Kanban}.
+\newblock Blue Hole Press, 2010.
+
+\bibitem{Cocco2011}
+L.~Cocco, K.~Mannaro, G.~Concas, and M.~Marchesi, ``Simulating kanban and scrum
+  vs. waterfall with system dynamics,'' in {\em Agile Processes in Software
+  Engineering and Extreme Programming} (A.~Sillitti, O.~Hazzan, E.~Bache, and
+  X.~Albaladejo, eds.), vol.~77 of {\em Lecture Notes in Business Information
+  Processing}, pp.~117--131, Springer Berlin Heidelberg, 2011.
+
+\bibitem{Scrumban2008}
+C.~Ladas, ``Scrum-ban.''
+  \url{http://leansoftwareengineering.com/ksse/scrum-ban/}, 2008.
+\newblock [Online; accessed 10-June-2015].
+
+\bibitem{Cockburn2001}
+A.~Cockburn and L.~Williams, ``Extreme programming examined,'' ch.~The Costs
+  and Benefits of Pair Programming, pp.~223--243, Boston, MA, USA:
+  Addison-Wesley Longman Publishing Co., Inc., 2001.
+
+\bibitem{Padberg2003}
+F.~Padberg and M.~Muller, ``Analyzing the cost and benefit of pair
+  programming,'' in {\em Software Metrics Symposium, 2003. Proceedings. Ninth
+  International}, pp.~166--177, Sept 2003.
+
+\bibitem{Lui2006}
+K.~M. Lui and K.~C.~C. Chan, ``Pair programming productivity: Novice-novice vs.
+  expert-expert,'' {\em Int. J. Hum.-Comput. Stud.}, vol.~64, pp.~915--925,
+  Sept. 2006.
+
+\bibitem{williams2003pair}
+L.~Williams and R.~Kessler, {\em Pair Programming Illuminated}.
+\newblock Addison-Wesley, 2003.
+
 \bibitem{Malone1994}
 T.~W. Malone and K.~Crowston, ``The interdisciplinary study of coordination,''
-  {\em ACM Comput. Surv.}, vol.~26, pp.~87--119, Mar. 1994.
+  {\em ACM Comput. Surv.}, vol.~26, pp.~87--119, mar 1994.
 
 \bibitem{Strode2012}
 D.~E. Strode, S.~L. Huff, B.~Hope, and S.~Link, ``Coordination in co-located
   agile software development projects,'' {\em Journal of Systems and Software},
   vol.~85, no.~6, pp.~1222 -- 1238, 2012.
 \newblock Special Issue: Agile Development.
+
+\bibitem{mintzberg1989mintzberg}
+H.~Mintzberg, {\em Mintzberg on Management: Inside Our Strange World of
+  Organizations}.
+\newblock Free Press, 1989.
 
 \bibitem{Ven1976}
 A.~H. Van De~Ven, A.~L. Delbecq, and R.~Koening~Jr., ``{Determinants of
@@ -140,6 +189,26 @@ J.~Child, ``Predicting and understanding organization structure,'' {\em
 \bibitem{Robert2014}
 I.~O. Robert L.~Nord and P.~Kruchten, ``Agile in distress: Architecture to the
   rescue.'' 2014.
+
+\bibitem{Mathieu2001}
+J.~Mathieu, M.~Cobb, and S.~Zaccaro, ``Multiteam systems,'' in {\em
+  International handbook of work and organizational psychology}, pp.~289--313,
+  SAGE Publications, Sept 2001.
+
+\bibitem{zaccaro2012multiteam}
+S.~Zaccaro, M.~Marks, and L.~DeChurch, {\em Multiteam Systems: An Organization
+  Form for Dynamic and Complex Environments}.
+\newblock Organization and management series, Taylor \& Francis, 2012.
+
+\bibitem{bentz1987explorations}
+V.~Bentz and C.~for Creative~Leadership, {\em Explorations of scope and scale:
+  the critical determinant of high-level executive effectiveness}.
+\newblock Technical Reports, Center for Creative Leadership, 1987.
+
+\bibitem{zaccaro2001nature}
+S.~Zaccaro, {\em The Nature of Executive Leadership: A Conceptual and Empirical
+  Analysis of Success}.
+\newblock American Psychological Association, 2001.
 
 \bibitem{Strode2011}
 D.~E. Strode, B.~G. Hope, S.~L. Huff, and S.~Link, ``Coordination effectiveness
@@ -179,6 +248,60 @@ T.~Dingsøyr and Y.~Lindsjørn, ``Team performance in agile development teams:
 E.~Salas, D.~E. Sims, and C.~S. Burke, ``{Is there a ” Big Five” in
   Teamwork?},'' {\em Small Group Research}, vol.~36, pp.~555--599, Oct. 2005.
 
+\bibitem{Cannon1990}
+J.~Cannon-Bowers, E.~Salas, and S.~Converse, ``Cognitive psychology and team
+  training: Shared mental models in complex systems,'' vol.~33, pp.~1--4, 1990.
+
+\bibitem{Rouse1986}
+W.~B. Rouse and N.~M. Morris, ``On looking into the black-box - prospects and
+  limits in the search for mental models,'' {\em Psychological Bulletin},
+  vol.~100, no.~3, pp.~349--363, 1986.
+
+\bibitem{Cannon1993}
+J.~Cannon-Bowers, E.~Salas, and S.~Converse, ``Shared mental models in expert
+  team decision making,'' in {\em Individual and group decision making: Current
+  issues}, pp.~221--246, Lawrence Erlbaum Associates, Inc., 1993.
+
+\bibitem{Mathieu2000}
+J.~Mathieu, T.~Heffner, G.~Goodwin, E.~Salas, and J.~Cannon-Bowers, ``The
+  influence of shared mental models on team process and performance,'' {\em
+  Journal of Applied Psychology}, vol.~85, pp.~273--283, 2000.
+
+\bibitem{Yu2014}
+X.~Yu and S.~Petter, ``Understanding agile software development practices using
+  shared mental models theory,'' {\em Information \& Software Technology},
+  vol.~56, pp.~911--921, 2014.
+
+\bibitem{Webber2002}
+S.~Webber, ``Leadership and trust facilitating cross-functional team success,''
+  {\em Journal of Management Development}, vol.~21, no.~3, pp.~201--214, 2002.
+
+\bibitem{Bandow2001}
+D.~Bandow, ``Time to create sound teamwork,'' {\em The Journal for Quality and
+  Participation}, no.~24, pp.~41--47, 2001.
+
+\bibitem{cooper1998executive}
+R.~Cooper and A.~Sawaf, {\em Executive EQ: Emotional Intelligence in Leadership
+  and Organizations}.
+\newblock Berkley Publishing Group, 1998.
+
+\bibitem{Moe2012}
+A.~A. Nils Brede~Moe and T.~Dybå, ``Challenges of shared decision-making: A
+  multiple case study of agile software development,'' {\em Information and
+  Software Technology}, vol.~54, no.~8, pp.~853--865, 2012.
+\newblock Special Issue: Voice of the Editorial Board Special Issue: Voice of
+  the Editorial Board.
+
+\bibitem{Nygaard2008}
+S.~Nygaard and A.~Russo, ``Trust, coordination and knowledge flows in r\&d
+  projects: the case of fuel cell technologies,'' {\em Business Ethics: A
+  European Review}, vol.~17, no.~1, pp.~23--34, 2008.
+
+\bibitem{McEvily2007}
+B.~McEvily and A.~Marcus, ``Embedded ties and the acquisition of competitive
+  capabilities,'' {\em Strategic Management Journal}, vol.~26, no.~11,
+  pp.~1033--1055, 2007.
+
 \bibitem{khan2003}
 K.~S. Khan, R.~Kunz, J.~Kleijnen, and G.~Antes, ``{Five steps to conducting a
   systematic review.},'' {\em Journal of the Royal Society of Medicine},
@@ -187,5 +310,18 @@ K.~S. Khan, R.~Kunz, J.~Kleijnen, and G.~Antes, ``{Five steps to conducting a
 \bibitem{Goodman1961}
 L.~A. Goodman, ``Snowball sampling,'' {\em Ann. Math. Statist.}, vol.~32,
   pp.~148--170, 03 1961.
+
+\bibitem{yin2009case}
+R.~Yin, {\em Case Study Research: Design and Methods}.
+\newblock Applied Social Research Methods, SAGE Publications, 2009.
+
+\bibitem{Kitzinger2005}
+J.~Kitzinger, ``Focus group research: using group dynamics to explore
+  perceptions, experiences and understandings,'' in {\em Qualitative Research
+  In Health Care}, pp.~57--70, Open University Press, 2005.
+
+\bibitem{Cockburn2000}
+A.~Cockburn, ``Selecting a project's methodology,'' {\em IEEE Software},
+  vol.~17, pp.~64--71, July 2000.
 
 \end{thebibliography}

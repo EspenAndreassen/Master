@@ -3,13 +3,13 @@
 
 \minitoc
 
-In this chapter theory and literature relevant to the study is presented. It starts of with an introduction of both traditional and agile software development methodologies, with the main focus on Scrum. Afterwards a shift towards coordination is taken. Some well-known literature is looked at, for example Malone and Crowston's coordination theory. Further, to put the study into context, a definition of large-scale is given. To end the chapter a look at different aspects of effectiveness in team coordination is introduced.
+In this chapter theory and literature relevant to the study is presented. It starts of with an introduction of both traditional and agile software development methodologies, with the main focus on Scrum. Afterwards a shift towards coordination is taken. Some well-known literature is looked at, for example Malone and Crowston's coordination theory and Mintzberg's coordination mechanisms. Further, to put the study into context, a definition of large-scale is given and the reader is introduced to a general overview of multi-team systems. Moving on a look at different aspects of effectiveness in team coordination are introduced. To end the chapter two important coordination mechanisms and aspects are highlighted, namely mutual trust and shared mental models.
 
 \newpage
 
 \section{Software Development Methodologies}
 
-The term software development methodologies has been around for quite some time now. These methodologies are frameworks for accomplishing a well-structured development process. In this section a brief introduction to the most prominent methodologies will be carried out. It will start with a quick look at the traditional software development, before ending with a presentation of the new and agile way of thinking. In the last section (on agile software development) the main focus will be on Scrum as this is the methodology found in most of the literature gathered from the literature review.
+The term software development methodologies has been around for quite some time now. These methodologies are frameworks for accomplishing a well-structured development process. In this section a brief introduction to the most prominent methodologies will be carried out. It will start with a quick look at the traditional software development, before ending with a presentation of the new and agile way of thinking. The main focus (on agile software development) will be on Scrum as this is the methodology found in most of the literature gathered from the literature review, but also some other methodologies and mechanisms are described, e.g., Kanban, Scrumban and pair programming.
 
 \subsection{Traditional Software Development}
 
@@ -83,7 +83,7 @@ The Scrum team usually consists of five to nine members. It is important to note
 \label{scrum}
 \end{figure}
 
-To end the section, as well as making a natural shift towards the next topic (Coordination), a look at Scrum-of-Scrums is carried out. It is a natural shift because Scrum-of-Scrums are used as the coordination mechanism across teams in the Scrum methodology. It works as the daily scrums (though usually implemented on a weekly basis because of time constraints and the complexity to find common times for all teams), but with one member assigned from each Scrum team to report completions, next steps and impediments for their respective teams. It is important that these impediments focus on the challenges that may impact coordination across teams and might limit other teams' work. The Scrum-of-Scrums will have their own backlog aiming to improve the cross-team coordination \cite{Sutherland2001}. Below the suggested questions for the SoS meetings are listed \cite{Cohn2007}:
+To end the section a look at Scrum-of-Scrums is carried out. This will be a natural shift towards the upcoming topic of ``coordination'' because Scrum-of-Scrums are used as the coordination mechanism across teams in the Scrum methodology. It works as the daily scrums (though usually implemented on a weekly basis because of time constraints and the complexity to find common times for all teams), but with one member assigned from each Scrum team to report completions, next steps and impediments for their respective teams. It is important that these impediments focus on the challenges that may impact coordination across teams and might limit other teams' work. The Scrum-of-Scrums will have their own backlog aiming to improve the cross-team coordination \cite{Sutherland2001}. Below the suggested questions for the SoS meetings are listed \cite{Cohn2007}:
 
 \begin{enumerate}
   \item What did your team do since the previous meeting that is relevant to some other team?
@@ -102,23 +102,14 @@ Takeuchi et al. identified three strategies for distributed Scrum teams. The fir
 \end{figure}
 
 \subsubsection{Kanban and Scrumban}
-%Anderson
 
-Kanban is a logistic control system that is closely related to lean software development. The word ``Kanban'' comes from two Japanese words: ``kan'' meaning visual and ``ban'' meaning board. The system was developed by Taiichi Ohno, an industrial engineer at Toyota. The reasoning behind developing this new system was to achieve and maintain a high level of production.
+Kanban is a logistic control system that is closely related to lean software development. The word ``Kanban'' comes from two Japanese words: ``kan'' meaning visual and ``ban'' meaning board. The system was developed by Taiichi Ohno, an industrial engineer at Toyota. The reasoning behind developing this new system was to achieve and maintain a high level of production \cite{anderson2010kanban}.
 
-%http://link.springer.com/chapter/10.1007%2F978-3-642-20677-1_9
-%Short description of Lean?
+Cocco et al. \cite{Cocco2011} described Kanban as the process of breaking down work to work items which are descriptions on cards (often post-it notes). These cards are then made visible for the entire team on a board. The board is used to show the flow of work within the team (or project). The high visibility comes from the cards and board showing which tasks are assigned to which member, shows communication priorities, and highlights possible obstacles. An important feature of the Kanban method is to minimize Work in Progress (WIP) by reducing the amount of work items (cards) being developed at a time. This is done so the developers and customer can focus on smaller amounts of work, and should lead to an optimised process, as well as a reduced lead time. Compared to the Scrum methodology, Kanban (being a lean method) is able to release new futures more constantly, and not only at the end of each sprint iteration. Scrum is not able to change the requirements and direction of development in the middle of a sprint iteration, which Kanban can.
 
-Cocco et al. described Kanban as the process of breaking down work to work items which are descriptions on cards (often post-it notes). These cards are then made visible for the entire team on a board. The board is used to show the flow of work within the team (or project). The high visibility comes from the cards and board showing which tasks are assigned to which member, communication priorities and highlights possible obstacles. An important feature of the Kanban method is to minimize Work in Progress (WIP) by reducing the amount of work items (cards) being developed at a time. This is done so the developers and customer can focus on smaller amounts, and should lead to an optimised process, as well as a reduced lead time. Compared to the Scrum methodology, Kanban (being a lean method) is able to release new futures more constantly, and not only at the end of each sprint iteration. Scrum is not able to change the requirements and direction of development in the middle of a sprint iteration, which Kanban can.
+To get a more simplistic explanation of how the Kanban methodology works a standard work flow example is described: If a developer start on a task he moves this task from the ``work to be done'' section into the so-called ``work in progress'' column of the Kanban board. If there for some reason is a dependence towards other's work this particular work has to be moved to the ``on hold'' or ``waiting'' section of the board until the dependency is solved. After a task is completed it is moved into the final section of the board called the ``completed'' section. Teams also often use different colours to express the priority of the task, and tasks are often allocated to some specific part of the development, e.g., development, test etc. 
 
-To get a more simplistic explanation of how the Kanban methodology works we can look at a standard work flow example. If a developer start on a task he moves this task from the ``work to be done'' section into the so-called ``work in progress'' column of the Kanban board. If there for some reason is a dependence towards other's work this particular work has to be moved to the ``on hold'' or ``waiting'' section of the board until the dependence is solved. After a task is completed it is moved into the final section of the board called the ``completed'' section. Teams also often use different colours to express the priority of the task, and tasks are often allocated to some specific part of the development, e.g., development, test etc. 
-
-%TODO: Add kanban board?
-
-%TODO: http://www.aboutscrumban.com/comparison-of-scrum-kanban-and-scrumban/
-%TODO: http://www.aboutscrumban.com/
-
-In later years a new approach has slowly surfaced which combines the Scrum and Kanban practices. This new methodology has been coined ``Scrumban'' (also referred to as ``Scrum-ban'' and ``Scrum ban''). The reasoning behind the evolution of this new methodology was that some practitioners felt that Scrum and Kanban did not fit all aspects of their work on their own with Scrum being too strict for constant change and releases (fast paced environments), and Kanban not being structured enough. The combination of the two methodologies is suppose to create a practice that fits a fast paced development environment. To get a better overview of the differences between Scrum, Kanban and Scrumban table \ref{coskas} is included.
+In later years a new approach has slowly surfaced which combines the Scrum and Kanban practices. This new methodology has been coined ``Scrumban'' (also referred to as ``Scrum-ban'' and ``Scrum ban'') \cite{Scrumban2008}. The reasoning behind the evolution of this new methodology was that some practitioners felt that Scrum and Kanban did not fit all aspects of their work on their own with Scrum being too strict for constant change and releases (fast paced environments), and Kanban not being structured enough. The combination of the two methodologies is supposed to create a practice that fits a fast paced development environment \cite{Scrumban2015}. To get a better overview of the differences between Scrum, Kanban and Scrumban table \ref{coskas} is included.
 
 \begin{center}
     \begin{longtable}{| p{2.6cm} | p{3.9cm} | p{3.9cm} | p{3.9cm} |}
@@ -155,45 +146,34 @@ In later years a new approach has slowly surfaced which combines the Scrum and K
     \textbf{Rules} & Constrained process & Only a few constraints, flexible process & Slightly constrained process \\ \hline
     \textbf{Fit for} & Enterprise maturity for teams working on product or especially project which is longer than a year & Support and maintenance teams, continuous product manufacturing & Startups, fast-pace projects, continuous product manufacturing \\ \hline 
 
-    \caption{Comparison of Scrum, Kanban and Scrumban}
+    \caption{Comparison of Scrum, Kanban and Scrumban \cite{Scrumban2015}.}
     \label{coskas}
     \end{longtable}
 \end{center}
-
-%CEEOL (lasted ned artikkel)
-%http://leansoftwareengineering.com/ksse/scrum-ban/
-%http://en.wikipedia.org/wiki/Scrum_ban
 
 \subsubsection{Pair programming}
 
 Pair programming is a common practice in software development where two developers work side-by-side on the same computer, continuously collaborating and communicating on the same code. The thought behind the practice is to realise several potential benefits, such as:
 
-%http://collaboration.csc.ncsu.edu/laurie/Papers/XPSardinia.PDF
-%http://cacm.acm.org/magazines/2000/5/7671-all-i-really-need-to-know-about-pair-programming-i-learned-in-kindergarten/fulltext
-%http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.258.7427&rep=rep1&type=pdf
-
 \begin{itemize}
-  \item Production speed is faster in the long-term, and the pair comes up with a larger amount of possible solution than two developers working individually. This is called the ``pair programming advantage''.
-  \item Code and general design quality is a lot higher (few bugs and defects). This is called the ``pair defect advantage''.
-  \item Better job-satisfaction working in pairs than alone.
-  \item Pair programming increases learning as knowledge is constantly shared between the two programmers.
-  \item As developers are so tightly coupled in pair programming the team-building and communication improves.
+  \item Production speed is faster in the long-term, and the pair comes up with a larger amount of possible solutions than two developers working individually \cite{Cockburn2001}. This is called the ``pair programming advantage'' \cite{Padberg2003}.
+  \item Code and general design quality is a lot higher (fewer bugs and defects) \cite{Cockburn2001}. This is called the ``pair defect advantage'' \cite{Padberg2003}.
+  \item Better job-satisfaction working in pairs than alone \cite{Cockburn2001}.
+  \item Pair programming increases learning as knowledge is constantly shared between the two programmers \cite{Cockburn2001}.
+  \item As developers are so tightly coupled in pair programming the team-building and communication improves \cite{Cockburn2001}.
 \end{itemize}
 
 There are three possible types of pairings in pair programming. These are explained below with their potential benefits and drawbacks:
 
 \begin{itemize}
-%http://www.sciencedirect.com/science/article/pii/S1071581906000644
-  \item \textbf{Senior-Senior:} With two experts conducting the pair programming together this would in theory be the most productive pairing leading to the best results, however, such a pairing has shown to often cause problems as the seniors are less likely to question established practices.
-%Williams, L. and Kessler, R. (2003). Pair Programming Illuminated. Boston: Addison-Wesley Professional.
-  \item \textbf{Senior-Junior:} With a combination of both a senior and a junior developer often new ideas and solution surface as the junior programmer is more likely to question established practices, also leading to senior developers having to think through these practices. It is however important that the junior developer does not take an observer role, but is involved in the coding with the expert.
-%http://collaboration.csc.ncsu.edu/laurie/Papers/XPSardinia.PDF
-  \item \textbf{Junior-Junior:} The last pairing has two novice developers collaborating. Results have shown that two junior programmers working together yield better results than the two developers working separately, and is often used in academic settings.
+  \item \textbf{Senior-Senior:} With two experts conducting the pair programming together this would in theory be the most productive pairing leading to the best results, however, such a pairing has shown to often cause problems as the seniors are less likely to question established practices \cite{Lui2006}.
+  \item \textbf{Senior-Junior:} With a combination of both a senior and a junior developer often new ideas and solution surface as the junior programmer is more likely to question established practices, also leading to senior developers having to think through these practices. It is however important that the junior developer does not take an observer role, but is involved in the coding with the expert \cite{williams2003pair}.
+  \item \textbf{Junior-Junior:} The last pairing has two novice developers collaborating. Results have shown that two junior programmers working together yield better results than the two junior developers working separately, and is often used in academic settings \cite{Cockburn2001}.
 \end{itemize}
 
 \section{Coordination}
 
-This section takes a look at different publications on coordination. It starts of with Malone and Crowston's well-known coordination theory. After this has been described a closer look at Strode's theoretical model of coordination is outlined. Ending the chapter is a brief look at the complexity factor introduced with a large-scale context in coordination.
+This section takes a look at different publications on coordination. It starts of with Malone and Crowston's well-known coordination theory. Moving on it takes a closer look at Mintzberg's coordination mechanisms. After this has been described Strode's theoretical model of coordination is outlined. Ending the chapter is a brief look at the complexity factors introduced with a large-scale context in coordination.
 
 \subsection{Malone and Crowston's Coordination Theory}
 
@@ -209,9 +189,7 @@ While Strode et al. acknowledges their coordination theory as very useful for id
 
 \subsection{Mintzberg's Coordination Mechanisms}
 
-%TODO: Mintzberg, H.: Mintzberg on Management: Inside Our Strange World of Organizations (1989)
-
-Around the 1980s Mintzberg performed well-known studies on organisational structures focusing on the division of labour into tasks to be carried out, and the coordination of these tasks to complete the activity. With this research six coordination mechanisms were identified in which organisations can coordinate their work:
+Around the 1980s Mintzberg performed a well-known studies on organisational structures focusing on the division of labour into tasks to be carried out, and the coordination of these tasks to complete the activities at hand \cite{mintzberg1989mintzberg}. With this research six coordination mechanisms were identified in which organisations can coordinate their work:
 
 \begin{itemize}
   \item In \textbf{direct supervision} there is typically one person, e.g., a manager, giving orders to other members and with that coordinating their work.
@@ -222,7 +200,7 @@ Around the 1980s Mintzberg performed well-known studies on organisational struct
   \item In \textbf{mutual adjustment} the members coordinate their own work by informal communication with each other.
 \end{itemize}
 
-For agile software development it is in particular the mutual adjustment mechanism that is present. Because of its nature it is well suited for complex, dynamic and innovative environments. With the large focus on rapid and continuous delivery the use of informal communication arenas are to a great degree existent in agile software development.
+For agile software development it is in particular the mutual adjustment mechanism and standardisation of norms (shared mental models) that are present. Because of their nature they are well suited for complex, dynamic and innovative environments. With the large focus on rapid and continuous delivery the use of informal communication arenas and achieving shared mental models are to a great degree existent in agile software development.
 
 \subsection{Strode's Theoretical Model of Coordination}
 \label{strodechap}
@@ -257,7 +235,7 @@ There is another important part of the theoretical model of coordination, namely
 
 \subsubsection{Propositions}
 
-There are in total ten propositions (Proposition 1 has two parts) linking the coordination concepts in Strode's theoretical coordination model showed in figure \ref{strode}. These are outlined below:
+There are in total ten propositions (Proposition 1 has two parts) linking the coordination concepts in Strode's theoretical coordination model presented in figure \ref{strode}. These are outlined below:
 
 \begin{fancyquotes}
 \textbf{Proposition 1a:} A coordination strategy that includes synchronisation and structure coordination mechanisms improves project coordination effectiveness when the customer is included in the project team. Synchronisation activities and associated artefacts are required at all frequencies – project, iteration, daily, and ad hoc.
@@ -332,23 +310,22 @@ Another example is taken from Nord et al. defining large-scale by scope of the s
 So the definition of a ``large-scale agile project'' used in this research will be:
 
 \begin{fancyquotes}
-An agile project must consist of a minimum amount of two teams coordinating across the teams to be categorised as large-scale.
+An agile project must consist of a minimum amount of two teams coordinating across the teams to be categorised as being large-scale.
 \end{fancyquotes}
 
 \textbf{ }
 
 \section{Multiteam Systems}
-%TODO: Ha med referanse til tidligere?
-%TODO: Cites i avsnitt
-As mentioned earlier the work environments have become more challenging and complex in line with the growth of communication and information technology. This growth has led to the globalisation of organisational work. With the globalisation an increase in interconnectivity across organisational boundaries has become apparent. Because of this trend new questions and problems have surfaced. Unfortunately, these questions and problems have not been possible to adapt to traditional organisational forms. This has led to the introduction of new and different organisational forms, e.g., matrix and virtual organisations, and cross-functioning and ad hoc project teams. One of these new organisational forms focus on projects where collaboration exists across traditional team and organisational boundaries. This form does not resemble traditional organisations or large-scale teams, but can be seen as an aggregation that includes tightly coupled arrangement of teams, where the different teams may have noticeable different norms, expertise, missions, structures and operating procedures to the overall work. Mathieu, Marks, and Zaccaro \cite{TODO} defined the organisations corresponding to the aforementioned form as multiteam systems (MTSs). Below their definition follows:
+
+As mentioned earlier the work environments have become more challenging and complex in line with the growth of communication and information technology. This growth has led to the globalisation of organisational work. With the globalisation an increase in interconnectivity across organisational boundaries has become apparent. Because of this trend new questions and problems have surfaced. Unfortunately, these questions and problems have not been possible to adapt to traditional organisational forms. This has led to the introduction of new and different organisational forms, e.g., matrix and virtual organisations, and cross-functioning and ad hoc project teams. One of these new organisational forms focuses on projects where collaboration exists across traditional teams and organisational boundaries. This form does not resemble traditional organisations or large-scale teams, but can be seen as an aggregation that includes tightly coupled arrangement of teams, where the different teams may have noticeable different norms, expertise, missions, structures and operating procedures to the overall work. Mathieu, Marks, and Zaccaro \cite{Mathieu2001} defined the organisations corresponding to the aforementioned form as multi-team systems (MTSs). Below their definition follows:
 
 \begin{fancyquotes}
-Two or more teams that interface directly and interdependently in response to environmental contingencies towards the accomplishment of collective goals. MTS boundaries are defined by virtue of the fact that all teams within the system, while pursuing different proximal goals, share at least one common distal goal; and in doing so exhibit input, process and outcome inter-dependence with at least one other team in the system \cite{TODO}.
+Two or more teams that interface directly and interdependently in response to environmental contingencies towards the accomplishment of collective goals. MTS boundaries are defined by virtue of the fact that all teams within the system, while pursuing different proximal goals, share at least one common distal goal; and in doing so exhibit input, process and outcome inter-dependence with at least one other team in the system \cite{Mathieu2001}.
 \end{fancyquotes}
 
-From this definition it is easy to see similarities with so-called ``large-scale'' projects and organisations. Both large-scale projects' and multiteam systems' taxonomies look at the amount of teams involved, where the minimum number is two, but are typically larger than this number by a considerable margin. In both categories the teams have to be somewhat interconnected, and the organisational boundaries may be crossed, meaning teams can reside in different organisations. Mathieu et al. have therefore categorised MTSs into ``internal MTSs'' where the whole system or project is situated within an organisation, and ``cross-boundary MTSs'' where teams are located in different organisations, hence organisational boundaries have to be crossed to achieve collaboration \cite{TODO}.
+From this definition it is easy to see similarities with so-called ``large-scale'' projects and organisations. Both large-scale projects' and multiteam systems' taxonomies look at the amount of teams involved, where the minimum number is two, but is typically larger than this number by a considerable margin. In both categories the teams have to be somewhat interconnected, and the organisational boundaries may be crossed, meaning teams can reside in different organisations. Mathieu et al. \cite{Mathieu2001} have therefore categorised MTSs into ``internal MTSs'' where the whole system or project is situated within an organisation, and ``cross-boundary MTSs'' where teams are located in different organisations, hence organisational boundaries have to be crossed to achieve collaboration.
 
-One of the most distinguishing factors of multiteam systems is their focus on goal hierarchies. As mentioned above interdependencies are not only witnessed within teams, but also across them. From the definition of MTSs the teams have different proximal goals, but all share at least one distal goal. Mathieu et al. define the feature of these goal hierarchies that are relatively common across different MTSs as:
+One of the most distinguishing factors of multi-team systems is their focus on goal hierarchies. As mentioned above interdependencies are not only witnessed within teams, but also across them. From the definition of MTSs the teams have different proximal goals, but all share at least one distal goal. Mathieu et al. \cite{Mathieu2001} define the feature of these goal hierarchies that are relatively common across different MTSs as:
 
 \begin{enumerate}
   \item MTS goal hierarchies have a minimum of two levels
@@ -358,45 +335,41 @@ One of the most distinguishing factors of multiteam systems is their focus on go
   \item Goals vary in their priority and valence
 \end{enumerate}
 
-%TODO: Skrive om ulike typer interdependencies?
-
 \subsection{MTS Characteristics}
 
-Having looked at the features of multiteam systems the attention is shifted towards their attributes. These attributes are what separates different MTSs. The attributes are classified into three dimensions, compositional, linkage and development attributes, and will be presented in the following sections. The different dimensions are summarised in table \ref{domsc}.
+Having looked at the features of multi-team systems the attention is shifted towards their attributes. These attributes are what separate different MTSs. The attributes are classified into three dimensions, compositional, linkage and development attributes, and will be presented in the following sections. Most of the theory in the coming sections is collected from a multi-team system book by Zaccaro et al. \cite{zaccaro2012multiteam}. The different dimensions are summarised in table \ref{domsc}.
 
 \subsubsection{Compositional Attributes}
 
-In the compositional dimension several demographic features of the MTS and characteristics of component teams are looked at. In total there are ten attributes, and these will be outlined in this section. Regarding the magnitude of the MTSs two attributes are used. Firstly the ``number'' of component teams located within the MTS, and secondly the total ``size'' of the MTS, meaning the amount of individual members involved in the multiteam system.
+In the compositional dimension several demographical features of the MTS and characteristics of component teams are looked at. In total there are ten attributes, and these will be outlined in this section. Regarding the magnitude of the MTSs two attributes are used. Firstly the ``number'' of component teams located within the MTS, and secondly the total ``size'' of the MTS, meaning the amount of individual members involved in the multi-team system.
 
-%Skrive om problemer som kan oppstå når det blir for mange team/medlemmer?
+Another compositional attribute that was earlier mentioned as a distinguishing factor is ``boundary spanning''. This attribute is concerned with where the different component teams originate from. If all component teams come from the same organisation it is an internal MTS, while if the component teams come from two or more organisations it is an external MTS. External MTSs are more complex and are more likely to run into task and social complexity than its counterpart. In this context, social complexity refers to diversity, scale, scope, and dynamism of stakeholders in the MTS's environment \cite{bentz1987explorations, zaccaro2001nature}. There are two more attributes concerned with boundary spanning which are at a higher detail level. Firstly the ``organisational diversity'' looks at the total amount of organisations represented in the MTS. With a higher number of organisations the likelihood of a higher level of social complexity rises. Secondly the ``proportional membership'' outlines the percentage of teams from different organisations. With an unbalanced proportional membership there is a risk that the influence level will be greater from the organisation(s) with the highest amount of teams.
 
-Another compositional attribute that was earlier mentioned as a distinguishing factor is ``boundary spanning''. This attribute is concerned with where the different component teams originate from. If all component teams come from the same organisation it is an internal MTS, while if the component teams come from two or more organisations it is an external MTS. External MTSs are more complex and are more likely to run into task and social complexity than its counterpart. In this context, social complexity refers to diversity, scale, scope, and dynamism of stakeholders in the MTS's environment \cite{?}. There are two more attributes concerned with boundary spanning which are at a higher detail level. Firstly the ``organisational diversity'' looks at the total amount of organisations represented in the MTS. With a higher number of organisations the likelihood of a higher level of social complexity rises. Secondly the ``proportional membership'' outlines the percentage of teams from different organisations. With an unbalanced proportional membership there is a risk that the influence level will be greater from the organisation(s) with the highest amount of teams.
+The sixth compositional attribute is concerned with how similar the different component teams' core task and goals are. This attribute is called ``functional diversity''. With an increase in this so-called functional diversity, problems may occur. Another important factor in MTSs is ``geographic dispersion''. There are three degrees of geographical dispersion, namely co-located, partially co-located, and fully dispersed. Some problems that have been witnessed in dispersed projects has been communication issues, coordination difficulties and trust building. Building on the geographic dispersion is an attribute called ``cultural diversity''. If teams are dispersed and the boundaries extend the national borderline this could lead to cultural clashes.
 
-%TODO: Usikker på om det er i teams eller mellom teams det er snakk om?
-The sixth compositional attribute is concerned with how similar the different component teams' core task and goals are. This attribute is called ``functional diversity''. With an increase in this so-called functional diversity problems may occur. Another important factor in MTSs is ``geographic dispersion''. There are three degrees of geographical dispersion, namely co-located, partially co-located, and fully dispersed. Some problems that have been witnessed in dispersed projects has been communication issues, coordination difficulties and trust building. Building on the geographic dispersion is an attribute called ``cultural diversity''. If teams are dispersed and the boundaries extend the national borderline this could lead to cultural clashes.
+The ninth attribute in the compositional dimension is ``motive structure''. This attribute refers to the degree to which the different teams commit to the MTS, and how compatible and closely linked the team goals and the MTS goals are. A problem that can occur in the compositional attribute is that a team's proximal and/or distal goals are in conflict with the overall goals of the MTS leading to more complex inter-team processes. With an increase in incompatibility in goals between the MTS and the compositional team(s) this can lead to team members being less committed to the overall goal hierarchy of the multi-team system. Motive structure may also be associated with the last compositional attribute called ``temporal orientation''. Temporal orientation is concerned with the amount of resources dedicated to the MTS by each component team.
 
-The ninth attribute in the compositional dimension is ``motive structure''. This attribute refers to the degree to which the different teams commit to the MTS, and how compatible and closely linked the team goals and the MTS goals are. A problem that can occur in this compositional attribute is that a team's proximal and/or distal goals are in conflict with the overall goals of the MTS leading to more complex interteam processes. With an increase in incompatibility in goals between the MTS and the compositional team(s) this can lead to team members being less committed to the overall goal hierarchy of the multiteam system. Motive structure may be associated with the last compositional attribute called ``temporal orientation''. Temporal orientation is concerned with the amount of resources dedicated to the MTS by each component team.
-
-As can be seen the compositional attributes are important factors in interteam dynamics within MTSs. Focus on team composition is important to keep the level of effectiveness high, as well as prohibiting evolution of subgroups.
+As can be seen the compositional attributes are important factors in inter-team dynamics within MTSs. Focus on team composition is important to keep the level of effectiveness high, as well as prohibiting evolution of subgroups.
 
 \subsubsection{Linkage Attributes}
 
-Moving on the focus is shifted towards the so-called linkage dimension. Linkage mechanisms and attributes are concerned with how teams are arranged and connected within a multiteam system. The first attribute is concerned with the amount of coordination between different component teams that is needed and is called ``interdependence''. The degree of interdependence will differ from different MTSs, but with an increasing interdependence the amount of interteam processes necessary will increase to achieve high MTS effectiveness.
+Moving on the focus is shifted towards the so-called linkage dimension. Linkage mechanisms and attributes are concerned with how teams are arranged and connected within a multi-team system. The first attribute is concerned with the amount of coordination between different component teams that is needed and is called ``interdependence''. The degree of interdependence will differ from different MTSs, but with an increasing interdependence the amount of inter-team processes necessary will increase to achieve high MTS effectiveness.
 
-Two other linkage attributes that often correlate are ``hierarchical arrangement'' and ``power distribution''. Hierarchical arrangement focuses on how teams are organised within the MTS with regards to their responsibility level of goal attainment. The more proximal goals the component team is involved with, the higher in the hierarchical arrangement they are. As for power distribution the focus is on the relative influence that component teams have within a multiteam system. Often the teams placed higher in the hierarchical arrangment, meaning they have more proximal goals, also have a bigger influence and power. Other factors that could lead to higher power can be team size, the team's functional centrality to the core mission of the MTS, and/or the parent organisations having assigned the team with authority. Both attributes will likely influence communication, interaction and collaboration between the component teams in a multiteam system.
+Two other linkage attributes that often correlate are ``hierarchical arrangement'' and ``power distribution''. Hierarchical arrangement focuses on how teams are organised within the MTS with regards to their responsibility level of goal attainment. The more proximal goals the component team is involved with, the higher in the hierarchical arrangement they are. As for power distribution the focus is on the relative influence that component teams have within a multi-team system. Often the teams placed higher in the hierarchical arrangement, meaning they have more proximal goals, also have a bigger influence and power. Other factors that could lead to higher power can be team size, the team's functional centrality to the core mission of the MTS, and/or the parent organisations having assigned the team with authority. Both attributes will likely influence communication, interaction and collaboration between the component teams in a multi-team system.
 
-Moving on to the forth and fifth linkage attributes the focus is shifted towards the communication structures of MTSs. Firstly ``communication networks'' refer to the most common interaction and communication patterns between and within component teams. These networks can be fully decentralised (everyone interactive with everyone), fully centralised (everyone communicate to and through one single member of the MTS), and various patterns between these two boundary points. It is important to notice that the chosen communication network in a multiteam system will have a great impact on the task efficiency of the MTS. Lastly ``communication modality'' is concerned with which modes are used to communicate across component teams within a multiteam system. These can be, e.g., face-to-face interaction, electronic communication, or a mixture of the two. Often the degree of which modes are used is closely linked to the aforementioned compositional attribute called ``geographic dispersion''. With co-located teams preferring a higher amount of face-to-face communication.
+Moving on to the forth and fifth linkage attributes the focus is shifted towards the communication structures of MTSs. Firstly ``communication networks'' refer to the most common interaction and communication patterns between and within component teams. These networks can be fully decentralised (everyone are interactive with everyone), fully centralised (everyone communicate to and through one single member of the MTS), and various patterns between these two boundary points. It is important to notice that the chosen communication network in a multi-team system will have a great impact on the task efficiency of the MTS. Lastly ``communication modality'' is concerned with which modes are used to communicate across component teams within a multi-team system. These can be, e.g., face-to-face interaction, electronic communication, or a mixture of the two. Often the degree of which modes are used is closely linked to the aforementioned compositional attribute called ``geographic dispersion''. With co-located teams preferring a higher amount of face-to-face communication.
 
 \subsubsection{Developmental Attributes}
 
-The last dimension of multiteam systems is the developmental. Developmental attributes are concerned with the developmental dynamics and patterns of MTSs. The first attribute looks at how the MTS was put to life, its ``genesis''. The origin of MTSs can either occur through appointment from parent organisations, or they may emerge from collective initiative of several teams. The type of genesis can have an impact on different aspects of a MTS, e.g., the distal goal. Another developmental attribute is ``direction of development'' and looks at the direction the MTS takes from its origin. For example the MTS could have emerged from a specific event, but then move towards a more formalised entity as time passes. Another development path could be the MTS being formally planned in anticipation of a possible situation occurring, but when the event does occur acctually evolve in membership and linkages.
+The last dimension of multi-team systems is the developmental dimension. Developmental attributes are concerned with the developmental dynamics and patterns of MTSs. The first attribute looks at how the MTS was put to life, its ``genesis''. The origin of MTSs can either occur through appointment from parent organisations, or they may emerge from collective initiative of several teams. The type of genesis can have an impact on different aspects of a MTS, e.g., the distal goal. Another developmental attribute is ``direction of development'' and looks at the direction the MTS takes from its origin. For example the MTS could have emerged from a specific event, but then move towards a more formalised entity as time passes. Another development path could be the MTS being formally planned in anticipation of a possible situation occurring, but when the event does occur actually evolve in membership and linkages.
 
-Two other developmental attributes are ``tenure'' and ``stage''. The tenure attribute is concerned with the anticipated  duration of the MTS, while the stage attribute looks at which particular stage of development the MTS is in. Starting as a newly formed multiteam system it will evolve through different phases to finally becoming a mature MTS. The stage of MTS development will often give a hint to the efficiency of the MTS's interteam processes. 
+Two other developmental attributes are ``tenure'' and ``stage''. The tenure attribute is concerned with the anticipated  duration of the MTS, while the stage attribute looks at which particular stage of development the MTS is in. Starting as a newly formed multi-team system it will evolve through different phases to finally becoming a mature MTS. The stage of MTS development will often give a hint to the efficiency of the MTS's inter-team processes. 
 
-%Skrive mer om hva som skjer når nye team kommer inn? Skrive mer om "adaptation"?
-The last two developmental attributes together combine to the group term ``transformation of system composition'', meaning if there are changes to the composition as the MTSs develop and move through the different phases of development. The first of these focuses on ``membership constancy'' and refers to how constant or fluid the number of component teams are. Often in more complex and turbulent environments the amount of component teams may change over the course of the MTS's lifespan. Lastly ``linkage constancy'' is concerned with how the component teams are connected. The focus is on if these linkages between the component teams in a multiteam system is constant or if they change as the MTS progresses. Again the likelihood of fluidity in coordination structures between teams is higher when the MTS is located in more turbulent and dynamic environments.
+The last two developmental attributes together combine to the group term ``transformation of system composition'', meaning if there are changes to the composition as the MTSs develop and move through the different phases of development. The first of these focuses on ``membership constancy'' and refers to how constant or fluid the number of component teams are. Often in more complex and turbulent environments the amount of component teams may change over the course of the MTS's lifespan. Lastly ``linkage constancy'' is concerned with how the component teams are connected. The focus is on if these linkages between the component teams in a multi-team system is constant or if they change as the MTS progresses. Again the likelihood of fluidity in coordination structures between teams is higher when the MTS is located in more turbulent and dynamic environments.
 
-In the above sections three dimensions of multiteam systems and their attributes have been presented. It is important to note how the different attributes can be factors in achieving effective MTSs and MTS processes. A simple model of MTS effectiveness is outlined in figure \ref{amomse}, where the attributes of the compositional, linkage and developmental dimensions can be seen as predecessors of different intrateam and interteam processes. The effects of these attributes on the total effectiveness of the multiteam system would be arbitrated by these intra- and interteam processes.
+In the above sections three dimensions of multi-team systems and their attributes have been presented. It is important to note how the different attributes can be factors in achieving effective MTSs and MTS processes. A simple model of MTS effectiveness is outlined in figure \ref{amomse}, where the attributes of the compositional, linkage and developmental dimensions can be seen as predecessors of different intra-team and inter-team processes. The effects of these attributes on the total effectiveness of the multi-team system would be arbitrated by these intra- and inter-team processes.
+
+%Fiks tekst og binnestrek
 
 \begin{figure}
 \centering
@@ -419,7 +392,7 @@ In the above sections three dimensions of multiteam systems and their attributes
    \textbf{Dimension} & \textbf{Attribute} & \textbf{Explanation} \\ \hline
     \endhead
 
-    \multicolumn{3}{|r|}{{Continued on the next page\ldots}} \\ \hline
+    & \multicolumn{2}{|r|}{{Continued on the next page\ldots}} \\ \hline
     \endfoot
 
    \endlastfoot 
@@ -438,7 +411,7 @@ In the above sections three dimensions of multiteam systems and their attributes
 	\multirow{5}{*}{Linkage} & Interdependence & Degree of integrated coordination (e.g., input, process, outcome) among members of different component teams \\ \cline{2-3}
  	& Hierarchical arrangement & Ordering of teams according to levels of responsibility \\ \cline{2-3}
  	& Power distribution & The relative influence of teams within the MTS \\ \cline{2-3}
-	& Communication structure: Network & The typical patterns of interteam communication \\ \cline{2-3}
+	& Communication structure: Network & The typical patterns of inter-team communication \\ \cline{2-3}
 	& Communication structure: Modality & The modes of communication (e.g., electronic, face-to-face, or mixed) that occur across component teams \\ \cline{2-3}
 \hline
 	\multirow{6}{*}{Developmental} & Genesis & The initial formation of an MTS as either appointed or emergent \\ \cline{2-3}
@@ -448,7 +421,7 @@ In the above sections three dimensions of multiteam systems and their attributes
 	& Transformation of system composition: Membership constancy & Fluidity versus constancy of component teams as members \\ \cline{2-3}
 	& Transformation of system composition: Linkage constancy & Fluidity versus constancy of linkages among component teams \\ \cline{2-3}
 	\hline
-\caption{Dimensions of multiteam system (MTS) characteristics.}
+\caption{Dimensions of multi-team system (MTS) characteristics.}
 \label{domsc}
 \end{longtable}
 \end{center}
@@ -456,7 +429,7 @@ In the above sections three dimensions of multiteam systems and their attributes
 \section{Efficiency, Effectiveness, Productivity and Performance in Coordination}
 \label{efficiency}
 
-There has been released a good amount of papers regarding effectiveness, productivity and efficiency in project literature. Unfortunately research in this area that focuses on large-scale is scarce. Therefore, the work highlighted in this section will mainly be extracted from small-scale studies. To start the section of a closer look at the aforementioned study by Strode et al. will be performed, before a summary of some different field studies on the matter will be carried out.
+There has been released a good amount of papers regarding effectiveness, productivity and efficiency in project literature. Unfortunately research in this area that focuses on large-scale is scarce. Therefore, the work highlighted in this section will mainly be extracted from small-scale studies. To start the section of a closer look at the aforementioned study by Strode et al. \cite{Strode2011} will be performed, before a summary of some different field studies on the matter will be carried out.
 
 \subsection{Strode's Coordination Effectiveness}
 \label{cordinationeffectiveness}
@@ -514,7 +487,7 @@ For ``Inter-team coordination'' two roots were identified: ``Lack of commitment 
 
 Anh et al. performed a systematic literature review (SLR) to collect relevant studies on dispersion, coordination and performance in global software development (GSD), and highlighted the findings of impact factors in a thematic mapping \cite{Anh2012}. It is important to note that the findings are not from agile software development, but they are still interesting because of the global aspect in the literature used. The results are briefly summarised in table \ref{GSD}:
 
-\begin{table}
+\begin{table}[H]
 \begin{center}
     \begin{tabular}{ | p{5cm} | p{8cm} |}
     \hline
@@ -532,7 +505,7 @@ Anh et al. performed a systematic literature review (SLR) to collect relevant st
 
 Dingsøyr and Lindsjørn carried out a focus group study looking at which factors the agile software practitioners in the research perceived as influential on effective teamwork \cite{Dingsoyr2013c}. This paper focuses on the team performance of individual teams, but is included because of its agile nature. To place the suggestions from the participants into categorise Dingsøyr et al. decided to use the ``Big Five'' model proposed by Salas et al. \cite{Salas2005} leading to eight teamwork components: ``Team leadership'', ``Mutual performance monitoring'', ``Backup behaviour'', ``Adaptability'', ``Team orientation'', ``Shared mental models'', ``Mutual trust'' and ``Closed-loop communication''. A summary of the distribution of all suggestions over these components is outlined in table \ref{summary2}.
 
-\begin{table}
+\begin{table}[H]
 \begin{center}
     \begin{tabular}{ | p{6cm} | p{2.5cm} | p{2.5cm} | p{2.5cm} |}
     \hline
@@ -554,7 +527,7 @@ Dingsøyr and Lindsjørn carried out a focus group study looking at which factor
 
 The teamwork component with the strongest connection to coordination is ``closed-loop communication''. Looking at table \ref{summary2} a lot of emphasis was aimed towards the component from the practitioners (second highest total count). This again illustrates the importance of coordination. The sub-components identified of closed-loop communication are outlined in table \ref{closedloop}.
 
-\begin{table}
+\begin{table}[H]
 \begin{center}
     \begin{tabular}{ | p{4cm} | p{5.25cm} | p{5.25cm} |}
     \hline
@@ -576,7 +549,7 @@ As can be seen from table \ref{closedloop} a lot of attention was directed towar
 
 The findings from the different studies are summarised in table \ref{summary}. Note that it could be argued that misalignment and synchronisation, as well as team collocation and presence of geographical dispersion, are contrasts of each other. They are however included in the summary table because they were identified as important aspects in the different studies.
 
-\begin{table}
+\begin{table}[H]
 \begin{center}
     \begin{tabular}{ | p{8cm} | p{6cm} |}
     \hline
@@ -597,40 +570,27 @@ The findings from the different studies are summarised in table \ref{summary}. N
 
 \section{Shared Mental Models}
 
-%TODO: Trust, Shared Mental Models (Cannon-Bowers et al. 1993, http://www-management.wharton.upenn.edu/klein/documents/Lim_Klein_Team_mental_models_2006.pdf,  task model, team model and team interaction model)
-
-%TODO: Sitering: Cannon-Bowers 1990, Cannon-Bowers 1993, Rouse and Morris 1986, Mathieu 2000, Yu 2014
-
-Shared (or team) mental models was originally proposed by Cannon-Bowers et al. in 1990 \cite{}, building on prior research in cognitive psychology on individuals’ mental models. Rouse et al. \cite{} defined the mental model of an individual as a ``mechanism whereby humans generate descriptions of system purpose and form, explanations of system functioning and observed system states, and predictions of future system states''. Hence, the mental model of a human-being can be seen as that individual's perception of the world, or put in other words, his reality. In similar fashion to individuals' mental models, Cannon-Bowers et al. propose that team members have shared mental models in regards to the equipment, interaction patterns, team procedures etc. within their respective teams. Below their definition of a shared mental model is outlined:
+Shared (or team) mental models were originally proposed by Cannon-Bowers et al. in 1990 \cite{Cannon1990}, building on prior research in cognitive psychology on individuals’ mental models. Rouse et al. \cite{Rouse1986} defined the mental model of an individual as a ``mechanism whereby humans generate descriptions of system purpose and form, explanations of system functioning and observed system states, and predictions of future system states''. Hence, the mental model of a human-being can be seen as that individual's perception of the world, or put in other words, his reality. In similar fashion to individuals' mental models, Cannon-Bowers et al. propose that team members have shared mental models in regards to the equipment, interaction patterns, team procedures etc. within their respective teams. Below their definition of a shared mental model is outlined:
 
 \begin{fancyquotes}
-Knowledge structures held by members of a team that enable them to form accurate explanations and expectations for the task, and, in turn, to coordinate their actions and adapt their behaviour to demands of the task and other team members \cite{}.
+Knowledge structures held by members of a team that enable them to form accurate explanations and expectations for the task, and, in turn, to coordinate their actions and adapt their behaviour to demands of the task and other team members \cite{Cannon1993}.
 \end{fancyquotes}
 
-Cannon-Bowers et al. \cite{} goes on to suggest four shared mental models (or team mental models as they called them) that should be present to achieve a higher degree of team effectiveness: ``equipment model'', ``task model'', ``team interaction model'' and ``team model''. Firstly the ``equipment model'' is concerned with the technology used by the team to perform their team tasks, and their shared understanding of this technology. The ``task model'' looks at how team members perceive the team procedures, strategies, environmental conditions, and task contingencies. The third mental model described by Cannon-Bowers et al. is the ``team interaction model'' which captures how members understand their own and other team personnels' responsibilities, norms, and interaction patterns. The last model suggested is the ``team model'' which reflects how team members understand the others' skills, attitudes, knowledge, strengths and weaknesses.
+Cannon-Bowers et al. \cite{Cannon1993} goes on to suggest four shared mental models (or team mental models as they called them) that should be present to achieve a higher degree of team effectiveness: ``equipment model'', ``task model'', ``team interaction model'' and ``team model''. Firstly the ``equipment model'' is concerned with the technology used by the team to perform their team tasks, and their shared understanding of this technology. The ``task model'' looks at how team members perceive the team procedures, strategies, environmental conditions, and task contingencies. The third mental model described by Cannon-Bowers et al. is the ``team interaction model'' which captures how members understand their own and other team personnels' responsibilities, norms, and interaction patterns. The last model suggested is the ``team model'' which reflects how team members understand the others' skills, attitudes, knowledge, strengths and weaknesses.
 
-Mathieu et al. \cite{} however argued that these four team mental models suggested by Cannon-Bowers et al. \cite{} could be divided and categorised into two areas. The first of these he called ``task-work'' containing the ``equipment'' and ``task'' models, and the second he labelled ``teamwork'' including the ``team interaction'' and ``team'' models. The ``task-work'' mental models describe how team members' mental models are structured in regards to the equipment and procedures used to carry out their tasks. The ``teamwork'' mental models on the other hand outline how team members' mental models are structured in regards to team interaction processes and the perception of other team members' knowledge. In the study by Mathieu et al. \cite{} they found that both task-work mental model similarity and teamwork mental model similarity were notably positively related to team processes, e.g., communication, cooperation and coordination, which in turn were to a large degree associated to team performance.
+Mathieu et al. \cite{Mathieu2000} however argued that these four team mental models suggested by Cannon-Bowers et al. \cite{Cannon1993} could be divided and categorised into two areas. The first of these he called ``task-work'' containing the ``equipment'' and ``task'' models, and the second he labelled ``teamwork'' including the ``team interaction'' and ``team'' models. The ``task-work'' mental models describe how team members' mental models are structured in regards to the equipment and procedures used to carry out their tasks. The ``teamwork'' mental models on the other hand outline how team members' mental models are structured in regards to team interaction processes and the perception of other team members' knowledge. In the study by Mathieu et al. they found that both task-work mental model similarity and teamwork mental model similarity were notably positively related to team processes, e.g., communication, cooperation and coordination, which in turn were to a large degree associated to team performance.
 
-Yu et al. \cite{} also performed a conceptual analysis using shared mental model theory as a lens to examine three agile practices from Xtreme Programming (XP) and Scrum (system metaphor, stand-up meeting, and on-site customer). The objective of their research was to examine and understand how agile methodology practices enable software development teams to accomplish effective teamwork. In a short summary their work shows that the creation of shared mental models is one of the main benefits that agile development methodologies and practices brings with them, where the main benefit is enabling better collaboration within the teams. Their work demonstrates that the analysed agile practices assist the progress of the four stages of shared mental model development: knowing, learning, understanding and executing. Further, the research shows how agile practices contribute to achieving the two earlier mentioned shared mental models: teamwork and task-work.
+Yu et al. \cite{Yu2014} also performed a conceptual analysis using shared mental model theory as a lens to examine three agile practices from Xtreme Programming (XP) and Scrum (system metaphor, stand-up meeting, and on-site customer). The objective of their research was to examine and understand how agile methodology practices enable software development teams to accomplish effective teamwork. In a short summary their work shows that the creation of shared mental models is one of the main benefits that agile development methodologies and practices brings with them, where the main benefit is enabling better collaboration within the teams. Their work demonstrates that the analysed agile practices assist the progress of the four stages of shared mental model development: knowing, learning, understanding and executing. Further, the research shows how agile practices contribute to achieving the two earlier mentioned shared mental models: teamwork and task-work.
 
 \section{Mutual Trust}
 
-%A teamwork model for understanding an agile team: A case study of a Scrum project
-%http://www.uio.no/studier/emner/matnat/ifi/INF5181/h14/artikler-teamarbeid/salas_etal_2005_is_there_a_big_five_in_teamwork---copy.pdf
-% http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8608.2008.00517.x/full
-%Webber, S. S. (2002). Leadership and trust facilitating cross-functional team success. Journal of Management Development, 21, 201-214.
-%Bandow, D. (2001). Time to create sound teamwork. The Journal for Quality and Participation, 24, 41-47.
-%Cooper, R., & Sawaf, A. (1996). Executive EQ: Emotional intelligence in leadership and organizations. New York: Grosset/Putnam.
-% McEvily, B. and Marcus, A. 2005. ‘Embedded ties and the acquisition of competitive capabilities. Strategic Management Journal, 26:11, 1033–1055. 
-%Trust, coordination and knowledge flows in R&D projects: the case of fuel cell technologies, Stian Nygaard and Angeloantonio Russo, 27 DEC 2007
-
-Trust has been an aspect brought up by several researchers and seems to be closely linked to the previously described shared mental models. The general thoughts on mutual trust seems to be that it is an important aspect for achieving efficient teams and coordination within and across teams. However, a lot of these researchers use different definitions of the word. In this work the definition of trust used is the one Sheila Simsarian Webber provided in 2002:
+Trust has been an aspect brought up by several researchers and seems to be closely linked to the previously described shared mental models. The general thoughts on mutual trust tends to be that it is an important aspect for achieving efficient teams and coordination within and across teams. However, a lot of these researchers use different definitions of the word. In this work the definition of trust used is the one Sheila Simsarian Webber provided in 2002 \cite{Webber2002}:
 
 \begin{fancyquotes}
-The shared perception that individuals in the team will perform particular actions important to its members and will recognisee and protect the rights and interests of all the team members engaged in their joint endeavour.
+The shared perception that individuals in the team will perform particular actions important to its members and will recognise and protect the rights and interests of all the team members engaged in their joint endeavour.
 \end{fancyquotes}
 
-One of the more recognised papers on teamwork by Salas et al. highlights the importance of mutual trust. In their work they describe a set of ``Big Five'' which generates teamwork, however they stress that these five dimensions can not function without three supporting and coordinating mechanisms. These three coordinating mechanisms are namely shared mental models, mutual trust and engagement in closed-loop communication. A graphical representation of their model can be witnessed in figure \ref{salas}, but will not be further explained.
+One of the more recognised papers on teamwork by Salas et al. \cite{Salas2005} highlights the importance of mutual trust. In their work they describe a set of ``Big Five'' which generates teamwork, however they stress that these five dimensions can not function without three supporting and coordinating mechanisms. These three coordinating mechanisms are namely shared mental models, mutual trust and engagement in closed-loop communication. A graphical representation of their model can be witnessed in figure \ref{salas}, but will not be further explained.
 
 \begin{figure}
 \centering
@@ -639,8 +599,8 @@ One of the more recognised papers on teamwork by Salas et al. highlights the imp
 \label{salas}
 \end{figure}
 
-There has been identified several impacts that trust can have on teams and team members. Bandow published a research on teamwork where she highlighted that trust affected several team processes and outcomes, e.g., membership contribution, team participation, product quality and cycle time. She further outlined that it is important that team members feel that their voice is heard, if not they will most likely be less willing to share their opinions and information. As a worst case scenario this might even lead to members not participating in information sharing arenas as they fear other members will perceive them as incompetent \cite{Bandow}. Also, without sufficient trust the team members might waste time and effort on checking each other as opposed to collaborating \cite{Cooper}. In general achieving mutual trust within projects seems to allow for information to flow more freely between the members. Without it there is a big chance it could spiral negatively and grow in concern where productivity goes down.
+There has been identified several impacts that trust can have on teams and team members. Bandow published a research on teamwork where she highlighted that trust affected several team processes and outcomes, e.g., membership contribution, team participation, product quality and cycle time. She further outlined that it is important that team members feel that their voice is heard, if not they will most likely be less willing to share their opinions and information. As a worst case scenario this might even lead to members not participating in information sharing arenas as they fear other members will perceive them as incompetent \cite{Bandow2001}. Also, without sufficient trust the team members might waste time and effort on checking each other as opposed to collaborating \cite{cooper1998executive}. In general achieving mutual trust within projects seems to allow for information to flow more freely between the members. Without it there is a big chance it could spiral negatively and grow in concern where productivity goes down.
 
-Similar findings to Salas et al. \cite{salas} were identified by Moe et al. \cite{moe} when they carried out a case study on a Scrum project. They state that ``without sufficient trust, team members will expend time and energy protecting, checking and inspecting each other as opposed to collaborating to provide value-added ideas. It is evident that trust is a prerequisite for shared leadership, feedback, and communication. Our finding regarding the lack of trust also confirms previous research on trust \cite{bandow}, such that team members may not be willing to share information if they fear being perceived as incompetent.". This highlights that trust is also identified as an important aspect in agile development.
+Similar findings to Salas et al. \cite{Salas2005} were identified by Moe et al. \cite{Moe2012} when they carried out a case study on a Scrum project. They state that ``without sufficient trust, team members will expend time and energy protecting, checking and inspecting each other as opposed to collaborating to provide value-added ideas. It is evident that trust is a prerequisite for shared leadership, feedback, and communication. Our finding regarding the lack of trust also confirms previous research on trust \cite{Bandow2001}, such that team members may not be willing to share information if they fear being perceived as incompetent''. This highlights that trust is also identified as an important aspect in agile development.
 
-Trust was also identified as a key factor both in small and large R\&D projects by Nygaard et al. \cite{}. They argue that small projects generally have a high level of trust because of the tight connections witnessed between partners and coordination benefits, while the larger projects usually benefit from having a high degree of variety in knowledge sources. They state that trust is a key factor for explaining exchange of knowledge and the creation of coordination benefits for organisations in most industries. They state that trust among partners supporting coordination and the aforementioned variety of knowledge flows within the projects is of uttermost importance to increase the likelihood of success. They back their work up by pointing to previous literature on similar research by McEvily et al. \cite{}.
+Trust was also identified as a key factor both in small and large R\&D projects by Nygaard et al. \cite{Nygaard2008}. They argue that small projects generally have a high level of trust because of the tight connections witnessed between partners and coordination benefits, while the larger projects usually benefit from having a high degree of variety in knowledge sources. They state that trust is a key factor for explaining exchange of knowledge and the creation of coordination benefits for organisations in most industries. They state that trust among partners supporting coordination and the aforementioned variety of knowledge flows within the projects is of uttermost importance to increase the likelihood of success. They back their work up by pointing to previous literature on similar research by McEvily et al. \cite{McEvily2007}.
